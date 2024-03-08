@@ -20,6 +20,11 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
+// about
+function revalHiddenOverflow(p) {
+  p.classList.toggle("truncate");
+}
+
 // skills
 $(function () {
   $(".chart").easyPieChart({
