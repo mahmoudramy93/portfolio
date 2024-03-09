@@ -37,3 +37,22 @@ $(function () {
     animate: 2000,
   });
 });
+
+
+
+
+
+
+
+function toggleText(element) {
+  var p = element.previousElementSibling;
+  if (p.classList.contains('truncate')) {
+      p.classList.remove('truncate');
+      p.classList.add('expanded');
+      element.textContent = "Read less";
+  } else {
+      p.classList.remove('expanded');
+      p.classList.add('truncate');
+      element.textContent = "Read more";
+  }
+}
