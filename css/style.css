@@ -565,11 +565,10 @@ ul {
 }
 
 .testimonials .swiper {
-  height: 450px;
+  height: 480px;
 }
 
 .testimonials .swiper-slide {
-  /* width: 450px !important; */
   width: 100%;
 }
 
