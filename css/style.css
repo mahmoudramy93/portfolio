@@ -643,6 +643,12 @@ ul {
   transition: all 0.4s;
 }
 
+.resume .edu-cards .btn-contact:hover,
+.contactus .btn-contact:hover {
+  background-color: #000;
+  color: var(--white-color);
+}
+
 /* footer */
 footer {
   padding: 50px 0;
@@ -687,4 +693,52 @@ footer ul li a:hover {
   justify-content: center;
   border: 2px solid;
   border-color: var(--main-color);
+}
+
+/* navigation */
+.navigation {
+  position: fixed;
+  bottom: 40px;
+  transform: translateX(-50%);
+  z-index: 1000;
+  left: 50px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+  .navigation {
+    left: 50%;
+  }
+}
+
+.navigation ul {
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .navigation ul {
+    flex-direction: row;
+  }
+}
+
+.navigation ul li a {
+  color: var(--secondery-color);
+  font-size: 20px;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.navigation ul li a:hover {
+  color: var(--main-color);
+}
+
+.navigation ul li a i {
+  padding: 15px;
 }
