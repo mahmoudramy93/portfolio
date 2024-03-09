@@ -182,7 +182,7 @@ ul {
 }
 
 .about {
-  background-image: url("../imgs/Screenshot_20240103-213308_Chrome.jpg");
+  background-image: url("../imgs/about-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -566,6 +566,12 @@ ul {
 
 .testimonials .swiper {
   height: 480px;
+}
+
+@media (max-width: 991px) {
+  .testimonials .swiper {
+    height: 550px;
+  }
 }
 
 .testimonials .swiper-slide {
