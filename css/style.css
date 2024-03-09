@@ -9,12 +9,13 @@
   --secondery-color: #bababa;
   --white-color: #fff;
   --dark-color: #111111;
+  --secondary-dark-color: #222;
   --main-transition: 0.3s;
 }
 
 body {
   background-color: #050505;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -78,6 +79,24 @@ ul {
   background-color: var(--dark-color);
 }
 
+@media (max-width: 991px) {
+  .header .header-content {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+  }
+
+  .header .header-content > div {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 .header .profile-img img {
   width: 68px;
   border-radius: 50%;
@@ -100,8 +119,12 @@ ul {
 }
 
 .header .info h4 {
-  font-family: "Oleo Script", system-ui;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header .info h4 span {
+  display: block;
 }
 
 .header .availablity {
@@ -135,7 +158,7 @@ ul {
 }
 
 .header .social-links a {
-  padding: 10px;
+  padding: 8px;
   font-size: 20px;
   color: #bababa;
   transition: all var(--main-transition);
@@ -290,64 +313,150 @@ ul {
   background: #015943;
   padding: 14px 20px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: normal;
   width: fit-content;
+  margin-bottom: 0;
 }
 
 .resume .subtitle i {
   margin-right: 5px;
 }
 
-.resume .swiper {
-  height: 300px;
-}
-
-.resume .experience-single {
-  background: #222;
-  padding: 40px 30px;
-  margin-top: 30px;
+.main-timeline {
   position: relative;
 }
 
-.resume .experience-single::before {
+.main-timeline::after {
   content: "";
   position: absolute;
-  border-bottom: 30px solid #222;
-  top: -30px;
-  left: 30px;
-  display: block;
-  border-right: 30px solid transparent;
+  width: 3px;
+  background-color: var(--main-color);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
 }
 
-.resume .experience-single h5 {
+.timeline {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: var(--secondary-dark-color);
+  border: 3px solid var(--main-color);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.resume .timeline .card {
+  background: var(--secondary-dark-color);
+}
+
+.resume .timeline .card h5,
+.resume .edu-cards .card h5 {
   color: #03a67d;
 }
 
-.resume .experience-single h4 {
+.resume .timeline .card h4,
+.resume .edu-cards .card h4 {
   color: var(--white-color);
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
-.resume .experience-single p {
+.resume .timeline .card p,
+.resume .edu-cards .card p {
   color: var(--secondery-color);
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
-.resume .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  border: 2px solid #222;
-  opacity: 1;
-  background: none;
-  transition: all 0.4s;
+.left {
+  padding: 0px 40px 20px 0px;
+  left: 0;
 }
 
-.resume .swiper-pagination-bullet-active {
-  background-color: var(--main-color);
+.right {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid var(--main-color);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #595959;
+}
+
+.right::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid var(--main-color);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #595959 transparent transparent;
+}
+
+.right::after {
+  left: -12px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-timeline::after {
+    left: 31px;
+  }
+
+  .timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline::before {
+    left: 60px;
+    border: medium solid var(--main-color);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #595959 transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+
+  .left::before {
+    right: auto;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
+
+.resume .subtitle-2 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.resume .edu-cards .card {
+  background: var(--secondary-dark-color);
 }
 
 /* skills */
@@ -472,7 +581,7 @@ ul {
 .testimonials .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  border: 2px solid #222;
+  border: 2px solid var(--secondary-dark-color);
   opacity: 1;
   background: none;
   transition: all 0.4s;
@@ -483,7 +592,6 @@ ul {
 }
 
 /* contact */
-
 .contactus {
   background-image: url("../imgs/contactus.jpg");
   background-size: cover;
@@ -524,6 +632,7 @@ ul {
   color: var(--secondery-color);
 }
 
+.resume .edu-cards .btn-contact,
 .contactus .btn-contact {
   background: none;
   display: inline-block;
