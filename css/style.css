@@ -118,7 +118,6 @@ ul {
   color: var(--white-color);
 }
 
-
 .header .info h4 {
   font-size: 16px;
   line-height: 19px;
@@ -739,8 +738,8 @@ footer ul li a:hover {
     left: 50%;
     top: auto;
     transform: translateX(-50%);
-bottom:  30px;
-}
+    bottom: 30px;
+  }
 }
 
 .navigation ul {
@@ -754,7 +753,7 @@ bottom:  30px;
   }
 }
 
-.navigation ul li a {
+.navigation ul li .nav-link {
   color: var(--secondery-color);
   font-size: 20px;
   transition: var(--main-transition);
@@ -764,10 +763,14 @@ bottom:  30px;
   -o-transition: var(--main-transition);
 }
 
-.navigation ul li a:hover {
+.navigation ul li .nav-link.active {
   color: var(--main-color);
 }
 
-.navigation ul li a i {
+.navigation ul li .nav-link:hover {
+  color: var(--main-color);
+}
+
+.navigation ul li .nav-link i {
   padding: 15px;
 }

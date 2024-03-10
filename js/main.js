@@ -38,21 +38,22 @@ $(function () {
   });
 });
 
-
-
-
-
-
-
 function toggleText(element) {
   var p = element.previousElementSibling;
-  if (p.classList.contains('truncate')) {
-      p.classList.remove('truncate');
-      p.classList.add('expanded');
-      element.textContent = "Read less";
+  if (p.classList.contains("truncate")) {
+    p.classList.remove("truncate");
+    p.classList.add("expanded");
+    element.textContent = "Read less";
   } else {
-      p.classList.remove('expanded');
-      p.classList.add('truncate');
-      element.textContent = "Read more";
+    p.classList.remove("expanded");
+    p.classList.add("truncate");
+    element.textContent = "Read more";
   }
 }
+
+// navigation
+const navLinks = document.querySelectorAll(".navigation .nav-link");
+$(navLinks).on("click", function () {
+  $(navLinks).removeClass("active");
+  $(this).addClass("active");
+});
