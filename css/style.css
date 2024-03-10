@@ -118,9 +118,6 @@ ul {
   color: var(--white-color);
 }
 
-.header .info h3 {
-  color: var(--white-color);
-}
 
 .header .info h4 {
   font-size: 16px;
@@ -478,7 +475,7 @@ ul {
   font-size: 20px;
 }
 
-.skills .box h4 {
+.skills .box h3 {
   color: var(--white-color);
   font-weight: normal;
   font-size: 20px;
