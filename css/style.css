@@ -725,16 +725,21 @@ footer ul li a:hover {
   transform: translateX(-50%);
   z-index: 1000;
   left: 50px;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 @media (max-width: 767px) {
   .navigation {
     left: 50%;
-  }
+    top: auto;
+    transform: translateX(-50%);
+bottom:  30px;
+}
 }
 
 .navigation ul {
