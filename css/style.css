@@ -561,6 +561,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+  gap: 50px;
 }
 
 .skills .skill-card-blue ul li .skill-card-list-icon,
@@ -634,10 +635,6 @@ ul {
   color: #2b382b;
 }
 
-
-
-
-
 .skills .skill-card-lavander .skill-card-top {
   background: linear-gradient(to bottom, #9d80ff, #e8e3ff);
 }
@@ -666,6 +663,30 @@ ul {
   justify-content: flex-start;
   display: block;
   gap: 0;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1460px) {
+  .splide__slide {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .splide__slide {
+    width: 80% !important;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .splide__slide {
+    width: 100% !important;
+  }
+}
+
+.skills .splide__list{
+  align-items: center;
 }
 
 /* testimonials */
