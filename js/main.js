@@ -25,19 +25,7 @@ function revalHiddenOverflow(p) {
   p.classList.toggle("truncate");
 }
 
-// skills
-$(function () {
-  $(".chart").easyPieChart({
-    size: 100,
-    barColor: "#00c896",
-    trackColor: "#2B2B2B",
-    scaleLength: 0,
-    lineWidth: 5,
-    lineCap: "circle",
-    animate: 2000,
-  });
-});
-
+// about
 function toggleText(element) {
   var p = element.previousElementSibling;
   if (p.classList.contains("truncate")) {
@@ -51,11 +39,23 @@ function toggleText(element) {
   }
 }
 
+// skills
+document.addEventListener("DOMContentLoaded", function () {
+  new Splide(".splide", {
+    type: "loop",
+    perPage: 3,
+    arrows: false,
+    pagination: false,
+    focus: "center",
+    gap: "1em",
+    autoplay: true,
+    interval: 3000,
+  }).mount();
+});
+
 // navigation
 const navLinks = document.querySelectorAll(".navigation .nav-link");
 $(navLinks).on("click", function () {
   $(navLinks).removeClass("active");
   $(this).addClass("active");
 });
-
-
