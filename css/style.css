@@ -253,11 +253,11 @@ ul {
   .about .about-img-container {
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid var(--main-color);;
+    border-bottom: 1px solid var(--main-color);
   }
 
-  .about .about-img{
-    padding:  0 0 10px;
+  .about .about-img {
+    padding: 0 0 10px;
   }
 }
 
@@ -533,9 +533,10 @@ ul {
 } */
 
 .skills .skill-card-content {
-  background: var(--secondary-dark-color);
+  /* background: var(--secondary-dark-color);
   background: var(--secondery-color);
-  background: var(--white-color);
+  background: var(--white-color); */
+  background-color: #d1c6c6;
   height: auto;
   border-radius: 5px;
   overflow: hidden;
@@ -595,7 +596,8 @@ ul {
 
 .skills .skill-card-blue .skill-card-skills ul li p,
 .skills .skill-card-lavander .skill-card-skills ul li p {
-  padding-left: 30px;  display: block;
+  padding-left: 30px;
+  display: block;
   position: relative;
 
   margin-bottom: 0;
@@ -605,7 +607,6 @@ ul {
   /* color: #006baf; */
   /* color: #182a35; */
   color: #095d92;
-
 }
 
 .skills .skill-card-blue .skill-card-skills ul li p::before,
