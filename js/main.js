@@ -43,11 +43,12 @@ function toggleText(element) {
 document.addEventListener("DOMContentLoaded", function () {
   new Splide(".splide", {
     type: "loop",
-    perPage: 3,
+    perPage: 2,
     arrows: false,
     pagination: false,
     focus: "center",
     gap: "1em",
+    arrows: true,
     // autoplay: true,
     interval: 3000,
   }).mount();
