@@ -237,33 +237,45 @@ ul {
   -o-transform: translate(-52%, -50%);
 }
 
-.about .about-img ul {
+.about .about-img-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .about .about-img-info {
+    justify-content: flex-start;
+  }
+}
+
+.about .about-img-info ul {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   gap: 20px;
 }
 
 @media (max-width: 767px) {
-  .about .about-img ul {
+  .about .about-img-info ul {
     flex-direction: column;
     align-items: flex-start;
   }
 }
 
-.about .about-img ul li {
-  color: var(--secondery-color);
+.about .about-img-info ul li {
+  color: var(--white-color);
 }
 
-.about .about-img li i {
+.about .about-img-info ul li i {
   font-size: 20px;
   color: #019b74;
   margin-right: 15px;
 }
 
-.about .about-img li a {
-  color: #05be90;
+.about .about-img-info ul li a {
+  /* color: #05be90; */
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
   -moz-transition: var(--main-transition);
@@ -271,34 +283,38 @@ ul {
   -o-transition: var(--main-transition);
 }
 
-.about .about-img li a:hover {
-  color: #06e8af;
+.about .about-img-info ul li a:hover {
+  /* color: #06e8af; */
 }
 
 .about .about-content {
   padding-left: 10px;
 }
 
+@media (max-width: 767px) {
+  .about .about-content {
+    padding-left: 0;
+  }
+}
+
 .about .about-content p {
-  font-size: 14px;
-  color: var(--secondery-color);
+  font-size: 16px;
+  color: var(--white-color);
   line-height: 1.8;
 }
 
-/* @media (max-width: 767px) {
-  .about .about-content p {
-    width: 600px;
-  }
-} */
-
-.truncate {
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-  text-overflow: ellipsis;
-  cursor: pointer;
+.about .about-content .about-content-header {
+  color: var(--main-color);
+  margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+  .about .about-content .about-content-header {
+    text-align: center;
+  }
+}
+
+/* resume */
 .resume,
 .testimonials {
   padding: 100px 0;
@@ -476,6 +492,10 @@ ul {
   background: linear-gradient(to bottom, #2b382b, #475347);
 }
 
+.skills .skill-card-lavander .skill-card-top {
+  background: linear-gradient(to right, #687798, #111);
+}
+
 .skills .skill-card .skill-card-icon {
   width: 80px;
   height: 80px;
@@ -491,6 +511,14 @@ ul {
   background-color: var(--secondery-color);
 }
 
+.skills .skill-card-green .skill-card-top i {
+  color: #2b382b;
+}
+
+.skills .skill-card-lavander .skill-card-top i {
+  color: #203a74;
+}
+
 .skills .skill-card-content {
   height: auto;
   border-radius: 5px;
@@ -500,13 +528,10 @@ ul {
   padding-top: 70px;
 }
 
+.skills .skill-card-blue .skill-card-content,
 .skills .skill-card-green .skill-card-content,
 .skills .skill-card-lavander .skill-card-content {
   background-color: #fff;
-}
-
-.skills .skill-card-blue .skill-card-content {
-  background-color: #d1c6c6;
 }
 
 .skills .skill-card-blue .skill-card-title,
@@ -592,10 +617,6 @@ ul {
   margin-bottom: 0;
 }
 
-.skills .skill-card-blue .skill-card-skills ul li p {
-  color: #095d92;
-}
-
 .skills .skill-card-blue .skill-card-skills ul li p::before,
 .skills .skill-card-lavander .skill-card-skills ul li p::before,
 .skills .skill-card-green .skill-card-skills ul li p::before {
@@ -620,30 +641,19 @@ ul {
   }
 }
 
-.skills .skill-card-green .skill-card-top i {
-  color: #2b382b;
-}
-
+.skills .skill-card-blue .skill-card-skills ul li p,
+.skills .skill-card-lavander .skill-card-skills ul li p,
 .skills .skill-card-green .skill-card-content ul li p {
   color: #000;
   font-weight: bold;
-}
-
-.skills .skill-card-lavander .skill-card-top {
-  /* background: linear-gradient(to bottom, #9d80ff, #e8e3ff); */
-  background: linear-gradient(to right, #687798, #111);
-}
-
-.skills .skill-card-lavander .skill-card-top i {
-  color: #203a74;
 }
 
 .skills .skill-card-lavander ul li:not(:last-child) {
   border-bottom-color: #203a74;
 }
 
-.skills .skill-card-lavander .skill-card-skills ul li p {
-  font-weight: bold;
+.skills .skill-card-blue ul li:not(:last-child) {
+  border-bottom-color: #3f82ab;
 }
 
 @media screen and (min-width: 991px) and (max-width: 1460px) {

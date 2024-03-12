@@ -20,24 +20,7 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-// about
-function revalHiddenOverflow(p) {
-  p.classList.toggle("truncate");
-}
 
-// about
-function toggleText(element) {
-  var p = element.previousElementSibling;
-  if (p.classList.contains("truncate")) {
-    p.classList.remove("truncate");
-    p.classList.add("expanded");
-    element.textContent = "Read less";
-  } else {
-    p.classList.remove("expanded");
-    p.classList.add("truncate");
-    element.textContent = "Read more";
-  }
-}
 
 // skills
 document.addEventListener("DOMContentLoaded", function () {
