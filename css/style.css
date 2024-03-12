@@ -275,16 +275,11 @@ ul {
 }
 
 .about .about-img-info ul li a {
-  /* color: #05be90; */
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
   -moz-transition: var(--main-transition);
   -ms-transition: var(--main-transition);
   -o-transition: var(--main-transition);
-}
-
-.about .about-img-info ul li a:hover {
-  /* color: #06e8af; */
 }
 
 .about .about-content {
