@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: false,
     focus: "center",
     gap: "1em",
-    // autoplay: true,
+    autoplay: true,
     interval: 3000,
   }).mount();
 });
