@@ -528,9 +528,9 @@ ul {
   background-color: var(--secondery-color);
 }
 
-.skills .skill-card-blue i {
+/* .skills .skill-card-blue i {
   color: #095d92;
-}
+} */
 
 .skills .skill-card-content {
   background: var(--secondary-dark-color);
@@ -570,6 +570,7 @@ ul {
   justify-content: space-between;
   margin-bottom: 10px;
   gap: 30px;
+  border-bottom: 1px solid;
 }
 
 .skills .skill-card-blue ul li .skill-card-list-icon,
@@ -594,23 +595,20 @@ ul {
 
 .skills .skill-card-blue .skill-card-skills ul li p,
 .skills .skill-card-lavander .skill-card-skills ul li p {
-  padding-left: 10px;
-  display: block;
+  padding-left: 30px;  display: block;
   position: relative;
-  transition: var(--main-transition);
-  -webkit-transition: var(--main-transition);
-  -moz-transition: var(--main-transition);
-  -ms-transition: var(--main-transition);
-  -o-transition: var(--main-transition);
+
+  margin-bottom: 0;
 }
 
 .skills .skill-card-blue .skill-card-skills ul li p {
   /* color: #006baf; */
   /* color: #182a35; */
   color: #095d92;
+
 }
 
-/* .skills .skill-card-blue .skill-card-skills ul li p::before,
+.skills .skill-card-blue .skill-card-skills ul li p::before,
 .skills .skill-card-lavander .skill-card-skills ul li p::before {
   position: absolute;
   left: 0;
@@ -623,7 +621,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 /* .skills .skill-card-blue .skill-card-skills ul li p:hover {
   color: #009dff;
