@@ -213,6 +213,12 @@ ul {
   position: relative;
 }
 
+@media (min-width: 996px) {
+  .about .container {
+    padding: 0 50px;
+  }
+}
+
 .about .about-img-container {
   border-right: 1px solid var(--main-color);
 }
@@ -244,6 +250,11 @@ ul {
   -moz-transform: translate(-52%, -50%);
   -ms-transform: translate(-52%, -50%);
   -o-transform: translate(-52%, -50%);
+}
+
+.about .about-img .info .auto-type {
+  color: var(--main-color);
+  margin-bottom: 0;
 }
 
 .about .about-img-info {

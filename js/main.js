@@ -1,7 +1,26 @@
-$(window).on("load", () => {
-  $(".loader").fadeOut(3000);
+// loader
+$(window).on("load", function () {
+  $(".loader").fadeOut(4000);
 });
 
+setTimeout(function () {
+  $(".loader").fadeOut(3000);
+}, 1000);
+
+// auto type
+new TypeIt(".auto-type", {
+  strings: "Hello, World! ",
+  speed: 75,
+  loop: true,
+  cursor: false,
+  afterComplete: function (instance) {
+    setTimeout(function () {
+      instance.go();
+    }, 4000);
+  },
+}).go();
+
+// swiper
 const swiper = new Swiper(".swiper", {
   loop: true,
 
