@@ -65,11 +65,20 @@ ul {
   border-bottom: 10px dotted var(--main-color);
 }
 
+.loader {
+  background: url("../imgs/ezgif-1-db85b09ede.gif") 50% 50% no-repeat
+    rgb(0, 0, 0);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
 /* header */
 .header {
   padding: 30px 20px;
-  /* width: 1000px;
-  margin: 0 auto; */
 }
 
 .header .header-content {
@@ -981,4 +990,3 @@ footer ul li a:hover {
 .navigation ul li .nav-link i {
   padding: 15px;
 }
-

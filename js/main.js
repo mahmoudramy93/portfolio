@@ -1,3 +1,7 @@
+$(window).on("load", () => {
+  $(".loader").fadeOut(3000);
+});
+
 const swiper = new Swiper(".swiper", {
   loop: true,
 
