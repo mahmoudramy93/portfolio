@@ -7,6 +7,7 @@ setTimeout(function () {
   $(".loader").fadeOut(3000);
 }, 1000);
 
+// auto typing
 const exampleText = ["Hello, World! 👋"];
 const exampleTyping = new AutoTyping(".auto-type", exampleText, {
   typeSpeed: 80,
