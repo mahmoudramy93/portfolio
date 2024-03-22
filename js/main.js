@@ -7,18 +7,14 @@ setTimeout(function () {
   $(".loader").fadeOut(3000);
 }, 1000);
 
-// auto type
-new TypeIt(".auto-type", {
-  strings: "Hello, World! ",
-  speed: 75,
-  loop: true,
-  cursor: false,
-  afterComplete: function (instance) {
-    setTimeout(function () {
-      instance.go();
-    }, 4000);
-  },
-}).go();
+const exampleText = ["Hello, World! 👋"];
+const exampleTyping = new AutoTyping(".auto-type", exampleText, {
+  typeSpeed: 80,
+  deleteSpeed: 50,
+  waitBeforeDelete: 2000,
+  waitBetweenWords: 500,
+});
+exampleTyping.start();
 
 // swiper
 const swiper = new Swiper(".swiper", {

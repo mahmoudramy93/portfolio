@@ -252,9 +252,13 @@ ul {
   -o-transform: translate(-52%, -50%);
 }
 
-.about .about-img .info .auto-type {
-  color: var(--main-color);
+.about .about-img .info p{
+
   margin-bottom: 0;
+}
+
+.about .about-img .info .auto-type {
+  color: #0067ff;
 }
 
 .about .about-img-info {
