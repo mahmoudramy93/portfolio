@@ -1,11 +1,11 @@
 // loader
-$(window).on("load", function () {
-  $(".loader").fadeOut(4000);
-});
+// $(window).on("load", function () {
+//   $(".loader").fadeOut(4000);
+// });
 
-setTimeout(function () {
-  $(".loader").fadeOut(3000);
-}, 1000);
+// setTimeout(function () {
+//   $(".loader").fadeOut(3000);
+// }, 1000);
 
 // auto typing
 const exampleText = ["Hello, World! 👋"];
