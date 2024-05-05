@@ -1,0 +1,195 @@
+.about-more,
+.skills-details {
+  padding: 60px 20px;
+  background-color: var(--dark-color);
+  border-radius: 50px;
+  position: relative;
+}
+
+.about-more .title {
+  color: var(--white-color);
+  font-size: 20px;
+}
+.about-more .desc {
+  color: var(--secondery-color);
+}
+/* resume */
+.main-timeline {
+  position: relative;
+}
+.main-timeline::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background-color: var(--main-color);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: var(--secondary-dark-color);
+  border: 3px solid var(--main-color);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.resume .timeline .card {
+  background: var(--secondary-dark-color);
+}
+.resume .timeline .card p.date,
+.resume .edu-cards .card h5 {
+  color: #03a67d;
+}
+.resume .timeline .card p.date {
+  font-size: 20px;
+  line-height: 2;
+}
+.resume .timeline .card h4,
+.resume .edu-cards .card h4 {
+  color: var(--white-color);
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.resume .timeline .card p,
+.resume .edu-cards .card p {
+  color: var(--secondery-color);
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.left {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+.right {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+.left::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid var(--main-color);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #595959;
+}
+.right::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid var(--main-color);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #595959 transparent transparent;
+}
+.right::after {
+  left: -12px;
+}
+@media screen and (max-width: 600px) {
+  .main-timeline::after {
+    left: 31px;
+  }
+  .timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .timeline::before {
+    left: 60px;
+    border: medium solid var(--main-color);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #595959 transparent transparent;
+  }
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+  .left::before {
+    right: auto;
+  }
+  .right {
+    left: 0%;
+  }
+}
+.resume .subtitle-2 {
+  margin-bottom: 30px;
+}
+.resume .edu-cards .card {
+  background: var(--secondary-dark-color);
+}
+/* skills details */
+.skills-details .title {
+  color: var(--white-color);
+  font-size: 20px;
+}
+@media (max-width: 991px) {
+  .skills-details .title {
+    margin-top: 20px;
+  }
+}
+.skills-details .skill-card-skills .skill-list {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 567px) {
+  .skills-details .skill-card-skills .skill-list {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+.skills-details .skill-card-skills .skill-list:not(:last-child) {
+  margin-bottom: 25px;
+}
+@media (max-width: 991px) {
+  .skills-details .skill-card-skills .skill-list:not(:last-child) {
+    border-bottom: 1px solid var(--secondery-color);
+    padding: 8px 0;
+  }
+}
+.skills-details .skill-card-imgs {
+  display: flex;
+  margin-right: 10px;
+}
+@media (max-width: 567px) {
+  .skills-details .skill-card-imgs {
+    margin-right: 0;
+  }
+}
+.skills-details .skill-card-imgs img {
+  width: 40px;
+  max-width: 100%;
+}
+.skills-details .skill-card-imgs img:not(:last-child) {
+  margin-right: 10px;
+}
+.skills-details .skill-card-imgs .colored {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.skills-details .skill-card-description {
+  color: var(--secondery-color);
+  margin-bottom: 0;
+}
+@media (max-width: 567px) {
+  .skills-details .skill-card-description {
+    margin-bottom: 10px;
+  }
+}
