@@ -365,6 +365,8 @@ ul {
   display: flex;
   margin: auto;
   overflow: hidden;
+  background-color: var(--white-color);
+  border-radius: 20px;
 }
 .skills .auto_slider_container:not(:last-child) {
   margin-bottom: 30px;
@@ -377,25 +379,27 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.skills .slider-right {
-  animation: rotationRight 100s linear infinite;
-}
 .skills .slider-left {
   animation: rotationLeft 100s linear infinite;
 }
+.skills .slider-right {
+  animation: rotationRight 100s linear infinite;
+}
 .skills .auto_slider li {
-  padding: 10px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: #ddd;
   margin: 0px 15px;
   border-radius: 10px;
   white-space: nowrap;
   font-size: 15px;
-  background-color: var(--secondary-dark-color);
-  color: var(--white-color);
+  /* background-color: var(--secondary-dark-color); */
+  /* color: var(--white-color); */
+}
+.skills .auto_slider li img {
+  width: 50px;
 }
 .skills .auto_slider_container:hover .auto_slider {
   animation-play-state: paused;
