@@ -356,6 +356,16 @@ ul {
   margin-right: 5px;
 }
 /* skills */
+.skills .technical-skills > section {
+  flex: 1;
+}
+.skills .technical-skills .title{
+  text-align: center;
+ color: var(--white-color);
+ font-weight: 600;
+ font-size: 18px;
+ margin-bottom: 25px; 
+}
 .skills .skill {
   border: 1.7px solid rgba(0, 200, 150, 0.637);
   border-radius: 5px;
