@@ -147,6 +147,8 @@
 .skills-details .skill-card-skills .skill-list {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 @media (max-width: 567px) {
   .skills-details .skill-card-skills .skill-list {

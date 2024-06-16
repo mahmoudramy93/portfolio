@@ -38,7 +38,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="imgs/logo.png" />
+    <link rel="icon" type="image/x-icon" href="imgs/logo.webp" />
     <title>Mahmoud Elbehery</title>
   </head>
   <body>
@@ -53,15 +53,15 @@
               href="index.html"
               aria-label="go to home page"
             >
-              <img src="imgs/logo.jpg" alt="profile" />
+              <img src="imgs/profile.webp" alt="profile" loading="lazy" />
             </a>
             <div class="info">
               <h1><span>M</span>ahmoud <span>Elbehery</span></h1>
-              <h4>
+              <h2 class="name">
                 <span>Freelance Software Engineer, Devops |</span>
                 Senior System Administrator, I.T Infrastructure Engineer
                 @Harvest Foods
-              </h4>
+              </h2>
             </div>
           </div>
           <div class="col-4 d-flex align-items-center justify-content-center">
@@ -109,7 +109,7 @@
           <div class="col-lg-6 about-img-container">
             <div class="about-img position-relative">
               <div class="position-relative mb-3">
-                <img src="imgs/about.jpg" alt="about" />
+                <img src="imgs/about.webp" alt="about" loading="lazy" />
                 <div class="info">
                   <p class="auto-type"></p>
                   <p>I'am Mahmoud Elbehery</p>
@@ -175,9 +175,9 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="d-flex technical-skills">
-            <section>
-              <h4 class="title">System Administration & DevOps</h4>
+          <div class="d-flex technical-skills flex-wrap justify-content-center">
+            <section class="col-6">
+              <h3 class="title">System Administration</h3>
               <div class="d-flex justify-content-center flex-wrap">
                 <div class="skill col-md-2 col-4">
                   <img
@@ -202,22 +202,109 @@
                 </div>
                 <div class="skill col-md-2 col-4">
                   <img
-                    src="imgs/Tools_Icons/paloalto-colored.png"
-                    alt="paloalto"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/sophos.svg"
-                    alt="sophos"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
                     src="imgs/Tools_Icons/fortinet-white.png"
                     alt="fortinet"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/azure.svg"
+                    alt="azure"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/vmware-white.png"
+                    alt="vmware"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/Powershell-colored.svg"
+                    alt="powershell"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/Veeam.jpeg"
+                    alt="Veeam"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </section>
+            <section class="col-6">
+              <h3 class="title">Software Engineering</h3>
+              <div class="d-flex justify-content-center flex-wrap">
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/bash.svg"
+                    alt="bash"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/python.svg"
+                    alt="python"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/mysql.svg"
+                    alt="mysql"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/nosql-colored.png"
+                    alt="nosql"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/Pytest.svg"
+                    alt="Pytest"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/node.svg"
+                    alt="node"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/flask-white.svg"
+                    alt="flask"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/reset-api-colored.webp"
+                    alt="reset api"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </section>
+            <section class="col-6">
+              <h3 class="title">Devops</h3>
+              <div class="d-flex justify-content-center flex-wrap">
+                <div class="skill col-md-2 col-4">
+                  <img
+                    src="imgs/Tools_Icons/linux.svg"
+                    alt="linux"
                     loading="lazy"
                   />
                 </div>
@@ -244,8 +331,8 @@
                 </div>
                 <div class="skill col-md-2 col-4">
                   <img
-                    src="imgs/Tools_Icons/vmware-white.png"
-                    alt="vmware"
+                    src="imgs/Tools_Icons/bash.svg"
+                    alt="bash"
                     loading="lazy"
                   />
                 </div>
@@ -258,146 +345,8 @@
                 </div>
                 <div class="skill col-md-2 col-4">
                   <img
-                    src="imgs/Tools_Icons/bash.svg"
-                    alt="bash"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
                     src="imgs/Tools_Icons/python.svg"
                     alt="python"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/Powershell-colored.svg"
-                    alt="powershell"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/mysql.svg"
-                    alt="mysql"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/nosql-colored.png"
-                    alt="nosql"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/Veeam.jpeg"
-                    alt="Veeam"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/Acronis.png"
-                    alt="Acronis"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/puppet-colored.svg"
-                    alt="puppet"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/reset-api-colored.webp"
-                    alt="reset-api"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </section>
-            <section>
-              <h4 class="title">Software Engineering & Web Developer</h4>
-              <div class="d-flex justify-content-center flex-wrap">
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/python.svg"
-                    alt="python"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/node.svg"
-                    alt="node"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/Pytest.svg"
-                    alt="Pytest"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/django.svg"
-                    alt="django"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/flask-white.svg"
-                    alt="flask"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/mysql.svg"
-                    alt="mysql"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/nosql-colored.png"
-                    alt="nosql"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/reset-api-colored.webp"
-                    alt="reset-api"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/puppet-colored.svg"
-                    alt="puppet"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/aws-colored.svg"
-                    alt="aws"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="skill col-md-2 col-4">
-                  <img
-                    src="imgs/Tools_Icons/docker-colored.svg"
-                    alt="docker"
                     loading="lazy"
                   />
                 </div>
@@ -416,6 +365,136 @@
               <h2>Projects</h2>
               <p>This is my projects</p>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project">
+              <div class="project-header">
+                <figure class="mb-0">
+                  <img
+                    src="imgs/project-1.jpg"
+                    alt="project-1"
+                    loading="lazy"
+                    width="100%"
+                  />
+                </figure>
+                <div class="project-header-overlay">
+                  <a href="#">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="techologies">
+                  <ul class="d-flex align-items-center techo-list">
+                    <li class="techo-item">node</li>
+                    <li class="techo-item">mongodb</li>
+                  </ul>
+                </div>
+                <div class="info">
+                  <h3 class="project-name">Edu City</h3>
+                  <p class="project-description mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Laboriosam, voluptatem.
+                  </p>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="project-live">
+                  Preview
+                  <span><i class="fa-solid fa-eye"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <div class="project-header">
+                <figure class="mb-0">
+                  <img
+                    src="imgs/project-1.jpg"
+                    alt="project-1"
+                    loading="lazy"
+                    width="100%"
+                  />
+                </figure>
+                <div class="project-header-overlay">
+                  <a href="#">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="techologies">
+                  <ul class="d-flex align-items-center techo-list">
+                    <li class="techo-item">node</li>
+                    <li class="techo-item">mongodb</li>
+                  </ul>
+                </div>
+                <div class="info">
+                  <h3 class="project-name">Edu City</h3>
+                  <p class="project-description mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Laboriosam, voluptatem.
+                  </p>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="project-live">
+                  Preview
+                  <span><i class="fa-solid fa-eye"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <div class="project-header">
+                <figure class="mb-0">
+                  <img
+                    src="imgs/project-1.jpg"
+                    alt="project-1"
+                    loading="lazy"
+                    width="100%"
+                  />
+                </figure>
+                <div class="project-header-overlay">
+                  <a href="#">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-body">
+                <div class="techologies">
+                  <ul class="d-flex align-items-center techo-list">
+                    <li class="techo-item">node</li>
+                    <li class="techo-item">mongodb</li>
+                  </ul>
+                </div>
+                <div class="info">
+                  <h3 class="project-name">Edu City</h3>
+                  <p class="project-description mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Laboriosam, voluptatem.
+                  </p>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="project-live">
+                  Preview
+                  <span><i class="fa-solid fa-eye"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <a href="#" class="more-about-me"
+              >All projects
+              <span><i class="fa-solid fa-arrow-right"></i></span>
+            </a>
           </div>
         </div>
       </div>
@@ -442,8 +521,9 @@
                     <div class="testimnoials-header">
                       <div class="testimnoials-img">
                         <img
-                          src="imgs/Eng.Ibrahem.png"
+                          src="imgs/Eng.Ibrahem.webp"
                           alt="Ibrahim Abdel Salam"
+                          loading="lazy"
                         />
                       </div>
                       <h3>Eng\Ibrahim Abdel Salam</h3>
@@ -465,7 +545,11 @@
                   <div class="testimonials-single text-center">
                     <div class="testimnoials-header">
                       <div class="testimnoials-img">
-                        <img src="imgs/Eng.Elsahar.jpeg" alt="Eng.Elsahar" />
+                        <img
+                          src="imgs/Eng.Elsahar.webp"
+                          alt="Eng.Elsahar"
+                          loading="lazy"
+                        />
                       </div>
                       <h3>Eng\Mohamed Elsahar</h3>
                       <h4>Information Technology Manager at Arab Computers</h4>
@@ -488,8 +572,9 @@
                     <div class="testimnoials-header">
                       <div class="testimnoials-img">
                         <img
-                          src="imgs/Eng.Ahmed -el-Ashry.jpeg"
+                          src="imgs/Eng.Ahmed -el-Ashry.webp"
                           alt="Eng.Ahmed -el-Ashry"
+                          loading="lazy"
                         />
                       </div>
                       <h3>Eng\Ahmed El-Ashry</h3>
@@ -588,7 +673,6 @@
                       type="submit"
                       value="Contact Now"
                       class="btn-contact"
-                      id="contact"
                     />
                   </div>
                 </div>
