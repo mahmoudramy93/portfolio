@@ -512,6 +512,11 @@ ul {
 .blog {
   cursor: pointer;
 }
+@media (max-width: 991px){
+  .blog{
+    margin-bottom: 30px ;
+  }
+}
 .blog .blog-body .blog-title {
   margin-top: 25px;
   transition: var(--main-transition);
