@@ -51,7 +51,8 @@ ul {
   color: var(--secondery-color);
 }
 
-.section-title::after {
+.section-title::after,
+.single-blog .blog-title:after {
   content: "";
   position: absolute;
   content: "";
@@ -461,7 +462,7 @@ ul {
   padding: 20px;
 }
 .projects .project-body .techologies .techo-item,
-.blogs .blog-header .blog-techno {
+.blog-header .blog-techno {
   margin-right: 10px;
   background-color: var(--secondary-dark-color);
   padding: 3px 8px;
@@ -470,7 +471,7 @@ ul {
   font-weight: bold;
 }
 .projects .project-body .info .project-name,
-.blogs .blog-body .blog-title {
+.blog-body .blog-title {
   color: var(--white-color);
   font-size: 20px;
   font-weight: normal;
@@ -509,7 +510,7 @@ ul {
   margin-top: 30px;
 }
 /* blogs */
-.blog {
+.blogs .blog {
   cursor: pointer;
 }
 @media (max-width: 991px) {
@@ -541,14 +542,14 @@ ul {
   color: var(--white-color);
   transition: var(--main-transition);
 }
-.blogs .blog-footer .read-time{
+.blogs .blog-footer .read-time {
   font-size: 12px;
   color: var(--white-color);
 }
-.blog:hover .blog-title {
+.blogs .blog:hover .blog-title {
   color: var(--main-color);
 }
-.blog:hover .blog-footer a{
+.blogs .blog:hover .blog-footer a {
   color: var(--main-color);
 }
 /* testimonials */

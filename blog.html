@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="portfolio" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blogs.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <!-- font awsome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script:wght@400;700&family=Pinyon+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lobster&family=Pinyon+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="imgs/logo.webp" />
+    <title>Mahmoud Elbehery</title>
+  </head>
+  <body>
+    <section class="filter">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 d-flex">
+            <div class="categories d-flex align-items-center position-relative">
+              <a
+                href="#"
+                aria-label="latest blogs"
+                class="d-flex align-items-center latest"
+              >
+                <span class="icon">
+                  <i class="fa-solid fa-terminal"></i>
+                </span>
+                <span>Latest</span>
+              </a>
+              <a
+                href="#"
+                aria-label="categories"
+                class="d-flex align-items-center posts"
+                id="posts-btn"
+              >
+                <span class="icon post-icon">
+                  <i class="fa-solid fa-list"></i>
+                </span>
+                <span>Posts</span>
+                <span class="arrow-down">
+                  <i class="fa-solid fa-caret-down"></i>
+                </span>
+              </a>
+              <ul class="dorpdown-menu" id="dorpdown-menu">
+                <li>
+                  <a
+                    href="#"
+                    class="category d-block py-2 fw-bold"
+                    aria-label="Python"
+                  >
+                    Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="category d-block py-2 fw-bold"
+                    aria-label="JavaScript"
+                  >
+                    JavaScript
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="category d-block py-2 fw-bold"
+                    aria-label="Sql"
+                  >
+                    Sql
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="search">
+              <form class="position-relative">
+                <input type="text" placeholder="Search" class="form-control" />
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="single-blog position-relative">
+      <div class="container">
+        <div class="post-content"></div>
+      </div>
+    </div>
+    <script src="js/blog.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>

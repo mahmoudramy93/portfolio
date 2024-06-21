@@ -1,3 +1,4 @@
+/*  */
 .blogs .blog {
   margin-bottom: 30px;
   padding: 10px;
@@ -15,7 +16,8 @@
   top: 0;
   margin-bottom: 50px;
   z-index: 1000;
-  /* background-color: var(--secondary-dark-color); */background-color: transparent;
+  /* background-color: var(--secondary-dark-color); */
+  background-color: transparent;
   padding: 10px 20px;
 }
 .latest,
