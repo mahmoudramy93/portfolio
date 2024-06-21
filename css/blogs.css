@@ -15,7 +15,7 @@
   top: 0;
   margin-bottom: 50px;
   z-index: 1000;
-  background-color: var(--secondary-dark-color);
+  /* background-color: var(--secondary-dark-color); */background-color: transparent;
   padding: 10px 20px;
 }
 .latest,
