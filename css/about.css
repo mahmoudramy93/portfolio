@@ -6,9 +6,14 @@
   position: relative;
 }
 
-.about-more .title {
+.about-more .title,
+.skills-details .title {
   color: var(--white-color);
-  font-size: 20px;
+  border-bottom: 1px solid var(--main-color);
+  width: fit-content;
+  margin-bottom: 30px;
+  font-size: 25px;
+  padding: 0 0 5px;
 }
 .about-more .desc {
   color: var(--secondery-color);
@@ -136,7 +141,7 @@
 }
 /* skills details */
 .skills-details .title {
-  color: var(--white-color);
+  border-bottom: 0;
   font-size: 20px;
 }
 @media (max-width: 991px) {
@@ -146,9 +151,14 @@
 }
 .skills-details .skill-card-skills .skill-list {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: row-reverse;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* border-bottom: 1px solid var(--main-color); */
+  /* width: fit-content; */
+  /* padding: 10px 0; */
+  /* border-color: white; */
 }
 @media (max-width: 567px) {
   .skills-details .skill-card-skills .skill-list {
@@ -157,7 +167,8 @@
   }
 }
 .skills-details .skill-card-skills .skill-list:not(:last-child) {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+  margin-bottom: 35px;
 }
 @media (max-width: 991px) {
   .skills-details .skill-card-skills .skill-list:not(:last-child) {
@@ -167,7 +178,8 @@
 }
 .skills-details .skill-card-imgs {
   display: flex;
-  margin-right: 10px;
+  /* margin-right: 10px; */
+  margin-bottom: 10px;
 }
 @media (max-width: 567px) {
   .skills-details .skill-card-imgs {
@@ -175,17 +187,20 @@
   }
 }
 .skills-details .skill-card-imgs img {
-  width: 40px;
+  /* width: 40px; */
+  width: 70px;
   max-width: 100%;
+  border: 1px solid #00c89696;
+  padding: 4px;
 }
 .skills-details .skill-card-imgs img:not(:last-child) {
   margin-right: 10px;
 }
-.skills-details .skill-card-imgs .colored {
+/* .skills-details .skill-card-imgs .colored {
   background-color: white;
   padding: 5px;
   border-radius: 5px;
-}
+} */
 .skills-details .skill-card-description {
   color: var(--secondery-color);
   margin-bottom: 0;
