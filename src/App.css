@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #050505 !important;
+  width: 85%;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 991px) {
+  body {
+    width: 100%;
+  }
+}/*# sourceMappingURL=App.css.map */
