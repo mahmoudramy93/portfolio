@@ -1,0 +1,165 @@
+@import "../../variables";
+
+.resume {
+  padding: 60px 20px;
+  .subtitle {
+    color: $white-color;
+    font-size: 18px;
+    background: #015943;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: normal;
+    width: fit-content;
+    margin-bottom: 0;
+    position: relative;
+  }
+  .main-timeline {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 3px;
+      background-color: $main-color;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -1px;
+    }
+    @media screen and (max-width: 600px) {
+      &::after {
+        left: 31px;
+      }
+    }
+    .timeline {
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+
+      @media screen and (max-width: 600px) {
+        width: 100%;
+        padding-left: 70px !important;
+        padding-right: 25px !important;
+        left: 0 !important;
+        &::before {
+          left: 60px !important;
+          border: medium solid $main-color !important;
+          border-width: 10px 10px 10px 0 !important;
+          border-color: transparent #595959 transparent transparent !important;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -13px;
+        background-color: $secondary-dark-color;
+        border: 3px solid $main-color;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      @media screen and (max-width: 600px) {
+        &::after {
+          left: 18px !important;
+        }
+      }
+      .card {
+        background: $secondary-dark-color;
+        p {
+          color: $secondary-color;
+          font-size: 18px;
+          line-height: 1.8;
+        }
+        .date {
+          color: #03a67d;
+          font-size: 20px;
+          line-height: 2;
+        }
+        h5 {
+          color: #03a67d;
+        }
+        h4 {
+          color: $white-color;
+          font-weight: normal;
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+      }
+      &.left {
+        padding: 0px 40px 20px 0px;
+        left: 0;
+        &::before {
+          content: " ";
+          position: absolute;
+          top: 18px;
+          z-index: 1;
+          right: 30px;
+          border: medium solid $main-color;
+          border-width: 10px 0 10px 10px;
+          border-color: transparent transparent transparent #595959;
+        }
+        @media screen and (max-width: 600px) {
+          &::before {
+            right: auto;
+          }
+        }
+        &::after {
+          @media screen and (max-width: 600px) {
+            &::after {
+              left: 18px;
+            }
+          }
+        }
+      }
+      &.right {
+        padding: 0px 0px 20px 40px;
+        left: 50%;
+        @media screen and (max-width: 600px) {
+          .right {
+            left: 0%;
+          }
+        }
+        &::before {
+          content: " ";
+          position: absolute;
+          top: 18px;
+          z-index: 1;
+          left: 30px;
+          border: medium solid $main-color;
+          border-width: 10px 10px 10px 0;
+          border-color: transparent #595959 transparent transparent;
+        }
+        &::after {
+          left: -12px;
+          @media screen and (max-width: 600px) {
+            &::after {
+              left: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .edu-cards {
+    .card {
+      background-color: $secondary-dark-color;
+      h4 {
+        color: $white-color;
+        font-weight: normal;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      h5 {
+        color: #03a67d;
+      }
+      p {
+        color: $secondary-color;
+        font-size: 18px;
+        line-height: 1.8;
+      }
+    }
+  }
+}
