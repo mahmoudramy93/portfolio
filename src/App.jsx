@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 
@@ -6,12 +6,12 @@ import "./App.scss";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/mahmoud_elbehery">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
