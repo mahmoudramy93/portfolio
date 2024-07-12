@@ -6,7 +6,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <BrowserRouter basename="/mahmoud_elbehery">
+    <BrowserRouter basename="/my_portfolio">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>

@@ -2,7 +2,7 @@
 
 ### Live Demo
 
-https://mahmoudramy84.github.io/mahmoud_elbehery/
+https://mahmoudramy84.github.io/my_portfolio/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
