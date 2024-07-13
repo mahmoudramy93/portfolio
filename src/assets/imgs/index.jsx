@@ -33,6 +33,9 @@ import ahmedAshry from "./testimonials/Eng.Ahmed -el-Ashry.webp";
 import MohamedElsahar from "./testimonials/Eng.Elsahar.webp";
 import ibrahimAbdel from "./testimonials/Eng.Ibrahem.webp";
 
+// posts
+import post_1 from "./blogs/post_1.webp";
+
 const IMAGES = {
   windows,
   linux,
@@ -67,5 +70,8 @@ const IMAGES = {
   ahmedAshry,
   MohamedElsahar,
   ibrahimAbdel,
+
+  // posts
+  post_1,
 };
 export default IMAGES;

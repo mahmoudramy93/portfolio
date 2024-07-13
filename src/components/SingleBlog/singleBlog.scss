@@ -1,0 +1,62 @@
+@import "../../variables";
+
+.blog {
+  .blog-header {
+    .technologies {
+      .blog-techno {
+        display: block;
+        width: fit-content;
+        margin: 20px auto;
+      }
+    }
+    .blog-title {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 0px 0px 25px;
+      color: $white-color;
+      &::after {
+        content: "";
+        display: block;
+        width: 60px;
+        margin-left: -30px;
+        height: 0px;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        border-bottom: 10px dotted $main-color;
+      }
+    }
+  }
+  .blog-footer {
+    border: none;
+    .references-title {
+      color: $secondary-color;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .references-list {
+      .references-item {
+        &::before {
+          content: "";
+          display: block;
+          width: 8px;
+          height: 8px;
+          background-color: $secondary-color;
+          margin-right: 15px;
+          border-radius: 50%;
+        }
+        .references-link {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          text-decoration: underline !important;
+          color: rgba(13, 110, 253) !important;
+          transition: $main-transition;
+          &:hover {
+            color: rgba(10, 88, 202) !important;
+          }
+        }
+      }
+    }
+  }
+}

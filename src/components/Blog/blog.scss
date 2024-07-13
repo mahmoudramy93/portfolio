@@ -1,7 +1,6 @@
 @import "../../variables";
 
 .blog {
-  cursor: pointer;
   &:hover .blog-body .blog-title {
     color: $main-color;
   }
@@ -62,7 +61,7 @@
         margin-top: 3px;
         margin-left: 8px;
         font-size: 14px;
-        svg{
+        svg {
           transition: 0.5s;
         }
       }
@@ -74,7 +73,7 @@
   }
 }
 
-.custom-blog-style{
+.custom-blog-style {
   margin-bottom: 30px;
   padding: 10px;
 }

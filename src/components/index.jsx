@@ -12,3 +12,5 @@ export { default as CustomButton } from "./CustomButton/CustomButton";
 export { default as ContactForm } from "./ContactForm/ContactForm";
 export { default as CategoryItem } from "./CategoryItem/CategoryItem";
 export { default as ProjectsFilter } from "./ProjectsFilter/ProjectsFilter";
+export { default as SingleBlog } from "./SingleBlog/SingleBlog";
+export { default as BlogSubTitle } from "./BlogSubTitle/BlogSubTitle";

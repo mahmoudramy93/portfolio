@@ -6,7 +6,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -21,7 +21,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "2",
@@ -29,7 +29,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -44,7 +44,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "3",
@@ -52,7 +52,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -67,7 +67,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "4",
@@ -75,7 +75,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -90,7 +90,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "5",
@@ -98,7 +98,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -113,7 +113,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "6",
@@ -121,7 +121,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -136,7 +136,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "7",
@@ -144,7 +144,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -159,7 +159,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "8",
@@ -167,7 +167,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -182,7 +182,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     },
     {
       "id": "9",
@@ -190,7 +190,7 @@
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
-      "image": "./data/blogs-imgs/python.webp",
+      "image": "post_1",
       "sub_titles": [
         {
           "title": "What is ......",
@@ -205,7 +205,7 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
         }
       ],
-      "refrences": ["Python", "JavaScript"]
+      "references": ["Python", "JavaScript"]
     }
   ],
   "categories": [

@@ -5,6 +5,7 @@ import AOS from "aos";
 
 import "./blog.scss";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Blog = ({ post, customStyle, aosAnimation }) => {
   useEffect(() => {
@@ -12,7 +13,7 @@ const Blog = ({ post, customStyle, aosAnimation }) => {
   }, []);
 
   return (
-    <div className={`blog ${customStyle}`} data-aos={aosAnimation}>
+    <div className={`blog ${customStyle} mb-4`} data-aos={aosAnimation}>
       <div className="blog-header">
         <span className="blog-techno">{post.technology}</span>
       </div>
@@ -21,12 +22,12 @@ const Blog = ({ post, customStyle, aosAnimation }) => {
         <p className="blog-description">{post.description}</p>
       </div>
       <div className="blog-footer d-flex align-items-center justify-content-between">
-        <a href="!#" className="more-about-me">
+        <Link to={`/blogs/blog/${post.id}`} className="more-about-me">
           Learn More
           <span>
             <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
           </span>
-        </a>
+        </Link>
         <a href="!#" className="read-time">
           <span>{post.time}</span>
           <span> min read</span>

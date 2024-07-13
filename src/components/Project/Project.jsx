@@ -15,7 +15,7 @@ const Project = ({ project, aosAnimation }) => {
   }, []);
 
   return (
-    <div className="project" data-aos={aosAnimation}>
+    <div className="project mb-5" data-aos={aosAnimation}>
       <div className="project-header position-relative">
         <figure className="mb-0">
           <img

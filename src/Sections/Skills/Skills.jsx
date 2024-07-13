@@ -22,7 +22,7 @@ const Skills = () => {
         />
         <div className="row justify-content-center">
           <div className="d-flex technical-skills flex-wrap justify-content-center">
-            <section className="col-sm-12 col-lg-6" data-aos="fade-right">
+            <section className="col-sm-12 col-lg-6 mb-3" data-aos="fade-right">
               <SkillsSubTitle subTitle={"System Administration"} />
               <div className="d-flex justify-content-center flex-wrap">
                 <div className="skill col-md-2 col-4">
@@ -59,7 +59,7 @@ const Skills = () => {
                 </div>
               </div>
             </section>
-            <section className="col-sm-12 col-lg-6" data-aos="fade-left">
+            <section className="col-sm-12 col-lg-6 mb-3" data-aos="fade-left">
               <SkillsSubTitle subTitle={"Software Engineering"} />
               <div className="d-flex justify-content-center flex-wrap">
                 <div className="skill col-md-2 col-4">

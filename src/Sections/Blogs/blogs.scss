@@ -3,7 +3,6 @@
 .blogs {
   padding: 60px 20px;
   .blog {
-    cursor: pointer;
     &:hover .blog-body .blog-title {
       color: $main-color;
     }
