@@ -28,6 +28,11 @@ import puppetColored from "./Tools_Icons/puppet-colored.svg";
 import eduCity from "./projects/edu-city.webp";
 import techCity from "./projects/tech-city.webp";
 
+// testimonials
+import ahmedAshry from "./testimonials/Eng.Ahmed -el-Ashry.webp";
+import MohamedElsahar from "./testimonials/Eng.Elsahar.webp";
+import ibrahimAbdel from "./testimonials/Eng.Ibrahem.webp";
+
 const IMAGES = {
   windows,
   linux,
@@ -57,5 +62,10 @@ const IMAGES = {
   // projects
   eduCity,
   techCity,
+
+  // testimonials
+  ahmedAshry,
+  MohamedElsahar,
+  ibrahimAbdel,
 };
 export default IMAGES;

@@ -218,21 +218,21 @@
       "id": "1",
       "name": "Ibrahim Abdel Salam",
       "title": "owner and founder of IT Solution Company",
-      "image": "src/assets/imgs/testimonials/Eng.Ibrahem.webp",
+      "image": "ibrahimAbdel",
       "testimonial": "Working alongside Mahmoud Elbehery as a computer maintenance engineer was an absolute pleasure. Mahmoud's artistic approach to problem-solving infused our team with creativity and efficiency. He exhibited a profound love for his work, always going above and beyond to ensure systems ran smoothly. Mahmoud's rapid development and eagerness to learn set a benchmark for excellence in our department"
     },
     {
       "id": "2",
       "name": "Eng.Mohamed Elsahar",
       "title": "Information Technology Manager at Arab Computers",
-      "image": "src/assets/imgs/testimonials/Eng.Elsahar.webp",
+      "image": "MohamedElsahar",
       "testimonial": "As the IT manager, I had the privilege of collaborating with Mahmoud Elbehery in his role as a network engineer and technical support specialist. His commitment to excellence and passion for his craft were truly inspiring. Mahmoud approached every task with an artistic flair, finding innovative solutions to complex network issues. His love of learning and adaptability propelled our team forward, making him an invaluable asset to our organization."
     },
     {
       "id": "3",
       "name": "Eng.Ahmed El-Ashry",
       "title": "IT Operations & Infrastructure Manager at Harvest Foods",
-      "image": "src/assets/imgs/testimonials/Eng.Ahmed -el-Ashry.webp",
+      "image": "ahmedAshry",
       "testimonial": "Mahmoud Elbehery is a remarkable individual to work with, bringing unparalleled expertise and dedication to his role as a Senior System Administrator. His artistic touch in problem-solving and meticulous attention to detail have consistently impressed our team. Mahmoud exhibits a genuine love for his work, driving him to excel in every project he undertakes. His rapid development and hunger for learning have elevated our team's capabilities and contributed significantly to our success"
     }
   ],

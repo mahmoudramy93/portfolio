@@ -1,12 +1,14 @@
 import "./testimonialsSlide.scss";
 
+import IMAGES from "../../assets/imgs";
+
 const TestimonialsSlide = ({ client }) => {
   return (
     <div className="swiper-slide">
       <div className="testimonials-single text-center">
         <div className="testimnoials-header">
           <div className="testimnoials-img">
-            <img src={client.image} alt={client.name} loading="lazy" />
+            <img src={IMAGES[client.image]} alt={client.name} loading="lazy" />
           </div>
           <h3>Eng\ {client.name}</h3>
           <h4>{client.title}</h4>
