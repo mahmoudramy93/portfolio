@@ -6,13 +6,13 @@ import AOS from "aos";
 import "./blog.scss";
 import "aos/dist/aos.css";
 
-const Blog = ({ post }) => {
+const Blog = ({ post, customStyle, aosAnimation }) => {
   useEffect(() => {
     AOS.init({ duration: 3000 });
   }, []);
 
   return (
-    <div className="blog" data-aos="fade-up">
+    <div className={`blog ${customStyle}`} data-aos={aosAnimation}>
       <div className="blog-header">
         <span className="blog-techno">{post.technology}</span>
       </div>

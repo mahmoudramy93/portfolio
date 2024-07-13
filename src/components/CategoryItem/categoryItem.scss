@@ -1,0 +1,11 @@
+@import "../../variables";
+
+.category-item {
+  transition: $main-transition;
+  color: $white-color;
+  border: none;
+  background-color: transparent;
+  &:hover {
+    color: $main-color;
+  }
+}

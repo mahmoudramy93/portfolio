@@ -12,7 +12,7 @@ const Projects = () => {
           {projects.map((project) => {
             return (
               <div className="col-md-4" key={project.id}>
-                <Project project={project} />
+                <Project project={project} aosAnimation={'zoom-in'}/>
               </div>
             );
           })}

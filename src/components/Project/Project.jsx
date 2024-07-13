@@ -7,13 +7,13 @@ import AOS from "aos";
 import "./project.scss";
 import "aos/dist/aos.css";
 
-const Project = ({ project }) => {
+const Project = ({ project , aosAnimation}) => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
 
   return (
-    <div className="project" data-aos="zoom-in">
+    <div className="project" data-aos={aosAnimation}>
       <div className="project-header position-relative">
         <figure className="mb-0">
           <img

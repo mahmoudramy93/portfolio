@@ -1,0 +1,49 @@
+@import "../../variables";
+
+.categories {
+  & > a {
+    color: $white-color;
+    font-size: 18px;
+    padding: 0 20px 0 0;
+    .icon {
+      padding: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+  }
+  .latest {
+    .icon {
+      border: 1px solid $white-color;
+      font-size: 8px;
+    }
+  }
+  .posts {
+    .post-icon {
+      font-weight: bold;
+      margin-right: 4px;
+      font-size: 15px;
+    }
+    .arrow-down {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 4px 0 0 6px;
+    }
+  }
+  .dorpdown-menu {
+    position: absolute;
+    right: -85px;
+    top: 40px;
+    background-color: $secondary-dark-color;
+    padding: 15px !important;
+    border-radius: 10px;
+    width: 150px;
+    transition: $main-transition;
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}

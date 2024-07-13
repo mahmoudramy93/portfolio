@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "technology": "Python",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
@@ -24,7 +24,7 @@
       "refrences": ["Python", "JavaScript"]
     },
     {
-      "id": 2,
+      "id": "2",
       "technology": "Python",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
@@ -47,7 +47,7 @@
       "refrences": ["Python", "JavaScript"]
     },
     {
-      "id": 3,
+      "id": "3",
       "technology": "Python",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
@@ -70,7 +70,122 @@
       "refrences": ["Python", "JavaScript"]
     },
     {
-      "id": 4,
+      "id": "4",
+      "technology": "Python",
+      "title": "What is Python Back-end Development?",
+      "description": "Python allows you to create innovative backend solutions.",
+      "time": "10",
+      "image": "./data/blogs-imgs/python.webp",
+      "sub_titles": [
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        }
+      ],
+      "refrences": ["Python", "JavaScript"]
+    },
+    {
+      "id": "5",
+      "technology": "Python",
+      "title": "What is Python Back-end Development?",
+      "description": "Python allows you to create innovative backend solutions.",
+      "time": "10",
+      "image": "./data/blogs-imgs/python.webp",
+      "sub_titles": [
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        }
+      ],
+      "refrences": ["Python", "JavaScript"]
+    },
+    {
+      "id": "6",
+      "technology": "Python",
+      "title": "What is Python Back-end Development?",
+      "description": "Python allows you to create innovative backend solutions.",
+      "time": "10",
+      "image": "./data/blogs-imgs/python.webp",
+      "sub_titles": [
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        }
+      ],
+      "refrences": ["Python", "JavaScript"]
+    },
+    {
+      "id": "7",
+      "technology": "Python",
+      "title": "What is Python Back-end Development?",
+      "description": "Python allows you to create innovative backend solutions.",
+      "time": "10",
+      "image": "./data/blogs-imgs/python.webp",
+      "sub_titles": [
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        }
+      ],
+      "refrences": ["Python", "JavaScript"]
+    },
+    {
+      "id": "8",
+      "technology": "Python",
+      "title": "What is Python Back-end Development?",
+      "description": "Python allows you to create innovative backend solutions.",
+      "time": "10",
+      "image": "./data/blogs-imgs/python.webp",
+      "sub_titles": [
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        },
+        {
+          "title": "What is ......",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus hic dolore, delectus quibusdam vero consequatur voluptatum, quia eveniet, recusandae nulla accusantium molestiae culpa dolorem laborum in et mollitia distinctio."
+        }
+      ],
+      "refrences": ["Python", "JavaScript"]
+    },
+    {
+      "id": "9",
       "technology": "Python",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
@@ -93,23 +208,28 @@
       "refrences": ["Python", "JavaScript"]
     }
   ],
+  "categories": [
+    { "id": "1", "category": "python" },
+    { "id": "2", "category": "javascript" },
+    { "id": "3", "category": "sql" }
+  ],
   "testimonials": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Ibrahim Abdel Salam",
       "title": "owner and founder of IT Solution Company",
       "image": "src/assets/imgs/testimonials/Eng.Ibrahem.webp",
       "testimonial": "Working alongside Mahmoud Elbehery as a computer maintenance engineer was an absolute pleasure. Mahmoud's artistic approach to problem-solving infused our team with creativity and efficiency. He exhibited a profound love for his work, always going above and beyond to ensure systems ran smoothly. Mahmoud's rapid development and eagerness to learn set a benchmark for excellence in our department"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Eng.Mohamed Elsahar",
       "title": "Information Technology Manager at Arab Computers",
       "image": "src/assets/imgs/testimonials/Eng.Elsahar.webp",
       "testimonial": "As the IT manager, I had the privilege of collaborating with Mahmoud Elbehery in his role as a network engineer and technical support specialist. His commitment to excellence and passion for his craft were truly inspiring. Mahmoud approached every task with an artistic flair, finding innovative solutions to complex network issues. His love of learning and adaptability propelled our team forward, making him an invaluable asset to our organization."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Eng.Ahmed El-Ashry",
       "title": "IT Operations & Infrastructure Manager at Harvest Foods",
       "image": "src/assets/imgs/testimonials/Eng.Ahmed -el-Ashry.webp",
@@ -141,5 +261,10 @@
       "description": "Tech City is an e-commerce hub offering a wide range of products and services.",
       "liveLink": "https://safeya-yasien.github.io/Technology-City/index.html"
     }
+  ],
+  "technologies": [
+    { "id": "1", "technology": "python" },
+    { "id": "2", "technology": "javascript" },
+    { "id": "3", "technology": "node" }
   ]
 }

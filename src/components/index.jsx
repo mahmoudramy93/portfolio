@@ -10,3 +10,5 @@ export { default as MoreAboutMeTitle } from "./MoreAboutMe/MoreAboutMeTitle/More
 export { default as MoreAboutMeDescription } from "./MoreAboutMe/MoreAboutMeDescription/MoreAboutMeDescription";
 export { default as CustomButton } from "./CustomButton/CustomButton";
 export { default as ContactForm } from "./ContactForm/ContactForm";
+export { default as CategoryItem } from "./CategoryItem/CategoryItem";
+export { default as ProjectsFilter } from "./ProjectsFilter/ProjectsFilter";

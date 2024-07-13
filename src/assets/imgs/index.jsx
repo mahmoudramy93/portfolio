@@ -24,6 +24,10 @@ import django from "./Tools_Icons/django.svg";
 import ansible from "./Tools_Icons/ansible.svg";
 import puppetColored from "./Tools_Icons/puppet-colored.svg";
 
+// projects
+import eduCity from "./projects/edu-city.webp";
+import techCity from "./projects/tech-city.webp";
+
 const IMAGES = {
   windows,
   linux,
@@ -50,5 +54,8 @@ const IMAGES = {
   django,
   ansible,
   puppetColored,
+  // projects
+  eduCity,
+  techCity,
 };
 export default IMAGES;
