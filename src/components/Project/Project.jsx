@@ -4,10 +4,12 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AOS from "aos";
 
+import IMAGES from "../../assets/imgs";
+
 import "./project.scss";
 import "aos/dist/aos.css";
 
-const Project = ({ project , aosAnimation}) => {
+const Project = ({ project, aosAnimation }) => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -17,7 +19,7 @@ const Project = ({ project , aosAnimation}) => {
       <div className="project-header position-relative">
         <figure className="mb-0">
           <img
-            src={project.image.src}
+            src={IMAGES[project.image.src]}
             alt={project.image.alt}
             loading="lazy"
             width="100%"

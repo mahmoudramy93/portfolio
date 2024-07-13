@@ -240,7 +240,7 @@
     {
       "id": "1",
       "image": {
-        "src": "src/assets/imgs/projects/edu-city.webp",
+        "src": "eduCity",
         "alt": "Education City"
       },
       "githubLink": "https://github.com/Safeya-Yasien/Edu-City",
@@ -252,7 +252,7 @@
     {
       "id": "2",
       "image": {
-        "src": "src/assets/imgs/projects/tech-city.webp",
+        "src": "techCity",
         "alt": "Technology City"
       },
       "githubLink": "https://github.com/Safeya-Yasien/Technology-City",
