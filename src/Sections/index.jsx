@@ -8,3 +8,4 @@ export { default as Testimonials } from "./Testimonials/Testimonials";
 export { default as MoreAboutMe } from "./MoreAboutMe/MoreAboutMe";
 export { default as Resume } from "./Resume/Resume";
 export { default as AllSkills } from "./AllSkills/AllSkills";
+export { default as AllBlogs } from "./AllBlogs/AllBlogs";
