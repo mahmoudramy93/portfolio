@@ -23,6 +23,13 @@ const BlogDetails = () => {
               <SingleBlog blog={blog} />
             </div>
           </div>
+          <div className="row">
+            <div className="col-12">
+              <p className="text-center text-white fw-bold fs-4 mb-0 mt-2">
+                Thanks for reading!!!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
