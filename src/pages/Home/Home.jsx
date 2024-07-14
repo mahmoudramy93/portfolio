@@ -10,6 +10,8 @@ import {
   Testimonials,
 } from "../../Sections/index";
 
+import { Navigation } from "../../utils";
+
 const Home = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const Home = () => {
       <Testimonials />
       <ContactUs />
       <Footer />
+      <Navigation />
     </>
   );
 };

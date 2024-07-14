@@ -48,7 +48,7 @@
     },
     {
       "id": "3",
-      "technology": "Python",
+      "technology": "JavaScript",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
@@ -79,7 +79,7 @@
     },
     {
       "id": "4",
-      "technology": "Python",
+      "technology": "JavaScript",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
@@ -102,7 +102,7 @@
     },
     {
       "id": "5",
-      "technology": "Python",
+      "technology": "SQL",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",
       "time": "10",
@@ -170,7 +170,7 @@
       "references": ["Python", "JavaScript"]
     },
     {
-      "id": "8",
+      "id": "SQL",
       "technology": "Python",
       "title": "What is Python Back-end Development?",
       "description": "Python allows you to create innovative backend solutions.",

@@ -1,11 +1,13 @@
+import { useSelector } from "react-redux";
 import { CustomTitle, Blog, CustomLink } from "../../components/index";
-import { posts } from "../../data/data.json";
 
 import "./blogs.scss";
 
 const Blogs = () => {
+  const posts = useSelector((state) => state.posts.posts);
+
   return (
-    <div className="blogs">
+    <div className="blogs" id="blogs">
       <div className="container">
         <CustomTitle title={"Blogs"} description={"This is my blogs"} />
         <div className="row">

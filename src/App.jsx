@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home, About, Blogs, Projects, BlogDetails } from "./pages/index";
-
+import { store } from "./rtk/app/store";
+import { Provider } from 'react-redux'
 import "./App.scss";
 
 function App() {
   return (
+    <Provider store={store}>
     <BrowserRouter basename="/portfolio/">
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/projects" element={<Projects />}></Route>
       </Routes>
     </BrowserRouter>
+    </Provider>
   );
 }
 

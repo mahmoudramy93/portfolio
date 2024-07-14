@@ -5,7 +5,7 @@ import "./projects.scss";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="container">
         <CustomTitle title={"Projects"} description={"This is my projects"} />
         <div className="row">
