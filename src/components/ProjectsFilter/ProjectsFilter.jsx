@@ -9,7 +9,7 @@ const ProjectsFilter = ({ technology }) => {
     <Button
       variant="secondary"
       size="sm"
-      className="fw-bold me-3 fs-6"
+      className="fw-bold me-3 fs-6 mb-3"
       onClick={() => dispatch(filterProjects(technology.technology))}
     >
       {technology.technology}

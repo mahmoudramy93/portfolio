@@ -26,7 +26,7 @@ const AllProjects = () => {
         />
         <div className="row justify-content-center">
           <div className="col-8 d-flex justify-content-center">
-            <div className="products-filter">
+            <div className="products-filter d-flex flex-wrap">
               {technologies.map((technology) => {
                 return (
                   <ProjectsFilter key={technology.id} technology={technology} />

@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { Blog } from "../../components";
 
 const AllBlogs = () => {
-  const posts = useSelector((state) => state.posts.filterPosts);
+  const posts = useSelector((state) => state.posts.posts);
 
   return (
     <div className="all-blogs">
