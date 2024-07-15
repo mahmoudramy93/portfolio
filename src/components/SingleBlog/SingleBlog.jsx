@@ -23,7 +23,7 @@ const SingleBlog = ({ blog }) => {
           return <BlogSubTitle subTitle={subTitle} key={index} />;
         })}
       </div>
-      <div className="blog-footer">
+      <div className="single-blog-footer">
         <h5 className="references-title">References:</h5>
         <ul className="references-list">
           {blog.references.map((reference, index) => {

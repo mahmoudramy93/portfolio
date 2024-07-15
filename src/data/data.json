@@ -249,7 +249,7 @@
       "id": "1",
       "image": {
         "src": "eduCity",
-        "alt": "Education City"
+        "alt": "Educational City"
       },
       "githubLink": "https://github.com/Safeya-Yasien/Edu-City",
       "technologies": ["node", "mongodb"],
@@ -270,9 +270,13 @@
       "liveLink": "https://safeya-yasien.github.io/Technology-City/index.html"
     }
   ],
+
   "technologies": [
-    { "id": "1", "technology": "python" },
+    { "id": "1", "technology": "all" },
     { "id": "2", "technology": "javascript" },
-    { "id": "3", "technology": "node" }
+    { "id": "3", "technology": "node" },
+    { "id": "4", "technology": "python" },
+    { "id": "5", "technology": "flask" },
+    { "id": "6", "technology": "mongodb" }
   ]
 }

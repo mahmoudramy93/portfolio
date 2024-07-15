@@ -1,9 +1,22 @@
+import { useDispatch, useSelector } from "react-redux";
 import { CustomTitle, Project, ProjectsFilter } from "../../components";
-import { technologies, projects } from "../../data/data.json";
+import { technologies } from "../../data/data.json";
 
 import "./allProjects.scss";
+import { useEffect } from "react";
+import {
+  filterProjects,
+  getProjects,
+} from "../../rtk/features/projects/projectsSlice";
 
 const AllProjects = () => {
+  const projects = useSelector((state) => state.projects.projects);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(filterProjects("all"));
+  }, []);
+
   return (
     <div className="all-projects position-relative">
       <div className="container">

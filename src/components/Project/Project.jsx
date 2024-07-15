@@ -34,8 +34,13 @@ const Project = ({ project, aosAnimation }) => {
       <div className="project-body">
         <div className="techologies">
           <ul className="d-flex align-items-center techo-list">
-            <li className="techo-item">node</li>
-            <li className="techo-item">mongodb</li>
+            {project.technologies.map((techno, index) => {
+              return (
+                <li className="techo-item" key={index}>
+                  {techno}
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="info">
