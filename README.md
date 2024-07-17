@@ -43,17 +43,19 @@ Before you begin, ensure you have the following installed on your local machine:
 
 2. **Install Dependencies**
 
-   ````npm install
+   ```
+   npm install
    # or
-   yarn```
-   ````
+   yarn
+   ```
 
 3. **Run the Development Server**
 
-   ````npm run dev
+   ```
+   npm run dev
    # or
-   yarn dev```
-   ````
+   yarn dev
+   ```
 
 4. **Open in Browser**
 
