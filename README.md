@@ -46,7 +46,7 @@ Before you begin, ensure you have the following installed on your local machine:
    ````
    npm install
    # or
-   yarn```
+   yarn
    ````
 
 3. **Run the Development Server**
@@ -54,7 +54,7 @@ Before you begin, ensure you have the following installed on your local machine:
    ````
    npm run dev
    # or
-   yarn dev```
+   yarn dev
    ````
 
 4. **Open in Browser**
