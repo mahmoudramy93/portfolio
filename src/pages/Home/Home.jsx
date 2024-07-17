@@ -7,7 +7,6 @@ import {
   Footer,
   Projects,
   Skills,
-  Testimonials,
 } from "../../Sections/index";
 
 import { Navigation } from "../../utils";
@@ -20,7 +19,6 @@ const Home = () => {
       <Skills />
       <Projects />
       <Blogs />
-      <Testimonials />
       <ContactUs />
       <Footer />
       <Navigation />
