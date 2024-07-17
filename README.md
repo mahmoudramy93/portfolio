@@ -2,15 +2,9 @@
 
 Welcome to Mahmoud Elbehery's portfolio project! This portfolio is designed to showcase Mahmoud's projects and provide information about his skills and expertise to attract work opportunities.
 
-## Key Features
+## Live Demo
 
-- **Header**: Consistent navigation across all pages.
-- **About**: Detailed information about Mahmoud Elbehery
-- **Skills**: A section listing Mahmoud's skills and proficiencies.
-- **Projects**: Showcases Mahmoud's portfolio projects with descriptions and links to project details.
-- **Blogs**: Contains articles or blog posts written by Mahmoud, showcasing his knowledge and interests.
-- **Contact**: Information and forms through which visitors can reach out to Mahmoud.
-- **Footer**: Provides additional navigation links and contact information.
+Check out the live demo: [Live Demo Link](https://mahmoudramy84.github.io/portfolio/)
 
 ## Screenshots
 
@@ -19,10 +13,6 @@ Welcome to Mahmoud Elbehery's portfolio project! This portfolio is designed to s
 ![Skills](src/assets/imgs/readme/skills.png)
 ![Projects](src/assets/imgs/readme/projects.png)
 ![Projects](src/assets/imgs/readme/projects.png)
-
-## Live Demo
-
-Check out the live demo: [Live Demo Link](https://mahmoudramy84.github.io/portfolio/)
 
 ## Installation Instructions
 
@@ -44,14 +34,16 @@ Before you begin, ensure you have the following installed on your local machine:
 
 2. **Install Dependencies**
 
-   ````npm install
+   ````
+   npm install
    # or
    yarn```
    ````
 
 3. **Run the Development Server**
 
-   ````npm run dev
+   ````
+   npm run dev
    # or
    yarn dev```
    ````
