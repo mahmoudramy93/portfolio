@@ -1,5 +1,5 @@
 import { Header } from "../../components/index";
-import { MoreAboutMe, Resume, AllSkills } from "../../Sections/index";
+import { MoreAboutMe, Resume, AllSkills, Courses } from "../../Sections/index";
 
 const About = () => {
   return (
@@ -8,6 +8,7 @@ const About = () => {
       <MoreAboutMe />
       <Resume />
       <AllSkills />
+      <Courses/>
     </>
   );
 };

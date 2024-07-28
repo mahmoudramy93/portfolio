@@ -1,0 +1,36 @@
+@import "../../variables";
+
+.services {
+  padding: 60px 20px;
+  background-color: $dark-color;
+  border-radius: 50px;
+  .section-title {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .service {
+    padding: 10px;
+    .service-header {
+      svg {
+        font-size: 40px;
+        color: $white-color;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+    }
+    .service-body {
+      h4 {
+        font-size: 20px;
+        color: $white-color;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      p {
+        color: $secondary-color;
+      }
+    }
+  }
+}

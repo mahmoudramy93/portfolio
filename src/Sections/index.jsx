@@ -11,3 +11,5 @@ export { default as AllSkills } from "./AllSkills/AllSkills";
 export { default as BlogsFilter } from "./BlogsFilter/BlogsFilter";
 export { default as AllBlogs } from "./AllBlogs/AllBlogs";
 export { default as AllProjects } from "./AllProjects/AllProjects";
+export { default as Courses } from "./Courses/Courses";
+export { default as Services } from "./Services/Services";

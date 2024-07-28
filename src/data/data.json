@@ -278,5 +278,82 @@
     { "id": "4", "technology": "python" },
     { "id": "5", "technology": "flask" },
     { "id": "6", "technology": "mongodb" }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "CCNP Security SISE",
+      "provider": "PrivSec Solutions"
+    },
+    {
+      "id": 2,
+      "name": "CCNP Security SVPN",
+      "provider": "PrivSec Solutions"
+    },
+    {
+      "id": 3,
+      "name": "VMware vSphere 7.0",
+      "provider": "VMware"
+    },
+    {
+      "id": 4,
+      "name": "Python (Full Stack Developer Track)",
+      "provider": "Udacity"
+    },
+    {
+      "id": 5,
+      "name": "Java SE 8 (Full Stack Developer Track)",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 6,
+      "name": "CEH (Certified Ethical Hacker)",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 7,
+      "name": "MCSE (Implementing an Advanced Server Infrastructure)",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 8,
+      "name": "CCNP Switching",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 9,
+      "name": "CCNP Routing",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 10,
+      "name": "MCSA",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 11,
+      "name": "CCNA (Routing, Switching)",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 12,
+      "name": "CompTIA Network+",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 13,
+      "name": "A+ Practical Application",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 14,
+      "name": "CompTIA A+ Essentials",
+      "provider": "New Horizon Center"
+    },
+    {
+      "id": 15,
+      "name": "Laptop Repair - Hardware",
+      "provider": "Somuha Academy"
+    }
   ]
 }

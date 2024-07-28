@@ -2,26 +2,27 @@
 
 .testimonials {
   padding: 60px 20px;
-  .swiper {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    .swiper-pagination {
+  .splide {
+    .splide__pagination {
+      display: block;
       text-align: center;
       position: absolute;
       bottom: -3px;
-      .swiper-pagination-bullet {
+      .splide__pagination__page {
         width: 12px;
         height: 12px;
         border: 2px solid $secondary-dark-color;
         opacity: 1;
         background: none;
         transition: all $main-transition;
-      }
-      .swiper-pagination-bullet-active {
-        background-color: $main-color;
+        border-radius: 50%;
+        &.is-active {
+          background-color: $main-color;
+        }
       }
     }
+  }
+  .splide__arrow {
+    font-size: 10px;
   }
 }

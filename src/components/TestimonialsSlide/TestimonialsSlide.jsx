@@ -4,7 +4,7 @@ import IMAGES from "../../assets/imgs";
 
 const TestimonialsSlide = ({ client }) => {
   return (
-    <div className="swiper-slide">
+    <div className="splide-slide">
       <div className="testimonials-single text-center">
         <div className="testimnoials-header">
           <div className="testimnoials-img">

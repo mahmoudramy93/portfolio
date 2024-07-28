@@ -6,21 +6,13 @@ Welcome to Mahmoud Elbehery's portfolio project! This portfolio is designed to s
 
 Check out the live demo: [Live Demo Link](https://mahmoudramy84.github.io/portfolio/)
 
-## Screenshots
-
-![Home](src/assets/imgs/readme/home.png)
-![About](src/assets/imgs/readme/about.png)
-![Skills](src/assets/imgs/readme/skills.png)
-![Projects](src/assets/imgs/readme/projects.png)
-![Projects](src/assets/imgs/readme/projects.png)
-
 ## Installation Instructions
 
 ### Prerequisites
 
 Before you begin, ensure you have the following installed on your local machine:
 
-- Node.js (version X.X.X or higher)
+- Node.js 
 - npm (Node Package Manager) or yarn
 
 ### Getting Started
@@ -34,19 +26,19 @@ Before you begin, ensure you have the following installed on your local machine:
 
 2. **Install Dependencies**
 
-   ````
+   ```
    npm install
    # or
-   yarn```
-   ````
+   yarn
+   ```
 
 3. **Run the Development Server**
 
-   ````
+   ```
    npm run dev
    # or
-   yarn dev```
-   ````
+   yarn dev
+   ```
 
 4. **Open in Browser**
 

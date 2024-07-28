@@ -1,11 +1,11 @@
 import { CustomTitle, TestimonialsSlide } from "../../components/index";
 import { testimonials } from "../../data/data.json";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+
+import "@splidejs/react-splide/css/skyblue";
+import "@splidejs/react-splide/css/sea-green";
 
 import "./testimonials.scss";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
@@ -16,29 +16,26 @@ const Testimonials = () => {
           description={"Happy Clients Says"}
         />
         <div className="row">
-          <div className="col-md-6 mx-auto">
-            <Swiper
-              slidesPerView={1}
-              spaceBetween={30}
-              loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
+          <div className="col-12">
+            <Splide
+              options={{
+                type: "loop",
+                perPage: 3,
+                focus: "center",
+                pagination: true,
               }}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[Pagination, Autoplay]}
-              className="mySwiper"
+              hasTrack={false}
             >
-              {testimonials.map((testimonial) => {
-                return (
-                  <SwiperSlide key={testimonial.id}>
-                    <TestimonialsSlide client={testimonial} />
-                  </SwiperSlide>
-                );
-              })}
-            </Swiper>
+              <SplideTrack>
+                {testimonials.map((testimonial) => {
+                  return (
+                    <SplideSlide key={testimonial.id}>
+                      <TestimonialsSlide client={testimonial} />
+                    </SplideSlide>
+                  );
+                })}
+              </SplideTrack>
+            </Splide>
           </div>
         </div>
       </div>
