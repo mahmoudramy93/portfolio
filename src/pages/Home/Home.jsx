@@ -22,7 +22,6 @@ const Home = () => {
       <Projects />
       <Blogs />
       <Services/>
-      <Testimonials/>
       <ContactUs />
       <Footer />
       <Navigation />
