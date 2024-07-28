@@ -23,6 +23,14 @@ const Testimonials = () => {
                 perPage: 3,
                 focus: "center",
                 pagination: true,
+                breakpoints: {
+                  1200: {
+                    perPage: 2,
+                  },
+                  991: {
+                    perPage: 1,
+                  },
+                },
               }}
               hasTrack={false}
             >

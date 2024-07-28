@@ -9,7 +9,7 @@ const Services = () => {
     <section className="services position-relative">
       <div className="container">
         <div className="row justify-content-between">
-          <div className="col-4">
+          <div className="col-xl-4 ">
             <div className="service">
               <div className="service-header">
                 <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
@@ -39,7 +39,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-xl-4">
             <div className="service">
               <div className="service-header">
                 <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
