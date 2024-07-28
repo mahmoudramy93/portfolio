@@ -7,7 +7,6 @@ import {
   Footer,
   Projects,
   Skills,
-  Testimonials,
 } from "../../Sections/index";
 
 import { Navigation } from "../../utils";

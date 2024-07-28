@@ -11,6 +11,7 @@ import {
   faComment,
   faEnvelope,
   faHouse,
+  faScrewdriverWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -21,7 +22,8 @@ const Navigation = () => {
     { tooltip: "Skills", id: "skills", icon: faClipboard },
     { tooltip: "Projects", id: "projects", icon: faCircleCheck },
     { tooltip: "Blogs", id: "blogs", icon: faBlog },
-    { tooltip: "Testimonials", id: "testimonials", icon: faComment },
+    // { tooltip: "Testimonials", id: "testimonials", icon: faComment },
+    { tooltip: "Services", id: "services", icon: faScrewdriverWrench },
     { tooltip: "Contact", id: "contact", icon: faEnvelope },
   ];
 

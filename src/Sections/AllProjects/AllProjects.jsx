@@ -6,7 +6,6 @@ import "./allProjects.scss";
 import { useEffect } from "react";
 import {
   filterProjects,
-  getProjects,
 } from "../../rtk/features/projects/projectsSlice";
 
 const AllProjects = () => {
