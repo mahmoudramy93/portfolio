@@ -6,9 +6,6 @@ Welcome to Mahmoud Elbehery's portfolio project! This portfolio is designed to s
 
 Check out the live demo: [Live Demo Link](https://mahmoudramy84.github.io/portfolio/)
 
-## Installation Instructions
-
-
 
 ## Contact Information
 
