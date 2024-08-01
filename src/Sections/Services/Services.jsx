@@ -1,16 +1,21 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CustomTitle } from "../../components";
-
-import "./services.scss";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
+import AOS from "aos";
+import "./services.scss";
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500, easing: "ease-in-out" });
+  }, []);
+
   return (
-    <section className="services position-relative">
+    <section className="services position-relative" id="services">
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-4 ">
-            <div className="service">
+            <div className="service" data-aos="fade-right">
               <div className="service-header">
                 <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
               </div>
@@ -24,7 +29,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="service">
+            <div className="service" data-aos="fade-right">
               <div className="service-header">
                 <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
               </div>
@@ -40,7 +45,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-xl-4">
-            <div className="service">
+            <div className="service" data-aos="fade-left">
               <div className="service-header">
                 <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
               </div>
@@ -54,7 +59,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="service">
+            <div className="service" data-aos="fade-left">
               <div className="service-header">
                 <FontAwesomeIcon icon={faCode}></FontAwesomeIcon>
               </div>

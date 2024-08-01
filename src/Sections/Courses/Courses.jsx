@@ -1,10 +1,15 @@
 import { CustomTitle } from "../../components";
+import { courses } from "../../data/data.json";
+import { useEffect } from "react";
 
+import AOS from "aos";
 import "./courses.scss";
 
-import { courses } from "../../data/data.json";
-
 const Courses = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000, easing: "ease-in-out" });
+  }, []);
+
   return (
     <section className="courses">
       <div className="container">
@@ -14,7 +19,7 @@ const Courses = () => {
         />
         <div className="row">
           <div className="col-xl-4">
-            <div className="course">
+            <div className="course" data-aos="fade-right">
               <ul className="courses-list">
                 {courses
                   .map((course) => {
@@ -35,7 +40,7 @@ const Courses = () => {
             </div>
           </div>
           <div className="col-xl-4">
-            <div className="course">
+            <div className="course" data-aos="fade-up">
               <ul className="courses-list">
                 {courses
                   .map((course) => {
@@ -56,7 +61,7 @@ const Courses = () => {
             </div>
           </div>
           <div className="col-xl-4">
-            <div className="course">
+            <div className="course" data-aos="fade-left">
               <ul className="courses-list">
                 {courses
                   .map((course) => {
