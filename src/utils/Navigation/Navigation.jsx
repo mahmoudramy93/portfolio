@@ -27,6 +27,13 @@ const Navigation = () => {
     { tooltip: "Contact", id: "contact", icon: faEnvelope },
   ];
 
+  const handleClick = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="navigation">
       {links.map((link, index) => (
@@ -40,9 +47,16 @@ const Navigation = () => {
             </Tooltip>
           )}
         >
-          <a href={`#${link.id}`} className="navigation-icon">
+          <Link
+            to="/"
+            onClick={(e) => {
+              e.preventDefault();
+              handleClick(link.id);
+            }}
+            className="navigation-icon"
+          >
             <FontAwesomeIcon icon={link.icon}></FontAwesomeIcon>
-          </a>
+          </Link>
         </OverlayTrigger>
       ))}
     </div>
