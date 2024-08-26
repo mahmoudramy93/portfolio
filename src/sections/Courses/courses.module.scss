@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.courses {
+  padding: 60px 20px;
+  .course {
+    padding: 20px;
+    .course-list-item {
+      border-bottom: 1px solid rgb(186 186 186 / 40%);
+      padding: 0 0 10px !important;
+      &:not(:last-child) {
+        margin-bottom: 1.875rem;
+      }
+      .name {
+        color: $white-color;
+        margin-bottom: 0;
+        font-size: 18px;
+      }
+      .provider {
+        display: block;
+      }
+    }
+  }
+}

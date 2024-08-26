@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.navigation_container {
+  padding: 10px;
+  gap: 15px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  .navigation_icon {
+    color: $secondary-color;
+    transition: $main-transition;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

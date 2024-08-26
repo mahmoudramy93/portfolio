@@ -1,0 +1,26 @@
+@import "../../../styles/variables";
+
+.form_group {
+  label {
+    display: none;
+  }
+  .form_control {
+    background: rgb(34 34 34 / 68%);
+    border: none !important;
+    border-radius: 0;
+    height: auto;
+    padding: 14px 20px;
+    border: 1px solid #333;
+    resize: none;
+    outline: 0;
+    box-shadow: none !important;
+    color: $white-color !important;
+    &::placeholder {
+      color: $secondary-color;
+    }
+    &:focus {
+      background: rgb(34 34 34 / 68%);
+    }
+  }
+
+}

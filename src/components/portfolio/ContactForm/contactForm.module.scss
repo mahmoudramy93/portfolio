@@ -1,0 +1,40 @@
+@import "../../../styles/variables";
+
+.text_area_container {
+  label {
+    display: none;
+  }
+  textarea {
+    background: rgb(34 34 34 / 68%);
+    border: none !important;
+    border-radius: 0;
+    height: auto;
+    padding: 14px 20px;
+    border: 1px solid #333;
+    resize: none;
+    outline: 0;
+    box-shadow: none !important;
+    color: $white-color !important;
+    &::placeholder {
+      color: $secondary-color;
+    }
+    &:focus {
+      background: rgb(34 34 34 / 68%);
+    }
+  }
+}
+
+.btn_contact {
+  display: block;
+  margin: 0 auto 0;
+  background: none;
+  border: 1px solid $main-color;
+  color: $main-color;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: all $main-transition;
+  &:hover {
+    background-color: $black-color;
+    color: $white-color;
+  }
+}

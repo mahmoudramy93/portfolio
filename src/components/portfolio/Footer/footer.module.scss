@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+footer {
+  padding: 50px 0;
+  ul {
+    li {
+      a {
+        padding: 15px;
+        color: $secondary-color;
+        transition: $main-transition;
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+}

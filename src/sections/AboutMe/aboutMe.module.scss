@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+.aboutMe {
+  padding: 60px 20px;
+  background-color: $dark-color;
+  border-radius: 50px;
+  background: url("../../assets/imgs/about-bg.webp") center/cover no-repeat
+    fixed;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .auto_type_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -50%);
+    color: $white-color;
+    text-align: center;
+  }
+
+  .little_info_about_me {
+    .experience_info {
+      color: $secondary-color;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+    .contact_info {
+      li {
+        color: $white-color;
+        svg {
+          font-size: 20px;
+          color: #019b74;
+          margin-right: 15px;
+        }
+        a {
+          transition: $main-transition;
+        }
+      }
+    }
+  }
+}

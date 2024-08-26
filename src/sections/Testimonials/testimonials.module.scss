@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.testimonials {
+  padding: 60px 20px;
+  .splide {
+    .splide__pagination {
+      display: block;
+      text-align: center;
+      position: absolute;
+      bottom: -3px;
+      .splide__pagination__page {
+        width: 12px;
+        height: 12px;
+        border: 2px solid $secondary-dark-color;
+        opacity: 1;
+        background: none;
+        transition: all $main-transition;
+        border-radius: 50%;
+        &.is-active {
+          background-color: $main-color;
+        }
+      }
+    }
+  }
+  .splide__arrow {
+    font-size: 10px;
+  }
+}
