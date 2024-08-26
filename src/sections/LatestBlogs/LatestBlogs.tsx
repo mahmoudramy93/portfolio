@@ -12,7 +12,7 @@ const LatestBlogs = () => {
   const posts = useSelector((state) => state.posts.posts);
 
   return (
-    <div className={latest_blogs} id="highlighted_projects">
+    <div className={latest_blogs} id="latest_blogs">
       <Container>
         <CustomTitle title={"Blogs"} description={"This is my blogs"} />
         <Row>
