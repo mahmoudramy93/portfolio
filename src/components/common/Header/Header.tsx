@@ -75,7 +75,7 @@ const Header = () => {
                   <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </a>
                 <a
-                  href="https://twitter.com/mahmoudramy93"
+                  href="https://x.com/mahmoudramy93"
                   aria-label="twitter page"
                   target="_blank"
                 >
