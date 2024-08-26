@@ -11,5 +11,5 @@ Check out the live demo: [Live Demo Link](https://mahmoudramy93.github.io/portfo
 For any feedback or inquiries, feel free to reach out to Mahmoud Elbehery through:
 
 - LinkedIn: [Mahmoud Elbehery on LinkedIn](https://www.linkedin.com/in/mahmoud-ramy-elbehery-752aab235)
-- GitHub: [Mahmoud Elbehery on GitHub](https://github.com/mahmoudramy84)
-- Twitter: [Mahmoud Elbehery on Twitter](https://twitter.com/mahmoudramy84)
+- GitHub: [Mahmoud Elbehery on GitHub](https://github.com/mahmoudramy93)
+- Twitter: [Mahmoud Elbehery on Twitter](https://x.com/mahmoudramy93)
