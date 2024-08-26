@@ -68,14 +68,14 @@ const Header = () => {
                   <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                 </a>
                 <a
-                  href="https://github.com/mahmoudramy84"
+                  href="https://github.com/mahmoudramy93"
                   aria-label="github page"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </a>
                 <a
-                  href="https://twitter.com/mahmoudramy84"
+                  href="https://twitter.com/mahmoudramy93"
                   aria-label="twitter page"
                   target="_blank"
                 >
