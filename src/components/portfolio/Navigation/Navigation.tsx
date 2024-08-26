@@ -18,7 +18,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Navigation = () => {
   const links = [
     { tooltip: "Home", id: "header", icon: faHouse },
-    { tooltip: "About", id: "about", icon: faCircleInfo },
+    { tooltip: "About", id: "about_me", icon: faCircleInfo },
     { tooltip: "Skills", id: "general_skills", icon: faClipboard },
     { tooltip: "Projects", id: "highlighted_projects", icon: faCircleCheck },
     { tooltip: "Blogs", id: "latest_blogs", icon: faBlog },

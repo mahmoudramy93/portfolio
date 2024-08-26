@@ -29,7 +29,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className={aboutMe} id="aboutMe">
+    <section className={aboutMe} id="about_me">
       <Container>
         <CustomTitle title={"About Me"} description={"There Is All About Me"} />
         <Row>
