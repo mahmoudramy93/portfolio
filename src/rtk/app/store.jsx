@@ -5,3 +5,5 @@ import projectsReducer from "../features/projects/projectsSlice";
 export const store = configureStore({
   reducer: { posts: postsReducer, projects: projectsReducer },
 });
+
+

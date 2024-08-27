@@ -1,9 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { projects } from "../../../data/data.json";
+import { TProject } from "types/projectTypes";
 
-const initialState = {
+type ProjectsState = {
+  projects: TProject[];
+};
+
+const initialState: ProjectsState = {
   projects: [],
 };
+
 const projectsSlice = createSlice({
   name: "projects",
   initialState,
