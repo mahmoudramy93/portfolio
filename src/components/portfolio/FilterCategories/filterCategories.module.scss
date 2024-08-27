@@ -1,0 +1,41 @@
+@import "../../../styles/variables";
+
+.icon {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  color: $white-color;
+}
+.latest_icon {
+  font-size: 8px;
+  border: 1px solid $white-color;
+}
+
+.dropdown_menu {
+  position: absolute;
+  right: -85px;
+  top: 40px;
+  background-color: $secondary-dark-color;
+  padding: 15px !important;
+  border-radius: 10px;
+  width: 150px;
+  transition: $main-transition;
+  display: none;
+  opacity: 0;
+  &.active_list {
+    display: block;
+    opacity: 1;
+  }
+
+  .category_item {
+    transition: $main-transition;
+    color: $white-color;
+    border: none;
+    background-color: transparent;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}

@@ -1,3 +1,11 @@
-.blogs-filter {
+.blogs {
   padding: 60px 20px;
+  .filer_header {
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+    z-index: 1000;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
 }

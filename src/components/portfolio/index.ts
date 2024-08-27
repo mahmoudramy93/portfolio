@@ -5,11 +5,11 @@ import ContactForm from "./ContactForm/ContactForm";
 import Input from "./Input/Input";
 import Footer from "./Footer/Footer";
 import Navigation from "./Navigation/Navigation";
+import FilterCategories from "./FilterCategories/FilterCategories";
+import BlogsSearch from "./BlogsSearch/BlogsSearch";
 
 
 
 
 
-
-
-export { Project,ServiceCard, Blog, ContactForm, Input, Footer, Navigation };
+export { Project, ServiceCard, Blog, ContactForm, Input, Footer, Navigation  ,FilterCategories, BlogsSearch};
