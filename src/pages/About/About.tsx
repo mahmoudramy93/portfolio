@@ -1,10 +1,10 @@
-import { MoreAboutMe } from "@sections/AboutPage";
+import { MoreAboutMe, MyResume } from "@sections/AboutPage";
 
 const About = () => {
   return (
     <>
       <MoreAboutMe />
-      {/* <Resume /> */}
+      <MyResume />
       {/* <AllSkills /> */}
       {/* <Courses /> */}
       about

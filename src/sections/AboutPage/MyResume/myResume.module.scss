@@ -1,6 +1,6 @@
-@import "../../styles/variables";
+@import "../../../styles/variables";
 
-.resume {
+.my_resume {
   padding: 60px 20px;
   .subtitle {
     color: $white-color;
@@ -8,14 +8,12 @@
     background: #015943;
     padding: 14px 20px;
     text-transform: uppercase;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 50px;
     font-weight: normal;
     width: fit-content;
-    margin-bottom: 0;
     position: relative;
   }
-  .main-timeline {
+  .main_timeline {
     position: relative;
     &::after {
       content: "";
@@ -66,28 +64,7 @@
           left: 18px !important;
         }
       }
-      .card {
-        background: $secondary-dark-color;
-        p {
-          color: $secondary-color;
-          font-size: 18px;
-          line-height: 1.8;
-        }
-        .date {
-          color: #03a67d;
-          font-size: 20px;
-          line-height: 2;
-        }
-        h5 {
-          color: #03a67d;
-        }
-        h4 {
-          color: $white-color;
-          font-weight: normal;
-          font-size: 18px;
-          margin-bottom: 20px;
-        }
-      }
+
       &.left {
         padding: 0px 40px 20px 0px;
         left: 0;
@@ -143,23 +120,41 @@
       }
     }
   }
-  .edu-cards {
-    .card {
-      background-color: $secondary-dark-color;
-      h4 {
-        color: $white-color;
-        font-weight: normal;
-        font-size: 18px;
-        margin-bottom: 20px;
-      }
-      h5 {
-        color: #03a67d;
-      }
-      p {
-        color: $secondary-color;
-        font-size: 18px;
-        line-height: 1.8;
-      }
+
+  .card {
+    background: $secondary-dark-color;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    .date {
+      color: #03a67d;
+      font-size: 20px;
+    }
+    h4 {
+      color: $white-color;
+      font-weight: normal;
+      font-size: 18px;
+    }
+    .role {
+      color: $secondary-color;
+      font-size: 18px;
+    }
+  }
+
+  .custom_btn {
+    background: none;
+    width: fit-content;
+    border: 1px solid $main-color;
+    color: $main-color;
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all $main-transition;
+
+    &:hover {
+      background-color: $black-color;
+      color: $white-color;
     }
   }
 }
