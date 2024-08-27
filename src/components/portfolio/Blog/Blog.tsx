@@ -40,7 +40,7 @@ const Blog = ({ post, aosAnimation }: TBlogProps) => {
       <div
         className={`${blog_item_footer} d-flex align-items-center justify-content-between`}
       >
-        <Link to={`/blogs/blog/${post.id}`}>
+        <Link to="">
           Learn More
           <span>
             <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>

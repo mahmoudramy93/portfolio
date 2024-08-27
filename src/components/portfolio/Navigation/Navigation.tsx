@@ -1,9 +1,7 @@
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import { HashLink } from "react-router-hash-link";
 import Tooltip from "react-bootstrap/Tooltip";
-import { Link } from "react-router-dom";
 
-import styles from "./navigation.module.scss";
-const { navigation_container, navigation_icon } = styles;
 import {
   faBlog,
   faCircleCheck,
@@ -14,6 +12,9 @@ import {
   faScrewdriverWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import styles from "./navigation.module.scss";
+const { navigation_container, navigation_icon } = styles;
 
 const Navigation = () => {
   const links = [
@@ -26,13 +27,6 @@ const Navigation = () => {
     { tooltip: "Services", id: "our_services", icon: faScrewdriverWrench },
     { tooltip: "Contact", id: "contact", icon: faEnvelope },
   ];
-
-  const handleClick = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <div
@@ -49,16 +43,9 @@ const Navigation = () => {
             </Tooltip>
           )}
         >
-          <Link
-            to="/"
-            onClick={(e) => {
-              e.preventDefault();
-              handleClick(link.id);
-            }}
-            className={navigation_icon}
-          >
+          <HashLink to={`/#${link.id}`} className={navigation_icon}>
             <FontAwesomeIcon icon={link.icon}></FontAwesomeIcon>
-          </Link>
+          </HashLink>
         </OverlayTrigger>
       ))}
     </div>

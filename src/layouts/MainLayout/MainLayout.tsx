@@ -1,4 +1,5 @@
 import { Header } from "@components/common";
+import { Navigation } from "@components/portfolio";
 import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
@@ -6,6 +7,7 @@ const MainLayout = () => {
     <>
       <Header />
       <Outlet />
+      <Navigation/>
     </>
   );
 };

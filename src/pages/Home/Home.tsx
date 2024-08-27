@@ -1,4 +1,4 @@
-import { Footer, Navigation } from "@components/portfolio";
+import { Footer } from "@components/portfolio";
 import {
   AboutMe,
   ContactUs,
@@ -18,7 +18,6 @@ const Home = () => {
       <LatestBlogs />
       <ContactUs />
       <Footer />
-      <Navigation />
     </>
   );
 };
