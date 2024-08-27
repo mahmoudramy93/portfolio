@@ -1,3 +1,4 @@
+import { MoreAboutMe } from "@sections/AboutPage";
 
 const About = () => {
   return (

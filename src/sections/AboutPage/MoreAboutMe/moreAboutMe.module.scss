@@ -1,8 +1,19 @@
-@import "../../styles/variables";
+@import "../../../styles/variables";
 
-.more-about-me {
+.more_about_me {
   padding: 60px 20px;
   background-color: $dark-color;
   border-radius: 50px;
   position: relative;
+  .title {
+    color: $white-color;
+    border-bottom: 1px solid $main-color;
+    width: fit-content;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding: 0 0 5px;
+  }
+  .description {
+    color: $secondary-color;
+  }
 }
