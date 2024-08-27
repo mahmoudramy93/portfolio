@@ -66,17 +66,13 @@ const About = () => {
           <Col xl={6} data-aos="zoom-in">
             <div className={little_info_about_me}>
               <p className={experience_info}>
-                With 7+ years in IT infrastructure, network management, system
-                operations, and service management, I offer expertise as a
-                Senior System Administrator, specializing in security,
-                infrastructure engineering, and DevOps roles. My journey into
-                software engineering equips me to lead large projects,
-                seamlessly integrating DevOps practices. Thriving on
-                collaboration, I excel in crafting innovative solutions and
-                driving team efforts towards excellence, even under pressure.
-                Seeking roles where I can leverage my practical software
-                engineering experience and contribute to
-                impactful&nbsp;projects.
+                Specializing in backend software development, API design and
+                management, database schema design and management (SQL & NoSQL),
+                and containerization with Docker. I focus on deployment (cloud
+                and on-premise), automation through Infrastructure as Code
+                (using Ansible & Shell), and operations. I'm also experienced in
+                collaboration and CI/CD practices for seamless software
+                delivery.
               </p>
               <CustomLink link={"/about"} text={"More about me"} />
               <ul

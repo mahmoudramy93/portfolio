@@ -19,45 +19,29 @@ const MoreAboutMe = () => {
         <CustomTitle title={"More about me"} description={"Know me better"} />
         <Row>
           <Col lg={6}>
-            <h4 className={title}>About</h4>
+            <h4 className={title}>Expertise</h4>
 
             <p className={description}>
-              With over 7 years of experience spanning IT infrastructure,
-              network management, system operations, and service management, I
-              offer significant expertise to any project. As a Senior System
-              Administrator, I specialize in security and infrastructure
-              engineering or data centers, while also embracing software
-              engineering and DevOps roles in freelance projects, broadening my
-              technological proficiency.
+              With over 8 years of experience in IT infrastructure, network
+              management, system operations, and service management, I bring a
+              wealth of knowledge to every project. My core specialization lies
+              in network security and infrastructure engineering for data
+              centers. Additionally, embracing software engineering and DevOps
+              roles in freelance projects has further enhanced my technological
+              proficiency, allowing me to bridge the gap between system
+              administration and software development.
               <br />
               <br />
-              Drawing from this diverse background, I excel in engineering
-              software solutions, particularly in backend development, and
-              seamlessly integrating DevOps practices. My journey from system
-              administration to software engineering equips me with a holistic
-              perspective, enabling me to lead projects from inception to
-              execution with efficiency.
+              My diverse background enables me to excel in backend development
+              while integrating DevOps practices seamlessly into projects. This
+              holistic perspective empowers me to lead initiatives from
+              inception to execution efficiently, ensuring successful outcomes
+              within budgetary and time constraints. I am driven by
+              collaboration and a continuous desire to innovate, applying my
+              skills to solve complex challenges.
             </p>
           </Col>
-          <Col lg={6}>
-            <h4 className={title}>Objective</h4>
 
-            <p className={description}>
-              I thrive on collaboration, ensuring timely project completion
-              while adhering to budgetary constraints. My agility as a learner
-              enables me to craft innovative solutions to complex challenges.
-              <br />
-              <br />
-              Thriving in team environments, I am dedicated to driving
-              collective efforts towards excellence, even under pressure. My
-              passion for dynamic challenges extends to freelance and remote
-              work environments, where I eagerly contribute my expertise and
-              collaborate across geographical boundaries. Seeking opportunities
-              with achievement-oriented teams, I am committed to delivering
-              impactful contributions rooted in my diverse skill set and
-              unwavering dedication to success.
-            </p>
-          </Col>
         </Row>
       </Container>
     </section>
