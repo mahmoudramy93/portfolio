@@ -1,4 +1,4 @@
-import { testimonials } from "../../data/data.json";
+import { testimonials } from "@data/data.json";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 
 import "@splidejs/react-splide/css/skyblue";

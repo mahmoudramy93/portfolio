@@ -37,7 +37,7 @@ const About = () => {
             <div className="position-relative">
               <div className="position-relative mb-sm-4">
                 <img
-                  src={require("../../assets/imgs/about.webp")}
+                  src={require("@assets/imgs/about.webp")}
                   alt="about"
                   loading="lazy"
                   className="w-100"

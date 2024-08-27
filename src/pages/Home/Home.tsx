@@ -1,5 +1,12 @@
 import { Footer, Navigation } from "@components/portfolio";
-import { AboutMe, ContactUs, GeneralSkills, HighlightedProjects, LatestBlogs, OurServices } from "@sections/index";
+import {
+  AboutMe,
+  ContactUs,
+  GeneralSkills,
+  HighlightedProjects,
+  LatestBlogs,
+  OurServices,
+} from "@sections/HomePage";
 
 const Home = () => {
   return (
@@ -7,7 +14,7 @@ const Home = () => {
       <AboutMe />
       <GeneralSkills />
       <HighlightedProjects />
-      <OurServices/>
+      <OurServices />
       <LatestBlogs />
       <ContactUs />
       <Footer />

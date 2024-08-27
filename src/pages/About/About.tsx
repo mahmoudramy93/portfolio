@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <>
-      {/* <MoreAboutMe /> */}
+      <MoreAboutMe />
       {/* <Resume /> */}
       {/* <AllSkills /> */}
       {/* <Courses /> */}
