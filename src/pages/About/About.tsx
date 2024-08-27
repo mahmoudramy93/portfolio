@@ -1,4 +1,4 @@
-import { MoreAboutMe, MyResume } from "@sections/AboutPage";
+import { MoreAboutMe, MyCourses, MyResume } from "@sections/AboutPage";
 
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
       <MoreAboutMe />
       <MyResume />
       {/* <AllSkills /> */}
-      {/* <Courses /> */}
+      <MyCourses/>
       about
     </>
   );
