@@ -5,11 +5,17 @@
   background-color: $dark-color;
   border-radius: 50px;
 
-  @media (max-width: 1400px) {
+  @media (min-width: 481px) and (max-width: 767px) {
+    .row > .col {
+      margin-bottom: 90px;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 1400px) {
     .row > .col {
       margin-bottom: 150px;
     }
   }
+
   .circle_container {
     position: relative;
     width: 300px;
