@@ -18,10 +18,10 @@ const OurServices = () => {
 
   return (
     <section className={`${our_services}`} id="our_services">
-      <CustomTitle title={"Services"} description={"What I do"} />
       <Container>
+        <CustomTitle title={"Services"} description={"What I do"} />
         <Row>
-          <Col xl={6}>
+          <Col sm={12} xl={6}>
             {services &&
               services
                 .map((service: TServices) => {
@@ -39,7 +39,7 @@ const OurServices = () => {
                 })
                 .slice(0, 2)}
           </Col>
-          <Col xl={6}>
+          <Col sm={12} xl={6}>
             {services &&
               services
                 .map((service: TServices) => {

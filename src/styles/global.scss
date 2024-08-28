@@ -18,9 +18,12 @@ body {
   background-color: #050505 !important;
   width: 85%;
   margin: 0 auto !important;
+  // @media (max-width: 991px) {
+  //   & {
+  //     width: 100% !important;
+  //   }
+  // }
   @media (max-width: 991px) {
-    & {
-      width: 100% !important;
-    }
+   width: 100% !important;
   }
 }

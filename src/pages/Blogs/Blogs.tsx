@@ -14,11 +14,11 @@ const Blogs = () => {
   return (
     <>
       <section className={blogs}>
-        <CustomTitle
-          title={"All Blogs"}
-          description={"There is all my blogs"}
-        />
         <Container>
+          <CustomTitle
+            title={"All Blogs"}
+            description={"There is all my blogs"}
+          />
           <Row>
             <div
               className={`${filer_header} d-flex align-items-center justify-content-between`}

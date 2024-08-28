@@ -20,7 +20,7 @@ const LatestBlogs = () => {
             posts
               .map((post: TPostProps) => {
                 return (
-                  <Col sm={12} md={6} lg={4} key={post.id}>
+                  <Col sm={12} md={6} lg={4} key={post.id} className="mb-4">
                     <Blog post={post} aosAnimation={"fade-left"} />
                   </Col>
                 );

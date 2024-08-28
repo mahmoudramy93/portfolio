@@ -29,7 +29,7 @@ const Blog = ({ post, aosAnimation }: TBlogProps) => {
   }, []);
 
   return (
-    <div className={`${blog_item} mb-sm-5 mb-lg-4`} data-aos={aosAnimation}>
+    <div className={`${blog_item}`} data-aos={aosAnimation}>
       <div>
         <span className={blog_item_technology}>{post.technology}</span>
       </div>
