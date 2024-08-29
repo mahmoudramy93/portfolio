@@ -2,11 +2,13 @@ import { CustomTitle } from "@components/common";
 import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "./generalSkills.module.scss";
+import { resetApi } from "@assets/imgs/Tools_Icons";
 const {
   general_skills,
   row,
   col,
   circle_container,
+  text_container,
   center_title,
   subtitle,
   subtitle_1,
@@ -28,13 +30,17 @@ const GeneralSkills = () => {
           description={"There Is My General Skills"}
         />
         <Row className={row}>
-          <Col sm={12} xxl={6} className={col} >
+          <Col sm={12} xxl={6} className={col}>
             <div className={circle_container}>
               <div className={center_title}>API Security</div>
-              <div className={`${subtitle} ${subtitle_1}`}>
-                Asset Management 1
+              <div className={`${subtitle} ${subtitle_1} flex-column gap-2`}>
+                <img src={resetApi} alt="reset api" className="w-100"/>
+                {/* Asset Management 1 */}
+                <div className={text_container}>texttexttexttextexttexttexttexttext</div>
               </div>
               <div className={`${subtitle} ${subtitle_2}`}>
+              <img src={resetApi} alt="reset api" className="w-100"/>
+
                 Code Injection 2
               </div>
               <div className={`${subtitle} ${subtitle_3}`}>Data Exposure 3</div>
