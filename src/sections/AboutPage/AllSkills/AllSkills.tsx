@@ -20,7 +20,7 @@ const AllSkills = () => {
                 <h4 className="skill-subtitle text-white fs-6">
                   Linux/Unix and Windows Server Administration
                 </h4>
-                <div className="card_item border d-flex align-items-center flex-wrap gap-lg-3 gap-xl-0">
+                <div className="card_item border d-flex align-items-center flex-wrap gap-lg-3 gap-xl-0 justify-content-between">
                   <img src={resetApi} alt="Security+" className="skill-icon" />
                   <img src={resetApi} alt="CSA" className="skill-icon" />
                   <img src={resetApi} alt="eCDFP" className="skill-icon" />
