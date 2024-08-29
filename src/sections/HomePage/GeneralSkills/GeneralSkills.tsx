@@ -19,6 +19,14 @@ const {
   subtitle_6,
   subtitle_7,
   subtitle_8,
+  text_container_1,
+  text_container_2,
+  text_container_3,
+  text_container_4,
+  text_container_5,
+  text_container_6,
+  text_container_7,
+  text_container_8,
 } = styles;
 
 const GeneralSkills = () => {
@@ -34,29 +42,52 @@ const GeneralSkills = () => {
             <div className={circle_container}>
               <div className={center_title}>API Security</div>
               <div className={`${subtitle} ${subtitle_1} flex-column gap-2`}>
-                <img src={resetApi} alt="reset api" className="w-100"/>
+                <img src={resetApi} alt="reset api" className="w-100" />
                 {/* Asset Management 1 */}
-                <div className={text_container}>texttexttexttextexttexttexttexttext</div>
+                <div className={`${text_container} ${text_container_1}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
               </div>
               <div className={`${subtitle} ${subtitle_2}`}>
-              <img src={resetApi} alt="reset api" className="w-100"/>
-
+                <div className={`${text_container} ${text_container_2}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Code Injection 2
               </div>
-              <div className={`${subtitle} ${subtitle_3}`}>Data Exposure 3</div>
+              <div
+                className={`${subtitle} ${subtitle_3} d-flex flex-column align-items-center overflow-hidden`}
+              >
+                <img src={resetApi} alt="reset api" className="w-100" />
+                Data 3
+              </div>
               <div className={`${subtitle} ${subtitle_4}`}>
+                <div className={`${text_container} ${text_container_4}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Object Level Authorization 4
               </div>
               <div className={`${subtitle} ${subtitle_5}`}>
+                <div className={`${text_container} ${text_container_5}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Logging and Monitoring 5
               </div>
               <div className={`${subtitle} ${subtitle_6}`}>
+                <div className={`${text_container} ${text_container_6}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Functional Level Authorization 6
               </div>
-              <div className={`${subtitle} ${subtitle_1} ${subtitle_7}`}>
-                Security Misconfiguration 7
+              <div
+                className={`${subtitle}  ${subtitle_7} d-flex flex-column align-items-center overflow-hidden  `}
+              >
+                <img src={resetApi} alt="reset api" className="w-100" />
+                Security 7
               </div>
               <div className={`${subtitle} ${subtitle_8}`}>
+                <div className={`${text_container} ${text_container_8}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 User Authentication 8
               </div>
             </div>
@@ -64,26 +95,46 @@ const GeneralSkills = () => {
           <Col sm={12} xxl={6}>
             <div className={circle_container}>
               <div className={center_title}>API Security</div>
-              <div className={`${subtitle} ${subtitle_1}`}>
-                Asset Management 1
+              <div className={`${subtitle} ${subtitle_1} flex-column gap-2`}>
+                <img src={resetApi} alt="reset api" className="w-100" />
+                {/* Asset Management 1 */}
+                <div className={`${text_container} ${text_container_1}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
               </div>
               <div className={`${subtitle} ${subtitle_2}`}>
+                <img src={resetApi} alt="reset api" className="w-100" />
+                <div className={`${text_container} ${text_container_2}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Code Injection 2
               </div>
               <div className={`${subtitle} ${subtitle_3}`}>Data Exposure 3</div>
               <div className={`${subtitle} ${subtitle_4}`}>
+                <div className={`${text_container} ${text_container_4}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Object Level Authorization 4
               </div>
               <div className={`${subtitle} ${subtitle_5}`}>
+                <div className={`${text_container} ${text_container_5}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Logging and Monitoring 5
               </div>
               <div className={`${subtitle} ${subtitle_6}`}>
+                <div className={`${text_container} ${text_container_6}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 Functional Level Authorization 6
               </div>
               <div className={`${subtitle} ${subtitle_1} ${subtitle_7}`}>
                 Security Misconfiguration 7
               </div>
               <div className={`${subtitle} ${subtitle_8}`}>
+                <div className={`${text_container} ${text_container_8}`}>
+                  texttexttexttextexttexttexttexttext
+                </div>
                 User Authentication 8
               </div>
             </div>
