@@ -41,7 +41,17 @@ const MoreAboutMe = () => {
               skills to solve complex challenges.
             </p>
           </Col>
+          <Col lg={6}>
+            <h4 className={title}>Current Focus</h4>
 
+            <p className={description}>
+              Developing backend software(api design and management), database
+              schema design and management(SQL, NoSQL), containerization
+              (Docker), deployment (cloud and on-premise), and operations
+              through automation (IAC using Ansible & Shell), collaboration, and
+              continuous integration/continuous deployment (CI/CD) practices.
+            </p>
+          </Col>
         </Row>
       </Container>
     </section>
