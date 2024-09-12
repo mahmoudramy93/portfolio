@@ -15,7 +15,7 @@ const About = () => {
     <>
       <MoreAboutMe />
       <MyResume />
-      <AllSkills />
+      {/* <AllSkills /> */}
       <MyCourses />
     </>
   );
