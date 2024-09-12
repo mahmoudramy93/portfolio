@@ -1,8 +1,10 @@
-import "./footer.module.scss";
+import styles from "./footer.module.scss";
+
+const { footer } = styles;
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={footer}>
       <ul className="d-flex align-items-center justify-content-center">
         <li>
           <a
