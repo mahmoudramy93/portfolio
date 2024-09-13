@@ -4,7 +4,7 @@ Welcome to Mahmoud Elbehery's portfolio project! This portfolio is designed to s
 
 ## Live Demo
 
-Check out the live demo: [Live Demo Link](https://mahmoudramy93.github.io/portfolio/)
+Check out the live demo: [Live Demo Link](https://zesty-tanuki-b002b7.netlify.app/)
 
 ## Contact Information
 
