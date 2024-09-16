@@ -13,6 +13,9 @@ const config: Config = {
         darkColor: "#111111",
         darkGray: "#222",
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],
