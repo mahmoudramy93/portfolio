@@ -14,7 +14,6 @@ const Home = () => {
         <CustomTitle title={"About Me"} description={"There Is All About Me"} />
 
         <div className="flex flex-col xl:flex-row relative gap-8">
-          {/* image */}
           <div className="relative w-full  xl:w-1/2">
             <Image
               src="/images/homePage_images/about.webp"
@@ -29,7 +28,6 @@ const Home = () => {
             </div>
           </div>
 
-          {/* about info */}
           <div className="w-full xl:w-1/2 flex flex-col gap-10">
             <p className="text-gray-300 text-base leading-8 ">
               Specializing in backend software development, API design and
@@ -41,7 +39,6 @@ const Home = () => {
             </p>
             <CustomLink link={"/about"} text={"More about me"} />
 
-            {/* contact links */}
             <ul className="flex flex-col gap-4">
               {contactDetails.map(
                 ({ icon: Icon, label, value, link }, index) => (

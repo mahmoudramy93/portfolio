@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="px-6 py-4 rounded-full mt-6 bg-darkColor" id="header">
       <div className="flex flex-col lg:flex-row items-center gap-4 justify-between ">
-        {/* logo */}
+
         <div className="flex flex-col lg:flex-row items-center text-center lg:text-start justify-center md:justify-start gap-3">
           <Link href="/" aria-label="go to home page">
             <Image
@@ -33,12 +33,10 @@ const Header = () => {
           </div>
         </div>
 
-        {/* available */}
         <div className="relative border border-tealGreen rounded-xl pl-6 pr-4 py-1.5 before:content-[''] before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-tealGreen before:top-1/2 before:left-[10px] before:transform before:-translate-y-1/2">
           <p className="text-gray-300 ">Available for work</p>
         </div>
 
-        {/* social icons */}
         <div className="flex items-center">
           <Link
             href="https://www.linkedin.com/in/mahmoud-ramy-elbehery-752aab235"
