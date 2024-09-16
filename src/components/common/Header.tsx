@@ -36,8 +36,9 @@ const Header = () => {
           </Link>
           <div className="">
             <h1 className="text-lg text-white font-semibold">
-              <span className="text-tealGreen font-custom">M</span>ahmoud
-              <span className="text-tealGreen font-custom"> Elbehery</span>
+              <span className="text-tealGreen custom-font">M</span>
+              ahmoud
+              <span className="text-tealGreen font-berkshire"> Elbehery</span>
             </h1>
             <h2 className="text-white text-base">
               <span className="block">

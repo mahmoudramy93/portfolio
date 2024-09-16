@@ -13,7 +13,10 @@ const ContactItem = ({ Icon, label, link, value }: TContactItemProps) => {
       <Icon className="text-tealGreen mr-4 text-2xl" />
       <p className="font-semibold">{label}: </p>
       {link ? (
-        <a className="ml-2 text-blue-500" href={link}>
+        <a
+          className="ml-2 text-blue-500 transition-all duration-300 hover:text-blue-600"
+          href={link}
+        >
           {value}
         </a>
       ) : (
