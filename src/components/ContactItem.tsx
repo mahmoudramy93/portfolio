@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 type TContactItemProps = {
@@ -9,16 +10,16 @@ type TContactItemProps = {
 
 const ContactItem = ({ Icon, label, link, value }: TContactItemProps) => {
   return (
-    <li className="text-white flex items-center">
-      <Icon className="text-tealGreen mr-4 text-2xl" />
+    <li className="text-white flex items-center flex-wrap gap-2">
+      <Icon className="text-tealGreen text-2xl" />
       <p className="font-semibold">{label}: </p>
       {link ? (
-        <a
-          className="ml-2 text-blue-500 transition-all duration-300 hover:text-blue-600"
+        <Link
+          className="text-blue-500 transition-all duration-300 hover:text-blue-600 flex-wrap"
           href={link}
         >
           {value}
-        </a>
+        </Link>
       ) : (
         <span className="ml-2">{value}</span>
       )}
