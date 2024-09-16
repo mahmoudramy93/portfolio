@@ -22,7 +22,7 @@ const SocialLink = ({ href, ariaLabel, Icon }: TSocialLinkProps) => (
 
 const Header = () => {
   return (
-    <header className="px-6 py-4 rounded-full my-6 bg-darkColor" id="header">
+    <header className="px-6 py-4 rounded-[50px] my-6 bg-darkColor" id="header">
       <div className="flex flex-col lg:flex-row items-center gap-4 justify-between ">
         <div className="flex flex-col lg:flex-row items-center text-center lg:text-start justify-center md:justify-start gap-3">
           <Link href="/" aria-label="go to home page">
