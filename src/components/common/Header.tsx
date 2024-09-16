@@ -3,11 +3,27 @@ import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
+type TSocialLinkProps = {
+  href: string;
+  ariaLabel: string;
+  Icon: React.ComponentType;
+};
+
+const SocialLink = ({ href, ariaLabel, Icon }: TSocialLinkProps) => (
+  <Link
+    href={href}
+    aria-label={ariaLabel}
+    target="_blank"
+    className="p-2 text-xl text-gray-300 transition-all hover:text-tealGreen"
+  >
+    <Icon />
+  </Link>
+);
+
 const Header = () => {
   return (
-    <header className="px-6 py-4 rounded-full mt-6 bg-darkColor" id="header">
+    <header className="px-6 py-4 rounded-full my-6 bg-darkColor" id="header">
       <div className="flex flex-col lg:flex-row items-center gap-4 justify-between ">
-
         <div className="flex flex-col lg:flex-row items-center text-center lg:text-start justify-center md:justify-start gap-3">
           <Link href="/" aria-label="go to home page">
             <Image
@@ -38,29 +54,21 @@ const Header = () => {
         </div>
 
         <div className="flex items-center">
-          <Link
+          <SocialLink
             href="https://www.linkedin.com/in/mahmoud-ramy-elbehery-752aab235"
-            aria-label="linkedin page"
-            target="_blank"
-            className="p-2 text-xl text-gray-300 transition-all hover:text-tealGreen"
-          >
-            <FaLinkedin />
-          </Link>
-          <Link
+            ariaLabel="LinkedIn profile of Mahmoud Elbehery"
+            Icon={FaLinkedin}
+          />
+          <SocialLink
             href="https://github.com/mahmoudramy93"
-            aria-label="github page"
-            target="_blank"
-            className="p-2 text-xl text-gray-300 transition-all hover:text-tealGreen"
-          >
-            <FaGithub />
-          </Link>
-          <Link
+            ariaLabel="GitHub profile of Mahmoud Elbehery"
+            Icon={FaGithub}
+          />
+          <SocialLink
             href="https://x.com/mahmoudramy93"
-            target="_blank"
-            className="p-2 text-xl text-gray-300 transition-all hover:text-tealGreen"
-          >
-            <FaXTwitter />
-          </Link>
+            ariaLabel="X (formerly Twitter) profile of Mahmoud Elbehery"
+            Icon={FaXTwitter}
+          />
         </div>
       </div>
     </header>
