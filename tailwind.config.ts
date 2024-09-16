@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         tealGreen: "#00c896",
         darkColor: "#111111",
+        darkGray: "#222",
       },
     },
   },

@@ -4,11 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 
-:root {
-  --white-color: #ffffff;
-  --black-color: #000;
-}
-
 .font-custom {
   font-family: "Berkshire Swash", serif;
 }
