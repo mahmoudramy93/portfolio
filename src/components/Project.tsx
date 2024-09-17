@@ -13,7 +13,6 @@ const Project = ({
 }: TProjectProps) => {
   return (
     <div className="rounded-md shadow-[0_0_10px_#00c896a3] ">
-      {/* image part */}
       <div className="relative group ">
         <figure className="mb-0">
           <Image
