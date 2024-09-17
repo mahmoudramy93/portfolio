@@ -1,7 +1,7 @@
 import React from "react";
 import { CustomLink, CustomTitle } from "./common";
 import { projectsData } from "@/data/projectsData";
-import { TProject } from "@/types/projectType";
+import { TProjectProps } from "@/types/projectType";
 import Project from "./Project";
 
 const HighlightedProjects = () => {
@@ -11,7 +11,7 @@ const HighlightedProjects = () => {
         <CustomTitle title={"Projects"} description={"This is my projects"} />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-10">
           {projectsData
-            .map((project: TProject) => {
+            .map((project: TProjectProps) => {
               return (
                 <Project
                   key={project.id}
