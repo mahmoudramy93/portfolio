@@ -1,7 +1,7 @@
 import {
   AboutMe,
   ContactUs,
-  Footer,
+  SocialMediaFooter,
   GeneralSkills,
   HighlightedProjects,
   LatestBlogs,
@@ -17,7 +17,7 @@ const Home = () => {
       <OurServices />
       <LatestBlogs />
       <ContactUs />
-      <Footer />
+      <SocialMediaFooter />
     </>
   );
 };

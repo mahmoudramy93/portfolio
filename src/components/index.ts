@@ -7,7 +7,7 @@ import Project from "./Project";
 import OurServices from "./OurServices";
 import LatestBlogs from "./LatestBlogs";
 import ContactUs from "./ContactUs";
-import Footer from "./Footer";
+import SocialMediaFooter from "./SocialMediaFooter";
 import ServiceCard from "./ServiceCard";
 
 
@@ -25,6 +25,6 @@ export {
   OurServices,
   LatestBlogs,
   ContactUs,
-  Footer,
+  SocialMediaFooter,
   ServiceCard
 };
