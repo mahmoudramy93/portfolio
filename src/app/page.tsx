@@ -1,15 +1,23 @@
-import { AboutMe, GeneralSkills, HighlightedProjects } from "@/components";
+import {
+  AboutMe,
+  ContactUs,
+  Footer,
+  GeneralSkills,
+  HighlightedProjects,
+  LatestBlogs,
+  OurServices,
+} from "@/components";
 
 const Home = () => {
   return (
     <>
       <AboutMe />
-      <GeneralSkills/>
+      <GeneralSkills />
       <HighlightedProjects />
-      {/* <OurServices /> */}
-      {/* <LatestBlogs /> */}
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
+      <OurServices />
+      <LatestBlogs />
+      <ContactUs />
+      <Footer />
     </>
   );
 };
