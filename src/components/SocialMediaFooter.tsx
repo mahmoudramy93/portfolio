@@ -3,8 +3,8 @@ import React from "react";
 
 const SocialMediaFooter = () => {
   return (
-    <footer className="py-10">
-      <ul className="flex items-center">
+    <footer className="py-10  ">
+      <ul className="flex items-center justify-center">
         <li>
           <Link
             href="https://www.linkedin.com/in/mahmoud-ramy-elbehery-752aab235"
