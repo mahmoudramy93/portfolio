@@ -1,4 +1,4 @@
-import { TProject } from "@/types/projectType";
+import { TProjectProps } from "@/types/projectType";
 import Image from "next/image";
 import Link from "next/link";
 import { FaEye, FaLink } from "react-icons/fa";
@@ -10,18 +10,18 @@ const Project = ({
   name,
   description,
   liveLink,
-}: TProject) => {
+}: TProjectProps) => {
   return (
     <div className="rounded-md shadow-[0_0_10px_#00c896a3] ">
       {/* image part */}
-      <div className="relative group">
+      <div className="relative group ">
         <figure className="mb-0">
           <Image
             src={`/images/projects_images/${image.src}.webp`}
             alt={image.alt}
             width={960}
             height={540}
-            className=""
+            className="object-cover"
           />
         </figure>
         <div className="absolute top-0 left-0 right-0 bottom-0  text-center bg-black/50 scale-90 transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:scale-100">
@@ -35,7 +35,7 @@ const Project = ({
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 p-4">
+      <div className="flex flex-col gap-4 p-4 overflow-hidden">
         {/* technologies */}
         <ul className="flex items-center gap-4">
           {technologies.map((techno, index) => {

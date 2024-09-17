@@ -21,3 +21,11 @@
 
     <br>
     remove bg or not
+
+  <br>
+  projects section
+  <br>
+  ensure of enhancements height of project and img size 
+  <br>
+  type or interface in TProjectProps
+  <br>

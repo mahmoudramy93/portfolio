@@ -1,4 +1,4 @@
-export type TProject = {
+export type TProjectProps = {
   id?: string;
   image: { src: string; alt: string };
   githubLink: string;
