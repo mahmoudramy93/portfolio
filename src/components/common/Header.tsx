@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import ThemeSwitcher from "../ThemeSwitcher";
 
 type TSocialLinkProps = {
   href: string;
@@ -22,7 +23,10 @@ const SocialLink = ({ href, ariaLabel, Icon }: TSocialLinkProps) => (
 
 const Header = () => {
   return (
-    <header className="px-6 py-4 rounded-[50px] my-6 bg-darkColor" id="header">
+    <header
+      className="px-6 py-4 rounded-[50px] my-6 bg-darkColor  "
+      id="header"
+    >
       <div className="flex flex-col lg:flex-row items-center gap-4 justify-between ">
         <div className="flex flex-col lg:flex-row items-center text-center lg:text-start justify-center md:justify-start gap-3">
           <Link href="/" aria-label="go to home page">
@@ -51,7 +55,7 @@ const Header = () => {
         </div>
 
         <div className="relative border border-tealGreen rounded-xl pl-6 pr-4 py-1.5 before:content-[''] before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-tealGreen before:top-1/2 before:left-[10px] before:transform before:-translate-y-1/2">
-          <p className="text-gray-300 ">Available for work</p>
+          <p className="text-gray-300">Available for work</p>
         </div>
 
         <div className="flex items-center">
@@ -70,6 +74,7 @@ const Header = () => {
             ariaLabel="X (formerly Twitter) profile of Mahmoud Elbehery"
             Icon={FaXTwitter}
           />
+          <ThemeSwitcher />
         </div>
       </div>
     </header>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-
 import { Header } from "@/components/common";
+import Providers from "./Providers";
 
 export const metadata: Metadata = {
   title: "Mahmoud Elbehery",
@@ -17,9 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="lg:w-5/6 mx-auto bg-black w-screen h-[6000px]">
-        <Header />
-        {children}
+      <body className="lg:w-5/6 mx-auto   bg-black  w-screen h-screen">
+        <Providers defaultTheme="system" attribute="class">
+          <Header />
+          {children}
+        </Providers>
       </body>
     </html>
   );

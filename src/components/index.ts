@@ -11,6 +11,12 @@ import SocialMediaFooter from "./SocialMediaFooter";
 import ServiceCard from "./ServiceCard";
 import ContactForm from "./ContactForm";
 import Blog from "./Blog";
+import ThemeSwitcher from "./ThemeSwitcher";
+
+
+
+
+
 
 export {
   TypeWriter,
@@ -26,4 +32,5 @@ export {
   SocialMediaFooter,
   ServiceCard,
   ContactForm,
+  ThemeSwitcher
 };
