@@ -28,7 +28,7 @@ const Project = ({
             href={githubLink}
             target="_blank"
             aria-label="github link"
-            className="flex items-center justify-center text-white w-[50px] h-[50px] -translate-x-1/2 bg-tealGreen border border-tealGreen rounded-full absolute top-1/2 left-1/2 transition-all duration-500 hover:bg-transparent hover:text-tealGreen"
+            className="flex items-center justify-center text-[#1F2937] w-[50px] h-[50px] -translate-x-1/2 bg-tealGreen border border-tealGreen rounded-full absolute top-1/2 left-1/2 transition-all duration-500 hover:bg-transparent hover:text-tealGreen"
           >
             <FaLink className="text-xl" />
           </Link>

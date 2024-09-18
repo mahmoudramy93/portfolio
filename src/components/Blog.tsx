@@ -13,15 +13,14 @@ const Blog = ({
   link,
 }: TPostProps) => {
   return (
-    <div className="bg-gray-800">
+    <div className=" dark:bg-gray-800 rounded-md">
       <div className="relative w-full h-[245px]">
         <Image
           src={`/images/posts_images/${image}.webp`}
           alt={title}
           fill
-          style={{ objectFit: 'cover' }}
+          style={{ objectFit: "cover" }}
           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-
         />
       </div>
 
