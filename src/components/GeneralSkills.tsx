@@ -3,7 +3,7 @@ import { CustomTitle } from "./common";
 
 const SkillsSection = () => {
   return (
-    <section className="py-[60px]" id="general_skills">
+    <section className="py-[60px] " id="general_skills">
       <div className="container ">
         <CustomTitle
           title={"My Skills"}

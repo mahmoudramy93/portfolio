@@ -19,7 +19,7 @@
 - home page:
   <br>
 
-    <br>
+      <br>
 
   footer:
   <br>
@@ -27,21 +27,27 @@
   <br>
   in Conditional Hover Effects chatgpt
 
-      <br>
-      <br>
-      <br>
-      <br>
-      contact us section
-      <br>
-      contact form
-      <br>
-      react hook form
-      <br>
-      zod
-      <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        contact us section
+        <br>
+        contact form
+        <br>
+        react hook form
+        <br>
+        zod
+        <br>
 
   skills section
   <br>
-  
-  <br>
-  <br>
+  about me section
+
+    <br>
+  typewriter problem in xl screens
+
+    <br>
+
+
+    <br>

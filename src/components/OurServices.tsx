@@ -16,7 +16,7 @@ const OurServices = () => {
 
   return (
     <section
-      className="py-[60px] px-5 bg-darkColor rounded-[50px]"
+      className="py-[60px] px-5  bg-gray-800 dark:bg-darkColor  rounded-[50px]"
       id="our_services"
     >
       <div className="container">

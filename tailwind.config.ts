@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         tealGreen: "#00c896",
+        lightTealGreen: " #00F5B8",
         darkColor: "#111111",
         darkGray: "#222",
       },
@@ -19,7 +20,7 @@ const config: Config = {
       },
     },
   },
-  darkMode:'class',
+  darkMode: "class",
   plugins: [],
 };
 export default config;

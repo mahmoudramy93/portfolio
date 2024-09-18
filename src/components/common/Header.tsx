@@ -24,7 +24,7 @@ const SocialLink = ({ href, ariaLabel, Icon }: TSocialLinkProps) => (
 const Header = () => {
   return (
     <header
-      className="px-6 py-4 rounded-[50px] my-6 bg-darkColor  "
+      className="px-6 py-4 rounded-[50px] my-6 bg-gray-800 border border-gray-600 dark:bg-darkColor  dark:border-none"
       id="header"
     >
       <div className="flex flex-col lg:flex-row items-center gap-4 justify-between ">

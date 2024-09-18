@@ -18,14 +18,15 @@ const Blog = ({
         <Image
           src={`/images/posts_images/${image}.webp`}
           alt={title}
-          layout="fill"
-          objectFit="cover"
-          className="w-full h-full"
+          fill
+          style={{ objectFit: 'cover' }}
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+
         />
       </div>
 
       <div className="p-5 flex flex-col gap-4">
-        <h5 className="text-tealGreen text-lg font-semibold">{title}</h5>
+        <h3 className="text-tealGreen text-lg font-semibold">{title}</h3>
         <p className="text-white text-sm font-medium flex items-center gap-2">
           <Link
             href="#"

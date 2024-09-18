@@ -21,7 +21,7 @@ const LatestBlogs = () => {
     <section className="py-[60px] px-5  rounded-[50px]" id="latest_blogs">
       <div className="container">
         <CustomTitle title={"Blogs"} description={"This is my blogs"} />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-10">
           {blogPosts}
         </div>
         <div>

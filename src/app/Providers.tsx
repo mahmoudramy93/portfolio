@@ -1,4 +1,6 @@
 "use client";
+
+
 import { ThemeProvider } from "next-themes";
 
 type TProvidersProps = {
@@ -6,10 +8,11 @@ type TProvidersProps = {
   defaultTheme: string;
   attribute: string;
 };
-const Providers = ({ children }: TProvidersProps) => {
+
+const Providers = ({ children, defaultTheme, attribute }: TProvidersProps) => {
   return (
-    <ThemeProvider>
-      <div className="">{children}</div>
+    <ThemeProvider defaultTheme={defaultTheme} attribute={attribute}>
+      {children}
     </ThemeProvider>
   );
 };
