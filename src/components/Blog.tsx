@@ -25,7 +25,7 @@ const Blog = ({
       </div>
 
       <div className="p-5 flex flex-col gap-4">
-        <h4 className="text-tealGreen text-lg font-semibold">{title}</h4>
+        <h5 className="text-tealGreen text-lg font-semibold">{title}</h5>
         <p className="text-white text-sm font-medium flex items-center gap-2">
           <Link
             href="#"
