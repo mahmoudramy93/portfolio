@@ -30,12 +30,16 @@ const AboutMe = () => {
 
           <div className="w-full xl:w-1/2 flex flex-col gap-10">
             <p className="text-gray-300 text-base leading-8">
-              Specializing in backend software development, API design and
-              management, database schema design and management (SQL & NoSQL),
-              and containerization with Docker. I focus on deployment (cloud and
-              on-premise), automation through Infrastructure as Code (using
-              Ansible & Shell), and operations. &apos also experienced in
-              collaboration and CI/CD practices for seamless software delivery.
+              I’m a backend software developer with a strong focus on building
+              server-side applications, designing APIs, and managing databases.
+              I also work with cloud and on-premise deployments, using tools
+              like Docker and Kubernetes for containerization and orchestration.
+              I apply Infrastructure as Code (IaC) and CI/CD practices to
+              automate deployments and ensure smooth software delivery. In
+              addition to software development, I have several years of
+              experience in System Administration and infrastructure, including
+              network setup, security, virtualization, cloud computing, and
+              system monitoring.
             </p>
             <CustomLink link={"/about"} text={"More about me"} />
 
