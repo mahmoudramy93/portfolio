@@ -44,7 +44,7 @@ const Blog = ({
         <p className="text-gray-300">{description}</p>
         <Link
           href={link}
-          className="bg-[#004d40] text-white px-5 py-3 font-medium transition-all duration-300 uppercase flex items-center gap-2 w-fit  hover:bg-tealGreen rounded mt-4"
+          className="bg-[#004d40] text-white px-5 py-3 font-medium transition-all duration-300 uppercase flex items-center gap-2 w-fit  hover:bg-black hover:text-tealGreen rounded mt-4"
         >
           read more
           <FaArrowRight className="text-sm" />
