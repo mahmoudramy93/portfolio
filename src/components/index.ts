@@ -9,11 +9,8 @@ import LatestBlogs from "./LatestBlogs";
 import ContactUs from "./ContactUs";
 import SocialMediaFooter from "./SocialMediaFooter";
 import ServiceCard from "./ServiceCard";
-
-
-
-
-
+import ContactForm from "./ContactForm";
+import Blog from "./Blog";
 
 export {
   TypeWriter,
@@ -24,7 +21,9 @@ export {
   Project,
   OurServices,
   LatestBlogs,
+  Blog,
   ContactUs,
   SocialMediaFooter,
-  ServiceCard
+  ServiceCard,
+  ContactForm,
 };
