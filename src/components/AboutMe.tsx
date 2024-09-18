@@ -13,8 +13,8 @@ const AboutMe = () => {
       <div className="container mx-auto px-4">
         <CustomTitle title={"About Me"} description={"There Is All About Me"} />
 
-        <div className="flex flex-col xl:flex-row relative gap-8">
-          <div className="relative w-full xl:w-1/2 flex items-center xl:items-start justify-center ">
+        <div className=" relative gap-8 grid grid-cols-1 md:grid-cols-2">
+          <div className="relative flex items-center justify-center ">
             <Image
               src="/images/homePage_images/about.webp"
               alt="about"
@@ -28,7 +28,7 @@ const AboutMe = () => {
             </div>
           </div>
 
-          <div className="w-full xl:w-1/2 flex flex-col gap-10">
+          <div className=" flex flex-col gap-10">
             <p className="text-gray-300 text-base leading-8">
               I’m a backend software developer with a strong focus on building
               server-side applications, designing APIs, and managing databases.
