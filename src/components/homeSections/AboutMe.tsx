@@ -11,10 +11,10 @@ const AboutMe = () => {
       className=" py-[60px] rounded-[50px] bg-[url('/images/homePage_images/about-bg.webp')] bg-cover bg-no-repeat bg-fixed relative before:content-[''] before:absolute before:w-full before:h-full before:left-0 before:top-0 before:bg-black/80 before:rounded-[50px]"
       id="about_me"
     >
-      <div className="container mx-auto px-4">
+      <div className="container px-4 mx-auto">
         <CustomTitle title={"About Me"} description={"There Is All About Me"} />
 
-        <div className=" relative gap-8 grid grid-cols-1 md:grid-cols-2">
+        <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div className="relative flex items-center justify-center ">
             <Image
               src="/images/homePage_images/about.webp"
@@ -23,14 +23,14 @@ const AboutMe = () => {
               height={353}
               className="w-full"
             />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center">
+            <div className="absolute text-center text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
               <p className="" />
               <TypeWriter />
             </div>
           </div>
 
-          <div className=" flex flex-col gap-10">
-            <p className="text-gray-300 text-base leading-8">
+          <div className="flex flex-col gap-10 ">
+            <p className="text-base leading-8 text-gray-300">
               I’m a backend software developer with a strong focus on building
               server-side applications, designing APIs, and managing databases.
               I also work with cloud and on-premise deployments, using tools
