@@ -16,6 +16,7 @@ const AboutPage = () => {
       <AllSkills />
 
       <MyCourses />
+
     </>
   );
 };

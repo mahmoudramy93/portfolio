@@ -3,7 +3,6 @@ import ContactForm from "./ContactForm";
 import ContactItem from "./ContactItem";
 import ContactUs from "./ContactUs";
 import TypeWriter from "./TypeWriter";
-import SocialMediaFooter from "./SocialMediaFooter";
 import ServiceCard from "./ServiceCard";
 import OurServices from "./OurServices";
 import LatestBlogs from "./LatestBlogs";
@@ -19,7 +18,6 @@ export {
   OurServices,
   LatestBlogs,
   ContactUs,
-  SocialMediaFooter,
   ServiceCard,
   ContactForm,
 };

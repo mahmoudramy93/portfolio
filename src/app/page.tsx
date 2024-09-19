@@ -17,7 +17,6 @@ const Home = () => {
       <OurServices />
       <LatestBlogs />
       <ContactUs />
-      <SocialMediaFooter />
     </>
   );
 };
