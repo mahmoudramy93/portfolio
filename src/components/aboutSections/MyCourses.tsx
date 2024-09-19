@@ -53,7 +53,7 @@ const MyCourses = () => {
     },
   ];
 
-  const certificationPathsCourses = [
+  const administration = [
     {
       title: "MCSE (Implementing an Advanced Server Infrastructure)",
       provider: "New Horizon Center",
@@ -61,7 +61,7 @@ const MyCourses = () => {
     { title: "MCSA", provider: "New Horizon Center" },
   ];
 
-  const administration = [
+  const hardwareRepairCourses = [
     { title: "Laptop Repair - Hardware", provider: "Somuha Academy" },
     { title: "CompTIA A+ Essentials", provider: "New Horizon Center" },
     { title: "A+ Practical Application", provider: "New Horizon Center" },
@@ -86,11 +86,11 @@ const MyCourses = () => {
           title="Programming & Development"
           courses={programmingDevelopmentCourses}
         />
-        <CoursesSection
-          title="Certification Paths"
-          courses={certificationPathsCourses}
-        />
         <CoursesSection title="Administration" courses={administration} />
+        <CoursesSection
+          title="Hardware & Repair"
+          courses={hardwareRepairCourses}
+        />
       </div>
     </section>
   );
