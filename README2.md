@@ -51,3 +51,9 @@
 
 
     <br>
+
+
+    - projects project card i want to make it as blog card
+    - skills section in home and about need to enhance because they repeated
+    light mode in about page
+    
