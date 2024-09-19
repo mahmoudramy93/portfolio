@@ -12,7 +12,6 @@ import {
 import {
   SiVmware,
   SiKubernetes,
-  SiTerraform,
   SiAnsible,
   SiFlask,
   SiPowershell,

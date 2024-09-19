@@ -5,7 +5,6 @@ import {
   HighlightedProjects,
   LatestBlogs,
   OurServices,
-  SocialMediaFooter,
 } from "@/components/homeSections";
 
 const Home = () => {

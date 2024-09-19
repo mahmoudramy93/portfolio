@@ -1,4 +1,3 @@
-import { FC } from "react";
 import { CustomTitle } from "../common";
 
 type TCourseCardProps = {
