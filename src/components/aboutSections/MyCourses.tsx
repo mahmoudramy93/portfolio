@@ -7,7 +7,7 @@ type TCourseCardProps = {
 };
 
 const CourseCard = ({ title, provider }: TCourseCardProps) => (
-  <div className="flex flex-col gap-2 p-6 transition duration-300 ease-in-out bg-gray-900 border border-gray-700 rounded-md shadow-lg hover:border-tealGreen">
+  <div className="flex flex-col gap-2 p-6 transition duration-300 ease-in-out bg-gray-800 border border-gray-700 rounded-md shadow-lg dark:bg-darkGray hover:border-tealGreen">
     <h4 className="text-lg font-normal text-white">{title}</h4>
     <p className="text-sm text-gray-300">{provider}</p>
   </div>

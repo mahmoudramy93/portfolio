@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 .custom-font {
   font-family: "Berkshire Swash", serif;
   font-weight: 400;

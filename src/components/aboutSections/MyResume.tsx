@@ -14,7 +14,9 @@ const MyResume = () => {
 
         <div className="relative -ml-[1px] after:absolute after:bottom-0 after:left-0 after:top-0 after:w-[3px] after:bg-tealGreen after:content-[''] md:after:left-1/2">
           {/* left */}
-          <div className="after:-right[13px] relative left-0 w-full bg-inherit pb-5 pl-10 pr-10 pt-0 before:absolute before:left-[30px] before:top-[18px] before:border-b-[10px] before:border-l-0 before:border-r-[10px] before:border-t-[10px] before:border-transparent before:border-r-[#595959] before:content-[''] after:absolute after:-left-[11px] after:top-[15px] after:z-10 after:h-[25px] after:w-[25px] after:rounded-full after:border-[3px] after:border-tealGreen after:bg-darkGray after:content-[''] md:w-1/2 md:before:left-auto md:before:right-[30px] md:before:border-l-[10px] md:before:border-r-0 md:before:border-l-[#595959] md:after:-right-[13px] md:after:left-auto">
+          <div className="after:-right[13px] relative left-0 w-full bg-inherit
+           pb-5 pl-10 md:pl-0 pr-10 pt-0 
+           before:absolute before:left-[30px] before:top-[18px] before:border-b-[10px] before:border-l-0 before:border-r-[10px] before:border-t-[10px] before:border-transparent before:border-r-[#595959] before:content-[''] after:absolute after:-left-[11px] after:top-[15px] after:z-10 after:h-[25px] after:w-[25px] after:rounded-full after:border-[3px] after:border-tealGreen after:bg-darkGray after:content-[''] md:w-1/2 md:before:left-auto md:before:right-[30px] md:before:border-l-[10px] md:before:border-r-0 md:before:border-l-[#595959] md:after:-right-[13px] md:after:left-auto">
             <div className="flex flex-col gap-4 p-5 rounded-md bg-darkGray">
               <p className="text-xl text-tealGreen">Jun 2019 - Present</p>
               <h4 className="text-lg font-normal text-white">
@@ -27,7 +29,8 @@ const MyResume = () => {
           </div>
 
           {/* right */}
-          <div className="relative left-0 w-full bg-inherit pb-5 pl-10 pr-10 pt-0 before:absolute before:left-[30px] before:top-[18px] before:border-b-[10px] before:border-l-0 before:border-r-[10px] before:border-t-[10px] before:border-transparent before:border-r-[#595959] before:content-[''] after:absolute after:-left-[13px] after:top-[15px] after:z-10 after:h-[25px] after:w-[25px] after:rounded-full after:border-[3px] after:border-tealGreen after:bg-darkGray after:content-[''] md:left-1/2 md:w-1/2 md:pr-0">
+          <div className="relative left-0 w-full bg-inherit pb-5 
+          pl-10 pr-10 md:pr-0 pt-0 before:absolute before:left-[30px] before:top-[18px] before:border-b-[10px] before:border-l-0 before:border-r-[10px] before:border-t-[10px] before:border-transparent before:border-r-[#595959] before:content-[''] after:absolute after:-left-[13px] after:top-[15px] after:z-10 after:h-[25px] after:w-[25px] after:rounded-full after:border-[3px] after:border-tealGreen after:bg-darkGray after:content-[''] md:left-1/2 md:w-1/2">
             <div className="flex flex-col gap-4 p-5 rounded-md bg-darkGray">
               <p className="text-xl text-tealGreen">Dec 2017 - Jun 2019</p>
               <h4 className="text-lg font-normal text-white">
@@ -38,8 +41,9 @@ const MyResume = () => {
           </div>
 
           {/* left */}
-          <div className="after:-right[13px] relative left-0 w-full bg-inherit pb-5 pl-10 pr-10 pt-0 before:absolute before:left-[30px] before:top-[18px] before:border-b-[10px] before:border-l-0 before:border-r-[10px] before:border-t-[10px] before:border-transparent before:border-r-[#595959] before:content-[''] after:absolute after:-left-[11px] after:top-[15px] after:z-10 after:h-[25px] after:w-[25px] after:rounded-full after:border-[3px] after:border-tealGreen after:bg-darkGray after:content-[''] md:w-1/2 md:before:left-auto md:before:right-[30px] md:before:border-l-[10px] md:before:border-r-0 md:before:border-l-[#595959] md:after:-right-[13px] md:after:left-auto">
-            {" "}
+          <div className="after:-right[13px] relative left-0 w-full bg-inherit
+           pb-5 pl-10 md:pl-0 pr-10 pt-0 
+           before:absolute before:left-[30px] before:top-[18px] before:border-b-[10px] before:border-l-0 before:border-r-[10px] before:border-t-[10px] before:border-transparent before:border-r-[#595959] before:content-[''] after:absolute after:-left-[11px] after:top-[15px] after:z-10 after:h-[25px] after:w-[25px] after:rounded-full after:border-[3px] after:border-tealGreen after:bg-darkGray after:content-[''] md:w-1/2 md:before:left-auto md:before:right-[30px] md:before:border-l-[10px] md:before:border-r-0 md:before:border-l-[#595959] md:after:-right-[13px] md:after:left-auto">
             <div className="flex flex-col gap-4 p-5 rounded-md bg-darkGray">
               <p className="text-xl text-tealGreen">Apr 2015- Dec 2017</p>
               <h4 className="text-lg font-normal text-white">
