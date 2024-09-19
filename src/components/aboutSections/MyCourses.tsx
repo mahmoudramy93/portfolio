@@ -79,14 +79,17 @@ const MyCourses = () => {
           courses={networkingSecurityCourses}
         />
         <CoursesSection
-          title="Virtualization"
-          courses={virtualizationCourses}
-        />
-        <CoursesSection
           title="Programming & Development"
           courses={programmingDevelopmentCourses}
         />
-        <CoursesSection title="Administration" courses={administration} />
+        <CoursesSection
+          title="Microsoft Administration"
+          courses={administration}
+        />
+        <CoursesSection
+          title="Virtualization"
+          courses={virtualizationCourses}
+        />
         <CoursesSection
           title="Hardware & Repair"
           courses={hardwareRepairCourses}
