@@ -1,6 +1,6 @@
 import { postsData } from "@/data/postsData";
-import { CustomLink, CustomTitle } from "./common";
-import Blog from "./Blog";
+import Blog from "../Blog";
+import { CustomLink, CustomTitle } from "../common";
 
 const LatestBlogs = () => {
   const blogPosts = postsData.map((post) => {

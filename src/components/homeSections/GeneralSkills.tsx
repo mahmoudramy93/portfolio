@@ -1,7 +1,7 @@
 import { skills } from "@/data/skillsData";
-import { CustomTitle } from "./common";
+import { CustomTitle } from "../common";
 
-const SkillsSection = () => {
+const GeneralSkills = () => {
   return (
     <section className="py-[60px] " id="general_skills">
       <div className="container ">
@@ -32,4 +32,4 @@ const SkillsSection = () => {
   );
 };
 
-export default SkillsSection;
+export default GeneralSkills;

@@ -1,5 +1,5 @@
 import React from "react";
-import { CustomTitle } from "./common";
+import { CustomTitle } from "../common";
 import ContactForm from "./ContactForm";
 
 const ContactUs = () => {

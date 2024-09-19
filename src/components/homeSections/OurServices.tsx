@@ -1,8 +1,9 @@
 import React from "react";
-import ServiceCard from "./ServiceCard";
+
 import { servicesData } from "@/data/servicesData";
-import { CustomTitle } from "./common";
 import { TServiceProps } from "@/types/serviceType";
+import ServiceCard from "./ServiceCard";
+import { CustomTitle } from "../common";
 
 const OurServices = () => {
   const renderServiceCards = servicesData.map((service: TServiceProps) => (

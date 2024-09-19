@@ -1,12 +1,12 @@
 import {
   AboutMe,
   ContactUs,
-  SocialMediaFooter,
   GeneralSkills,
   HighlightedProjects,
   LatestBlogs,
   OurServices,
-} from "@/components";
+  SocialMediaFooter,
+} from "@/components/homeSections";
 
 const Home = () => {
   return (

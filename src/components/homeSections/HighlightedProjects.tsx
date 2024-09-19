@@ -1,8 +1,8 @@
 import React from "react";
-import { CustomLink, CustomTitle } from "./common";
+import { CustomLink, CustomTitle } from "../common";
 import { projectsData } from "@/data/projectsData";
 import { TProjectProps } from "@/types/projectType";
-import Project from "./Project";
+import Project from "../Project";
 
 const HighlightedProjects = () => {
   return (

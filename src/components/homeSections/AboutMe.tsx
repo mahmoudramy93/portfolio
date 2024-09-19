@@ -1,8 +1,9 @@
-import { ContactItem, TypeWriter } from "@/components";
 import { CustomLink, CustomTitle } from "@/components/common";
 import { contactDetails } from "@/data/contactDetails";
 import Image from "next/image";
 import React from "react";
+import TypeWriter from "./TypeWriter";
+import ContactItem from "./ContactItem";
 
 const AboutMe = () => {
   return (
