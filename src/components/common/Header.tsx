@@ -24,11 +24,11 @@ const SocialLink = ({ href, ariaLabel, Icon }: TSocialLinkProps) => (
 const Header = () => {
   return (
     <header
-      className="px-6 py-4 rounded-[50px] my-6 bg-gray-800 border border-gray-600 dark:bg-darkColor  dark:border-none"
+      className="px-6 py-4 rounded-[50px] my-6 bg-gray-800 border border-gray-600 dark:border-transparent dark:bg-darkColor"
       id="header"
     >
-      <div className="flex flex-col lg:flex-row items-center gap-4 justify-between ">
-        <div className="flex flex-col lg:flex-row items-center text-center lg:text-start justify-center md:justify-start gap-3">
+      <div className="flex flex-col items-center justify-between gap-4 lg:flex-row ">
+        <div className="flex flex-col items-center justify-center gap-3 text-center lg:flex-row lg:text-start md:justify-start">
           <Link href="/" aria-label="go to home page">
             <Image
               src="/images/personal_images/profile.svg"
@@ -39,12 +39,17 @@ const Header = () => {
             />
           </Link>
           <div className="">
-            <h1 className="text-lg text-white font-semibold">
-              <span className="text-tealGreen custom-font">M</span>
+            <h1 className="text-lg font-semibold text-white">
+              <span className="text-lightTealGreen dark:text-tealGreen custom-font">
+                M
+              </span>
               ahmoud
-              <span className="text-tealGreen custom-font"> Elbehery</span>
+              <span className="text-lightTealGreen dark:text-tealGreen custom-font">
+                {" "}
+                Elbehery
+              </span>
             </h1>
-            <h2 className="text-white text-base">
+            <h2 className="text-base text-white">
               <span className="block">
                 Freelance Software Engineer, Devops |
               </span>

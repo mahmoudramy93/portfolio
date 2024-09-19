@@ -8,24 +8,21 @@
 
 ###### Blogs page
 
-- header:
-
   <br>
   <br>
-  dark mode
+ 
   <br>
   <br>
-
-- home page:
+header border problem
   <br>
 
       <br>
 
-  footer:
-  <br>
-  The rel attribute in HTML specifies the relationship between the current document and the linked document or resource. It is used primarily with <a> (anchor) elements and <link> elements.
-  <br>
-  in Conditional Hover Effects chatgpt
+footer:
+<br>
+The rel attribute in HTML specifies the relationship between the current document and the linked document or resource. It is used primarily with <a> (anchor) elements and <link> elements.
+<br>
+in Conditional Hover Effects chatgpt
 
         <br>
         <br>
@@ -40,12 +37,13 @@
         zod
         <br>
 
-  skills section
-  <br>
-  about me section
+skills section
+<br>
+about me section
 
     <br>
-  typewriter problem in xl screens
+
+typewriter problem in xl screens
 
     <br>
 
@@ -54,5 +52,3 @@
 
 
     - skills section in home and about need to enhance because they repeated
-    light mode in about page
-
