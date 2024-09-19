@@ -52,3 +52,24 @@ typewriter problem in xl screens
 
 
     - skills section in home and about need to enhance because they repeated
+
+<br>
+- projects pagination it's better in performance
+
+<br>
+check code screen mobile linkedin
+
+<br>
+projects page with filter at top (- - - - -) like this way
+
+<br>
+- use framer motion
+
+<br>
+
+blogs page with filter
+
+<br>
+<br>
+<br>
+<br>

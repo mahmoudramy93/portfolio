@@ -24,7 +24,7 @@ const SocialLink = ({ href, ariaLabel, Icon }: TSocialLinkProps) => (
 const Header = () => {
   return (
     <header
-      className="px-6 py-4 rounded-[50px] my-6 bg-gray-800 border border-gray-600 dark:border-transparent dark:bg-darkColor"
+      className="px-6 py-4 rounded-[50px] my-6 bg-gray-800 border border-gray-600 dark:border-transparent dark:bg-darkColor relative"
       id="header"
     >
       <div className="flex flex-col items-center justify-between gap-4 lg:flex-row ">
@@ -38,7 +38,7 @@ const Header = () => {
               className="rounded-full"
             />
           </Link>
-          <div className="">
+          <div className="w-full lg:w-[300px] xl:w-full">
             <h1 className="text-lg font-semibold text-white">
               <span className="text-lightTealGreen dark:text-tealGreen custom-font">
                 M
@@ -79,9 +79,9 @@ const Header = () => {
             ariaLabel="X (formerly Twitter) profile of Mahmoud Elbehery"
             Icon={FaXTwitter}
           />
-          <ThemeSwitcher />
         </div>
       </div>
+      <ThemeSwitcher />
     </header>
   );
 };

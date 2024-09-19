@@ -16,7 +16,7 @@ const ThemeSwitcher = () => {
   if (!mounted) return null;
 
   return (
-    <div className="ml-4">
+    <div className="fixed bottom-5 right-5 ">
       {currentTheme === "dark" ? (
         <MdLightMode
           onClick={() => setTheme("light")}
