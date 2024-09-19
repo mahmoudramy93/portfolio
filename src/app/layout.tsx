@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className=" lg:w-5/6 mx-auto bg-[#1F2937]  dark:bg-black  w-screen h-screen overflow-x-hidden">
+      <body className="w-screen h-screen mx-auto overflow-x-hidden bg-black lg:w-5/6">
         <Providers defaultTheme="system" attribute="class">
           <Header />
           {children}
@@ -26,3 +26,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// body bg bg-[#1F2937]
