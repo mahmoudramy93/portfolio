@@ -60,36 +60,36 @@ const MyResume = () => {
           education
         </h3>
         <div className="flex flex-col gap-4 md:flex-row">
-          <div className="flex flex-col flex-1 gap-4 p-5 rounded-md bg-darkGray">
-            <p className="text-xl text-tealGreen">Jan 2023</p>
+          <div className="flex flex-col flex-1 gap-4 p-5 bg-gray-800 rounded-md dark:bg-darkGray">
+            <p className="text-xl text-lightTealGreen dark:text-tealGreen">Jan 2023</p>
             <h4 className="text-lg font-normal text-white">Holberton School</h4>
             <p className="text-lg text-gray-300">
               Diploma, Computer Software Engineering
             </p>
             <Link
               href="https://kma.edu.eg/"
-              className="w-fit cursor-pointer border border-tealGreen bg-none px-[30px] py-3 text-tealGreen transition-all duration-300 hover:bg-black hover:text-white"
+              className="w-fit cursor-pointer border border-tealGreen bg-none px-[30px] py-3 text-white dark:text-tealGreen transition-all duration-300 hover:bg-black hover:text-white"
               target="_blank"
             >
               Holberton School
             </Link>
           </div>
 
-          <div className="flex flex-col flex-1 gap-4 p-5 rounded-md bg-darkGray">
-            <p className="text-xl text-tealGreen">Sep 2012 Oct 2016</p>
+          <div className="flex flex-col flex-1 gap-4 p-5 bg-gray-800 rounded-md dark:bg-darkGray">
+            <p className="text-xl text-lightTealGreen dark:text-tealGreen">Sep 2012 Oct 2016</p>
             <h4 className="text-lg font-normal text-white">
               King Marriott Academy - KMA
             </h4>
             <p className="text-lg text-gray-300">
               Bachelor&#39;s, Management Information Systems, General
             </p>
-            <a
+            <Link
               href="https://kma.edu.eg/"
-              className="w-fit cursor-pointer border border-tealGreen bg-none px-[30px] py-3 text-tealGreen transition-all duration-300 hover:bg-black hover:text-white"
+              className="w-fit cursor-pointer border border-tealGreen bg-none px-[30px] py-3 text-white dark:text-tealGreen transition-all duration-300 hover:bg-black hover:text-white"
               target="_blank"
             >
               King Marriott Academy - KMA
-            </a>
+            </Link>
           </div>
         </div>
       </div>

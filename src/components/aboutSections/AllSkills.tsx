@@ -102,7 +102,7 @@ const AllSkills = () => {
               {section.items.map((skill, idx) => (
                 <div
                   key={idx}
-                  className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg shadow-md"
+                  className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg shadow-md dark:bg-darkGray"
                 >
                   <skill.icon className="text-4xl text-tealGreen" />
                   <span className="text-gray-300">{skill.label}</span>
