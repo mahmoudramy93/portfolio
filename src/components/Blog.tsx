@@ -13,7 +13,7 @@ const Blog = ({
   link,
 }: TPostProps) => {
   return (
-    <div className=" dark:bg-gray-800 rounded-md">
+    <div className="rounded-md bg-gray-800 dark:bg-black ">
       <div className="relative w-full h-[245px]">
         <Image
           src={`/images/posts_images/${image}.webp`}
@@ -24,9 +24,9 @@ const Blog = ({
         />
       </div>
 
-      <div className="p-5 flex flex-col gap-4">
-        <h3 className="text-tealGreen text-lg font-semibold">{title}</h3>
-        <p className="text-white text-sm font-medium flex items-center gap-2">
+      <div className="flex flex-col gap-4 p-5">
+        <h3 className="text-lg font-semibold text-tealGreen">{title}</h3>
+        <p className="flex items-center gap-2 text-sm font-medium text-white">
           <Link
             href="#"
             className="transition-all duration-300 hover:text-tealGreen "

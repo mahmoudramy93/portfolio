@@ -11,16 +11,16 @@ const GeneralSkills = () => {
         />
         {skills.map((section, index) => (
           <div key={index} className="mb-10">
-            <h3 className="text-2xl font-bold text-white mb-5">
+            <h3 className="mb-5 text-2xl font-bold text-white">
               {section.category}
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               {section.items.map((skill, idx) => (
                 <div
                   key={idx}
-                  className="flex items-center gap-4 bg-gray-800 p-4 rounded-lg shadow-md"
+                  className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg shadow-md dark:bg-darkGray"
                 >
-                  <skill.icon className="text-tealGreen text-4xl" />
+                  <skill.icon className="text-4xl text-tealGreen" />
                   <span className="text-gray-300">{skill.label}</span>
                 </div>
               ))}
