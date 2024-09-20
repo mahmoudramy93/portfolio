@@ -9,7 +9,7 @@ const ProjectsPage = () => {
   const renderTechnologies = technologiesData.map((tech) => (
     <li
       key={tech}
-      className={`cursor-pointer py-2 px-6 bg-darkGray text-lightTealGreen border border-tealGreen rounded-md transition-all hover:bg-lightTealGreen hover:text-darkGray`}
+      className={`cursor-pointer py-2 px-6 bg-gray-800 dark:bg-darkGray text-white dark:text-tealGreen border border-tealGreen rounded-md transition-all hover:bg-lightTealGreen hover:text-darkGray`}
     >
       {tech}
     </li>
