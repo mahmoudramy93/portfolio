@@ -5,7 +5,7 @@ import { postsData } from "@/data/postsData";
 import Link from "next/link";
 import React from "react";
 
-export const tags = [
+const tags = [
   { name: "graphic", href: "#" },
   { name: "web", href: "#" },
   { name: "development", href: "#" },
