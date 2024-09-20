@@ -1,3 +1,4 @@
+import { Navigation } from "@/components/common";
 import {
   AboutMe,
   ContactUs,
@@ -16,6 +17,7 @@ const Home = () => {
       <OurServices />
       <LatestBlogs />
       <ContactUs />
+      <Navigation />
     </>
   );
 };
