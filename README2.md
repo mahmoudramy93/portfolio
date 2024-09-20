@@ -13,12 +13,10 @@
  
   <br>
   <br>
-header border problem
   <br>
 
       <br>
 
-footer:
 <br>
 The rel attribute in HTML specifies the relationship between the current document and the linked document or resource. It is used primarily with <a> (anchor) elements and <link> elements.
 <br>
@@ -39,14 +37,13 @@ in Conditional Hover Effects chatgpt
 
 skills section
 <br>
-about me section
 
     <br>
 
-typewriter problem in xl screens
 
     <br>
 
+filter projects page need active
 
     <br>
 
@@ -60,7 +57,6 @@ typewriter problem in xl screens
 check code screen mobile linkedin
 
 <br>
-projects page with filter at top (- - - - -) like this way
 
 <br>
 - use framer motion
@@ -70,6 +66,7 @@ projects page with filter at top (- - - - -) like this way
 blogs page with filter
 
 <br>
+navigation in all pages
 <br>
 <br>
 <br>

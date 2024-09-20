@@ -11,10 +11,14 @@ const Blog = ({
   image,
   description,
   link,
+  isFlex,
 }: TPostProps) => {
   return (
-    <div className="rounded-md bg-gray-800 dark:bg-black ">
-      <div className="relative w-full h-[245px]">
+    <div
+      className={`rounded-md bg-gray-800 dark:bg-black 
+    flex ${isFlex ? "flex-row gap-6" : "flex-col"}`}
+    >
+      <div className={`relative  h-[245px] w-full ${isFlex ? "h-full w-1/2" : ""}`}>
         <Image
           src={`/images/posts_images/${image}.webp`}
           alt={title}
@@ -24,7 +28,11 @@ const Blog = ({
         />
       </div>
 
-      <div className="flex flex-col gap-4 p-5">
+      <div
+        className={`flex flex-col gap-4 py-5   ${
+          isFlex ? "p-0 dark:px-0 w-1/2" : "px-5"
+        }`}
+      >
         <h3 className="text-lg font-semibold text-tealGreen">{title}</h3>
         <p className="flex items-center gap-2 text-sm font-medium text-white">
           <Link

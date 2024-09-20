@@ -5,4 +5,5 @@ export type TPostProps = {
   image: string;
   description: string;
   link: string;
+  isFlex?: boolean;
 };

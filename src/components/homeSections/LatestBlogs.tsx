@@ -13,6 +13,7 @@ const LatestBlogs = () => {
         image={post.image}
         description={post.description}
         link={post.link}
+        isFlex={false}
       />
     );
   });
