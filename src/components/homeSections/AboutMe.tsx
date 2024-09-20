@@ -15,7 +15,7 @@ const AboutMe = () => {
         <CustomTitle title={"About Me"} description={"There Is All About Me"} />
 
         <div className="relative grid grid-cols-1 gap-8 xl:grid-cols-2">
-          <div className="relative flex items-center justify-center ">
+          <div className="relative flex justify-center ">
             <Image
               src="/images/homePage_images/about.webp"
               alt="about"
