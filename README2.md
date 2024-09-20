@@ -58,11 +58,10 @@ check code screen mobile linkedin
 
 <br>
 
-blogs page with filter
-
 <br>
 navigation in all pages
 <br>
+active filter in blogs
 <br>
-
+loading and long time to load components
 <br>
