@@ -17,6 +17,7 @@ const ContactItem = ({ Icon, label, link, value }: TContactItemProps) => {
         <Link
           className="text-blue-500 transition-all duration-300 hover:text-blue-600 flex-wrap"
           href={link}
+          aria-label={`Link to ${label}`}
         >
           {value}
         </Link>

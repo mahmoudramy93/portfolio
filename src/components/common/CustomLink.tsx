@@ -11,6 +11,7 @@ const CustomLink = ({ link, text }: TCustomLinkProps) => {
   return (
     <Link
       href={link}
+      aria-label={`Link to ${text}`}
       className="px-1 py-2 rounded-md text-center bg-darkGray text-tealGreen flex items-center justify-center transition-all duration-500 group"
     >
       {text}

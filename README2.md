@@ -66,6 +66,5 @@ navigation in all pages
 <br>
 add loading page
 <br>
-add error page
-<br>
+
 <br>

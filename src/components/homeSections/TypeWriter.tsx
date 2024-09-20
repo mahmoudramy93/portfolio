@@ -1,25 +1,42 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 
 const TypeWriter = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-    <Typewriter
-      options={{
-        strings: [
-          "Hello World 👋",
-          "I'am Mahmoud Elbehery",
-          "Freelance Software Engineer",
-          "Senior System Administrator",
-          "Backend Developer 💻",
-        ],
-        autoStart: true,
-        loop: true,
-        // A lower value will make the effect faster
-        delay: 50,
-      }}
-    />
+    <div className="flex justify-center items-center h-full">
+      {isLoading ? (
+        <div className="text-tealGreen text-2xl">
+          Loading...{" "}
+        </div>
+      ) : (
+        <Typewriter
+          options={{
+            strings: [
+              "Hello World 👋",
+              "I'm Mahmoud Elbehery",
+              "Freelance Software Engineer",
+              "Senior System Administrator",
+              "Backend Developer 💻",
+            ],
+            autoStart: true,
+            loop: true,
+            delay: 50,
+          }}
+        />
+      )}
+    </div>
   );
 };
 

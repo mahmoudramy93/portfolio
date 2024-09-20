@@ -36,7 +36,6 @@ const Project = ({
       </div>
 
       <div className="flex flex-col gap-4 p-4 overflow-hidden">
-        {/* technologies */}
         <ul className="flex items-center gap-4">
           {technologies.map((techno, index) => {
             return (
