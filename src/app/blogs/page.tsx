@@ -62,11 +62,11 @@ const BlogsPage = () => {
           title={"All Blogs"}
           description={"There is all my blogs"}
         />
-        <div className="flex flex-col lg:flex-row gap-6">
-          <div className="grid grid-cols-1  gap-8 mb-10 w-full lg:w-3/4">
+        <div className="flex flex-col xl:flex-row gap-6">
+          <div className="grid grid-cols-1  gap-8 mb-10 w-full xl:w-3/4">
             {blogPosts}
           </div>
-          <div className="w-full lg:w-3/12">
+          <div className="w-full xl:w-3/12">
             <div className="space-y-14">
               <form className="relative flex w-full border border-gray-600">
                 <input
