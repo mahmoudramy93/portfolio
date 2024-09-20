@@ -3,7 +3,7 @@ import React from "react";
 
 const SocialMediaFooter = () => {
   return (
-    <footer className="py-10  ">
+    <footer className="py-10">
       <ul className="flex items-center justify-center">
         <li>
           <Link

@@ -64,7 +64,5 @@ blogs page with filter
 navigation in all pages
 <br>
 <br>
-add loading page
-<br>
 
 <br>
