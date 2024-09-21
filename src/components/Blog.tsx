@@ -16,22 +16,27 @@ const Blog = ({
   return (
     <div
       className={`rounded-md bg-gray-800 dark:bg-black 
-    flex ${isFlex ? "flex-row gap-6" : "flex-col"}`}
+    flex flex-col ${
+      isFlex ? "flex-col md:flex-row md:gap-4" : "flex-col"
+    }`}
     >
-      <div className={`relative  h-[245px] w-full ${isFlex ? "h-full w-1/2" : ""}`}>
+      <div  className={`relative w-full aspect-video ${
+          isFlex ? "md:w-3/5" : "w-full"
+        }`}>
         <Image
           src={`/images/posts_images/${image}.webp`}
           alt={title}
-          fill
-          style={{ objectFit: "cover" }}
+          layout="fill"
           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+          className={`object-cover `}
         />
       </div>
 
+      {/* text */}
       <div
-        className={`flex flex-col gap-4 py-5   ${
-          isFlex ? "p-0 dark:px-0 w-1/2" : "px-5"
-        }`}
+ className={`flex flex-col gap-4 py-5 ${
+  isFlex ? "md:w-2/5 p-0 dark:px-0" : "px-5"
+}`}
       >
         <h3 className="text-lg font-semibold text-tealGreen">{title}</h3>
         <p className="flex items-center gap-2 text-sm font-medium text-white">
