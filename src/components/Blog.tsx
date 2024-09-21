@@ -5,12 +5,12 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
 const Blog = ({
+  id,
   title,
   date,
   comments,
   image,
   description,
-  link,
   isFlex,
 }: TPostProps) => {
   return (
@@ -56,7 +56,7 @@ const Blog = ({
         </p>
         <p className="text-gray-300">{description}</p>
         <Link
-          href={link}
+          href={`/blogs/${id}`}
           className="bg-[#004d40] text-white px-5 py-3 font-medium transition-all duration-300 uppercase flex items-center gap-2 w-fit  hover:bg-black hover:text-tealGreen rounded mt-4"
         >
           read more

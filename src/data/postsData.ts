@@ -1,30 +1,91 @@
-import { v4 as uuidv4 } from "uuid";
-
 export const postsData = [
   {
-    id: uuidv4(),
+    id: "1",
     title: "Montu is Going to Breakup with Tuntuni",
     date: "2017-03-18",
     comments: 33,
-    image: "blog_1",
-    description:
-      "There are many variations of passages of the Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.",
-    link: "#",
+    author: "John Doe",
+    sections: [
+      {
+        type: "text",
+        heading: "Introduction",
+        content:
+          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+      },
+      {
+        type: "image",
+        src: "blog_1",
+        alt: "Blog Image",
+      },
+      {
+        type: "text",
+        heading: "Key Points",
+        content: "This is an important quote from the article.",
+      },
+      {
+        type: "quote",
+        content: "This is an important quote from the article.",
+      },
+    ],
     category: "Lifestyle",
     tags: ["graphic", "media"],
-    author: "John Doe",
+    image: "blog_1",
   },
   {
-    id: uuidv4(),
+    id: "2",
     title: "Another Interesting Blog Post",
     date: "2018-04-20",
     comments: 12,
-    image: "blog_1",
-    description:
-      "This is another interesting blog post that discusses exciting topics and insights.",
-    link: "#",
+    author: "Jane Smith",
+    sections: [
+      {
+        type: "text",
+        heading: "Overview",
+        content:
+          "This is another interesting blog post that discusses exciting topics and insights.",
+      },
+      {
+        type: "image",
+        src: "blog_2",
+        alt: "Another Blog Image",
+      },
+    ],
     category: "Web Development",
     tags: ["web", "development"],
+    image: "blog_2",
+  },
+  {
+    id: "3",
+    title: "Python",
+    date: "2018-04-20",
+    comments: 12,
     author: "Jane Smith",
+    sections: [
+      {
+        type: "text",
+        heading: "Introduction to Python",
+        content:
+          "This is another interesting blog post that discusses exciting topics and insights.",
+      },
+      {
+        type: "image",
+        src: "blog_3",
+        alt: "Another Blog Image",
+      },
+      {
+        type: "text",
+        heading: "Advanced Topics",
+        content:
+          "This is an elaboration on advanced Python features and capabilities.",
+      },
+      {
+        type: "image",
+        src: "blog_3_1",
+        alt: "Another Blog Image",
+      },
+    ],
+    category: "Web Development",
+    tags: ["web", "development"],
+    image: "blog_3",
   },
 ];

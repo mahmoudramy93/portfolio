@@ -64,16 +64,18 @@ const BlogsPage = () => {
     return (
       <Blog
         key={post.id}
+        id={post.id}
         title={post.title}
         date={post.date}
         comments={post.comments}
         image={post.image}
         description={post.description}
-        link={post.link}
         isFlex={true}
       />
     );
   });
+
+
 
   return (
     <section className="py-[50px] px-5 ">
