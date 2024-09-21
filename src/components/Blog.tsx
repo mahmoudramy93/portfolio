@@ -16,13 +16,13 @@ const Blog = ({
   return (
     <div
       className={`rounded-md bg-gray-800 dark:bg-black 
-    flex flex-col ${
-      isFlex ? "flex-col md:flex-row md:gap-4" : "flex-col"
-    }`}
+    flex flex-col ${isFlex ? "flex-col md:flex-row md:gap-4" : "flex-col"}`}
     >
-      <div  className={`relative w-full aspect-video ${
-          isFlex ? "md:w-3/5" : "w-full"
-        }`}>
+      <div
+        className={`relative w-full aspect-video ${
+          isFlex ? "md:w-1/2" : "w-full"
+        }`}
+      >
         <Image
           src={`/images/posts_images/${image}.webp`}
           alt={title}
@@ -34,9 +34,9 @@ const Blog = ({
 
       {/* text */}
       <div
- className={`flex flex-col gap-4 py-5 ${
-  isFlex ? "md:w-2/5 p-0 dark:px-0" : "px-5"
-}`}
+        className={`flex flex-col gap-4 px-5 dark:px-0 py-5 ${
+          isFlex ? "md:w-1/2" : ""
+        }`}
       >
         <h3 className="text-lg font-semibold text-tealGreen">{title}</h3>
         <p className="flex items-center gap-2 text-sm font-medium text-white">
