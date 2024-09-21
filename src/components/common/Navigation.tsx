@@ -45,7 +45,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="hidden md:block fixed left-0 top-0 z-50 h-full w-16 border-r border-gray-600 dark:border-transparent bg-gray-800 dark:bg-darkGray">
+    <div className="hidden lg:block fixed left-0 top-0 z-50 h-full w-16 border-r border-gray-600 dark:border-transparent bg-gray-800 dark:bg-darkGray">
       <div className="flex flex-col h-full justify-center items-center">
         <NavButton
           Icon={FaUserAlt}
