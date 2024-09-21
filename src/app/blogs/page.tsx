@@ -61,6 +61,8 @@ const BlogsPage = () => {
   };
 
   const blogPosts = filteredPosts.map((post) => {
+    const description =
+      post.sections.find((section) => section.type === "text")?.content || "";
     return (
       <Blog
         key={post.id}
@@ -69,13 +71,11 @@ const BlogsPage = () => {
         date={post.date}
         comments={post.comments}
         image={post.image}
-        description={post.description}
+        description={description}
         isFlex={true}
       />
     );
   });
-
-
 
   return (
     <section className="py-[50px] px-5 ">

@@ -18,13 +18,11 @@ const BlogDetailsPage = () => {
   return (
     <div className="container mx-auto py-8 px-4">
       <div className="max-w-4xl mx-auto">
-        {/* Post Header */}
         <h1 className="text-4xl font-semibold mt-6 text-tealGreen">{title}</h1>
         <p className="text-gray-400 text-sm mt-2">
           {date} | {comments} Comments | by {author}
         </p>
 
-        {/* Dynamically Render Sections */}
         <div className="mt-6">
           {sections.map((section, index) => {
             switch (section.type) {
@@ -63,7 +61,6 @@ const BlogDetailsPage = () => {
           })}
         </div>
 
-        {/* Category and Tags */}
         <div className="mt-8">
           <h3 className="text-2xl font-semibold text-tealGreen">Category</h3>
           <p className="text-white mt-2">{category}</p>
