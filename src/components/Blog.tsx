@@ -26,7 +26,7 @@ const Blog = ({
         <Image
           src={`/images/posts_images/${image}.webp`}
           alt={title}
-          layout="fill"
+          fill
           sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
           className={`object-cover `}
         />
