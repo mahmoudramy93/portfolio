@@ -40,7 +40,7 @@ const Project = ({
           {technologies.map((techno, index) => {
             return (
               <li
-                className="bg-darkGray rounded text-tealGreen font-bold p-2"
+                className="bg-gray-800 dark:bg-darkGray rounded text-lightTealGreen dark:text-tealGreen font-bold p-2"
                 key={index}
               >
                 {techno}
