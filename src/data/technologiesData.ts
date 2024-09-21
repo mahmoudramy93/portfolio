@@ -1,1 +1,1 @@
-export const technologiesData = ["All", "React", "Node.js", "Python", "Docker"];
+export const technologiesData = ["All", "MongoDB", "Node.js", "Python", "Docker", 'MySQL', 'Flask', 'Express'];
