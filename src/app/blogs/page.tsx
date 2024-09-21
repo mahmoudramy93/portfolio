@@ -1,46 +1,64 @@
+"use client";
+
 import { Blog } from "@/components";
 import { CustomTitle } from "@/components/common";
 import { categoriesData } from "@/data/categoriesData";
 import { postsData } from "@/data/postsData";
+import { tags } from "@/data/tagsBlogData";
 import Link from "next/link";
-import React from "react";
-
-const tags = [
-  { name: "graphic", href: "#" },
-  { name: "web", href: "#" },
-  { name: "development", href: "#" },
-  { name: "template", href: "#" },
-  { name: "media", href: "#" },
-];
-
-const renderCategories = () => {
-  return categoriesData.map((category) => (
-    <li key={category.name}>
-      <Link
-        href={category.href}
-        className="text-gray-300 text-xl hover:text-tealGreen transition-all duration-300"
-      >
-        {category.name}
-      </Link>
-    </li>
-  ));
-};
-
-const renderTags = () => {
-  return tags.map((tag) => (
-    <li key={tag.name} className="mb-8">
-      <Link
-        href={tag.href}
-        className="text-lightTealGreen dark:text-tealGreen bg-gray-800 dark:bg-darkGray p-4 text-xl hover:text-tealGreen transition-all duration-300"
-      >
-        {tag.name}
-      </Link>
-    </li>
-  ));
-};
+import React, { useState } from "react";
 
 const BlogsPage = () => {
-  const blogPosts = postsData.map((post) => {
+  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+
+  const filteredPosts = postsData.filter((post) => {
+    const matchesCategory =
+      selectedCategory === "all" ||
+      post.category.toLowerCase() === selectedCategory.toLowerCase();
+    const matchesTags =
+      selectedTags.length === 0 ||
+      selectedTags.some((tag) => post.tags.includes(tag));
+    return matchesCategory && matchesTags;
+  });
+
+  const renderCategories = () => {
+    return categoriesData.map((category) => (
+      <li key={category.name}>
+        <Link
+          href="#"
+          className="text-gray-300 text-xl hover:text-tealGreen transition-all duration-300"
+          onClick={() => setSelectedCategory(category.name)}
+        >
+          {category.name}
+        </Link>
+      </li>
+    ));
+  };
+
+  const renderTags = () => {
+    return tags.map((tag) => (
+      <li key={tag.name} className="mb-8">
+        <Link
+          href="#"
+          className={`text-lightTealGreen dark:text-tealGreen bg-gray-800 dark:bg-darkGray p-4 text-xl hover:text-tealGreen transition-all duration-300 ${
+            selectedTags.includes(tag.name) ? "bg-lightTealGreen" : ""
+          }`}
+          onClick={() => {
+            if (selectedTags.includes(tag.name)) {
+              setSelectedTags(selectedTags.filter((t) => t !== tag.name));
+            } else {
+              setSelectedTags([...selectedTags, tag.name]);
+            }
+          }}
+        >
+          {tag.name}
+        </Link>
+      </li>
+    ));
+  };
+
+  const blogPosts = filteredPosts.map((post) => {
     return (
       <Blog
         key={post.id}
@@ -63,7 +81,7 @@ const BlogsPage = () => {
           description={"There is all my blogs"}
         />
         <div className="flex flex-col xl:flex-row gap-6">
-          <div className="grid grid-cols-1  gap-8 mb-10 w-full xl:w-3/4">
+          <div className="grid grid-cols-1 gap-8 mb-10 w-full xl:w-3/4">
             {blogPosts}
           </div>
           <div className="w-full xl:w-3/12">
@@ -72,7 +90,7 @@ const BlogsPage = () => {
                 <input
                   type="text"
                   placeholder="Enter Keyword..."
-                  className="p-4 w-5/6  outline-none bg-darkColor text-white"
+                  className="p-4 w-5/6 outline-none bg-darkColor text-white"
                 />
                 <input
                   type="submit"
@@ -85,7 +103,6 @@ const BlogsPage = () => {
                 <h3 className="text-tealGreen text-3xl border-b-2 border-tealGreen pb-4 mb-6">
                   Categories
                 </h3>
-
                 <ul className="space-y-6">{renderCategories()}</ul>
               </div>
 
