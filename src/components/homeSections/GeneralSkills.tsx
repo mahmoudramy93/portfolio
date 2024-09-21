@@ -2,6 +2,12 @@ import { skills } from "@/data/skillsData";
 import { CustomTitle } from "../common";
 
 const GeneralSkills = () => {
+  const filteredSkills = skills.filter(
+    (section) =>
+      section.category === "Software Engineering & Web Development" ||
+      section.category === "System Administration & DevOps"
+  );
+
   return (
     <section className="py-[60px] " id="general_skills">
       <div className="container ">
@@ -9,7 +15,7 @@ const GeneralSkills = () => {
           title={"My Skills"}
           description={"There Is My General Skills"}
         />
-        {skills.map((section, index) => (
+        {filteredSkills.map((section, index) => (
           <div key={index} className="mb-10">
             <h3 className="mb-5 text-2xl font-bold text-white">
               {section.category}
