@@ -41,8 +41,10 @@ const BlogsPage = () => {
       <li key={tag.name} className="mb-8">
         <Link
           href="#"
-          className={`text-lightTealGreen dark:text-tealGreen bg-gray-800 dark:bg-darkGray p-4 text-xl hover:text-tealGreen transition-all duration-300 ${
-            selectedTags.includes(tag.name) ? "bg-lightTealGreen" : ""
+          className={`text-lightTealGreen dark:text-tealGreen p-4 text-xl hover:text-tealGreen transition-all duration-300 ${
+            selectedTags.includes(tag.name)
+              ? "bg-lightTealGreen !text-black"
+              : "bg-gray-800 dark:bg-darkGray"
           }`}
           onClick={() => {
             if (selectedTags.includes(tag.name)) {
