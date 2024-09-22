@@ -39,7 +39,7 @@ const BlogDetailsPage = () => {
                 return (
                   <div key={index} className="relative w-full h-64 mt-6">
                     <Image
-                      src={`/images/blogsDetails_images/${section.src}.webp`}
+                      src={`/images/posts_images/${section.src}.webp`}
                       alt={section.alt || "Default alt text"}
                       fill
                       className="object-cover rounded-md"

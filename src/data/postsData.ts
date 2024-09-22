@@ -88,4 +88,38 @@ export const postsData = [
     tags: ["web", "development"],
     image: "blog_3",
   },
+  {
+    id: "3",
+    title: "Python",
+    date: "2018-04-20",
+    comments: 12,
+    author: "Jane Smith",
+    sections: [
+      {
+        type: "text",
+        heading: "Introduction to Python",
+        content:
+          "This is another interesting blog post that discusses exciting topics and insights.",
+      },
+      {
+        type: "image",
+        src: "blog_3_1",
+        alt: "Another Blog Image",
+      },
+      {
+        type: "text",
+        heading: "Advanced Topics",
+        content:
+          "This is an elaboration on advanced Python features and capabilities.",
+      },
+      {
+        type: "image",
+        src: "blog_3_1",
+        alt: "Another Blog Image",
+      },
+    ],
+    category: "Web Development",
+    tags: ["web", "development"],
+    image: "blog_3_1",
+  },
 ];
