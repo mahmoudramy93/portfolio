@@ -19,7 +19,7 @@ const LatestBlogs = () => {
         isFlex={false}
       />
     );
-  });
+  }).slice(0, 3);
 
   return (
     <section className="py-[60px] px-5 rounded-[50px]" id="latest_blogs">
