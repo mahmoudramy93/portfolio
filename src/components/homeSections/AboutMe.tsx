@@ -21,7 +21,7 @@ const AboutMe = () => {
               alt="about"
               width={530}
               height={353}
-              className="w-full"
+              className="w-full object-contain"
             />
             <div className="absolute text-center text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
               <p className="" />
