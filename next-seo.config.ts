@@ -1,6 +1,6 @@
 import { DefaultSeoProps } from "next-seo";
 
-const seoConfig: DefaultSeoProps = {
+export const seoConfig: DefaultSeoProps = {
   title: "Mahmoud Elbehery - Backend Developer",
   description:
     "Explore my portfolio as a backend developer, specializing in API design, database schema, and cloud deployment. Let's build something amazing together!",
