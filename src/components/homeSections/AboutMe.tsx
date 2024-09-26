@@ -21,6 +21,7 @@ const AboutMe = () => {
               alt="about"
               width={530}
               height={353}
+              priority
               className="w-full object-contain"
             />
             <div className="absolute text-center text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
@@ -45,17 +46,15 @@ const AboutMe = () => {
             <CustomLink link={"/about"} text={"More about me"} />
 
             <ul className="flex flex-col gap-4">
-              {contactDetails.map(
-                ({ icon: Icon, label, value, link }, index) => (
-                  <ContactItem
-                    key={index}
-                    Icon={Icon}
-                    label={label}
-                    value={value}
-                    link={link}
-                  />
-                )
-              )}
+              {contactDetails.map(({ icon: Icon, label, value, link }) => (
+                <ContactItem
+                  key={label}
+                  Icon={Icon}
+                  label={label}
+                  value={value}
+                  link={link}
+                />
+              ))}
             </ul>
           </div>
         </div>

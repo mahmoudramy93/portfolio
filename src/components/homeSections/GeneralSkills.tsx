@@ -1,5 +1,6 @@
 import { skills } from "@/data/skillsData";
 import { CustomTitle } from "../common";
+import React from "react";
 
 const GeneralSkills = () => {
   const filteredSkills = skills.filter(
@@ -38,4 +39,4 @@ const GeneralSkills = () => {
   );
 };
 
-export default GeneralSkills;
+export default React.memo(GeneralSkills);
