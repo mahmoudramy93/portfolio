@@ -1,4 +1,4 @@
-type TCategory = {
+export  type TCategory = {
   name: string;
   href: string;
 };

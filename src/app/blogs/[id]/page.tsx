@@ -3,11 +3,11 @@
 import { useParams } from "next/navigation";
 import { postsData } from "@/data/postsData";
 import Image from "next/image";
-import React from "react";
+import React, { useMemo } from "react";
 
 const BlogDetailsPage = () => {
   const { id } = useParams();
-  const post = postsData.find((post) => post.id === id);
+  const post = useMemo(() => postsData.find((post) => post.id === id), [id]);
 
   if (!post) {
     return <div>Blog post not found</div>;
@@ -24,7 +24,7 @@ const BlogDetailsPage = () => {
         </p>
 
         <div className="mt-6">
-          {sections.map((section, index) => {
+          {sections?.map((section, index) => {
             switch (section.type) {
               case "text":
                 return (
@@ -67,7 +67,7 @@ const BlogDetailsPage = () => {
 
           <h3 className="text-2xl font-semibold text-tealGreen mt-6">Tags</h3>
           <div className="flex flex-wrap gap-2 mt-2">
-            {tags.map((tag, idx) => (
+            {tags?.map((tag, idx) => (
               <span
                 key={idx}
                 className="bg-gray-800 text-white px-3 py-1 rounded-md"

@@ -2,6 +2,7 @@ export type TPostSection =
   | {
       type: "text";
       content: string;
+      heading: string;
     }
   | {
       type: "image";
@@ -17,7 +18,7 @@ export type TPostSection =
       src: string;
     };
 
-export type TPostProps = {
+export type TPost = {
   id: string;
   title: string;
   date: string;

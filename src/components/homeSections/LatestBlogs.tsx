@@ -5,7 +5,7 @@ import { CustomLink, CustomTitle } from "../common";
 const LatestBlogs = () => {
   const blogPosts = postsData.map((post) => {
     const description =
-      post.sections.find((section) => section.type === "text")?.content || "";
+      post.sections?.find((section) => section.type === "text")?.content || "";
 
     return (
       <Blog

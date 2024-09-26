@@ -1,4 +1,6 @@
-export const postsData = [
+import { TPost } from "@/types/postType";
+
+export const postsData:TPost[] = [
   {
     id: "1",
     title: "Montu is Going to Breakup with Tuntuni",
@@ -85,11 +87,11 @@ export const postsData = [
       },
     ],
     category: "Web Development",
-    tags: ["web", "development"],
+    tags: ["web", "graphic"],
     image: "blog_3",
   },
   {
-    id: "3",
+    id: "4",
     title: "Python",
     date: "2018-04-20",
     comments: 12,
@@ -118,8 +120,8 @@ export const postsData = [
         alt: "Another Blog Image",
       },
     ],
-    category: "Web Development",
-    tags: ["web", "development"],
+    category: "Web Design",
+    tags: ["template", "development"],
     image: "blog_3_1",
   },
 ];

@@ -1,4 +1,4 @@
-import { TPostProps } from "@/types/postType";
+import { TPost } from "@/types/postType";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -12,7 +12,7 @@ const Blog = ({
   image,
   description,
   isFlex,
-}: TPostProps) => {
+}: TPost) => {
   return (
     <div
       className={`rounded-md bg-gray-800 dark:bg-black 
