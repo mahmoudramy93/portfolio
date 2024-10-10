@@ -15,7 +15,7 @@ const AboutMe = () => {
         <CustomTitle title={"About Me"} description={"There Is All About Me"} />
 
         <div className="relative grid grid-cols-1 gap-8 xl:grid-cols-2">
-          <div className="relative flex justify-center ">
+          <div className="relative hidden xl:flex justify-center ">
             <Image
               src="/images/homePage_images/about.webp"
               alt="about"
@@ -38,10 +38,9 @@ const AboutMe = () => {
               like Docker and Kubernetes for containerization and orchestration.
               I apply Infrastructure as Code (IaC) and CI/CD practices to
               automate deployments and ensure smooth software delivery. In
-              addition to software development, I have several years of
-              experience in System Administration and infrastructure, including
-              network setup, security, virtualization, cloud computing, and
-              system monitoring.
+              addition to software development, I have 8 years of experience in
+              System Administration and infrastructure, including network setup,
+              security, virtualization, cloud computing, and system monitoring.
             </p>
             <CustomLink link={"/about"} text={"More about me"} />
 
