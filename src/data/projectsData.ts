@@ -5,12 +5,12 @@ export const projectsData = [
       src: "edu-city",
       alt: "Educational City",
     },
-    githubLink: "https://github.com/Safeya-Yasien/Edu-City",
+    githubLink: "https://github.com/mahmoudramy93/edu-house",
     technologies: ["node", "mongodb"],
-    name: "Edu City",
+    name: "Edu House",
     description:
       "The Education City Project is an education center that offers a variety of courses for professional and personal development.",
-    liveLink: "https://safeya-yasien.github.io/Edu-City/",
+    liveLink: "#",
   },
   {
     id: "2",
@@ -18,11 +18,11 @@ export const projectsData = [
       src: "tech-city",
       alt: "Technology City",
     },
-    githubLink: "https://github.com/Safeya-Yasien/Technology-City",
+    githubLink: "#",
     technologies: ["flask", "mySql"],
     name: "Tech City",
     description:
       "Tech City is an e-commerce hub offering a wide range of products and services.",
-    liveLink: "https://safeya-yasien.github.io/Technology-City/index.html",
+    liveLink: "#",
   },
 ];
