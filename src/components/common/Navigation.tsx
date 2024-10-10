@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   FaUserAlt,
   FaRegAddressCard,
@@ -20,7 +20,7 @@ type TNavButtonProps = {
 const NavButton = ({ Icon, label, active, onClick }: TNavButtonProps) => (
   <button
     type="button"
-    className={`flex flex-col items-center justify-center p-4 group`}
+    className="flex flex-col items-center justify-center p-4 group"
     aria-label={label}
     onClick={onClick}
   >
@@ -33,8 +33,36 @@ const NavButton = ({ Icon, label, active, onClick }: TNavButtonProps) => (
   </button>
 );
 
+const sections = [
+  { id: "about_me", label: "About Me", Icon: FaUserAlt },
+  { id: "general_skills", label: "Skills", Icon: FaTools },
+  { id: "highlighted_projects", label: "Projects", Icon: FaStar },
+  { id: "our_services", label: "Services", Icon: FaRegAddressCard },
+  { id: "latest_blogs", label: "Blogs", Icon: FaBlog },
+  { id: "contact", label: "Contact Us", Icon: FaRegAddressCard },
+];
+
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState<string>("about_me");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      sections.forEach(({ id }) => {
+        const element = document.getElementById(id);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top >= 0 && rect.top <= window.innerHeight / 2) {
+            setActiveSection(id);
+          }
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleNavigation = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -47,48 +75,16 @@ const Navigation = () => {
   return (
     <div className="hidden lg:block fixed left-0 top-0 z-50 h-full w-16 border-r border-gray-600 dark:border-transparent bg-gray-800 dark:bg-darkGray">
       <div className="flex flex-col h-full justify-center items-center">
-        <NavButton
-          Icon={FaUserAlt}
-          label="About Me"
-          active={activeSection === "about_me"}
-          sectionId="about_me"
-          onClick={() => handleNavigation("about_me")}
-        />
-        <NavButton
-          Icon={FaTools}
-          label="Skills"
-          active={activeSection === "general_skills"}
-          sectionId="general_skills"
-          onClick={() => handleNavigation("general_skills")}
-        />
-        <NavButton
-          Icon={FaStar}
-          label="Projects"
-          active={activeSection === "highlighted_projects"}
-          sectionId="highlighted_projects"
-          onClick={() => handleNavigation("highlighted_projects")}
-        />
-        <NavButton
-          Icon={FaRegAddressCard}
-          label="Services"
-          active={activeSection === "our_services"}
-          sectionId="our_services"
-          onClick={() => handleNavigation("our_services")}
-        />
-        <NavButton
-          Icon={FaBlog}
-          label="Blogs"
-          active={activeSection === "latest_blogs"}
-          sectionId="latest_blogs"
-          onClick={() => handleNavigation("latest_blogs")}
-        />
-        <NavButton
-          Icon={FaRegAddressCard}
-          label="Contact Us"
-          active={activeSection === "contact"}
-          sectionId="contact"
-          onClick={() => handleNavigation("contact")}
-        />
+        {sections.map(({ id, label, Icon }) => (
+          <NavButton
+            key={id}
+            Icon={Icon}
+            label={label}
+            active={activeSection === id}
+            sectionId={id}
+            onClick={() => handleNavigation(id)}
+          />
+        ))}
       </div>
     </div>
   );
