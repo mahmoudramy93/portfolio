@@ -12,3 +12,9 @@
   font-family: "Berkshire Swash", serif;
   font-weight: 400;
 }
+
+@media (max-width: 614px) {
+  .custom-class {
+    background-position: 50% -180px;
+  }
+}
