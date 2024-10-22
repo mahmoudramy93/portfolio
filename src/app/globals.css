@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 614px) {
-  .custom-class {
-    background-position: 50% -180px;
+  .custom-background-position {
+    background-position: 50% -180px !important;
   }
 }
