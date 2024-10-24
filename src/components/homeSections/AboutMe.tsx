@@ -8,7 +8,7 @@ import ContactItem from "./ContactItem";
 const AboutMe = () => {
   return (
     <section
-      className="py-[60px] rounded-[50px] bg-[url('/images/homePage_images/about-bg.webp')] bg-cover bg-fixed bg-center  bg-no-repeat relative 
+      className="py-[60px] rounded-[50px] bg-[url('/images/homePage_images/about-bg.jpg')] bg-cover bg-fixed md:bg-local bg-center  bg-no-repeat relative 
       before:content-[''] before:absolute before:w-full before:h-full before:left-0 before:top-0 before:bg-black/80 before:rounded-[50px] 
       custom-background-position"
       id="about_me"
